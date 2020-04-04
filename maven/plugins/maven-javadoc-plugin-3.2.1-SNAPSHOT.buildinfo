@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Javadoc Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-javadoc-plugin
+version=3.2.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-javadoc-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-javadoc-plugin-3.2.1-SNAPSHOT.jar
+outputs.0.length=494668
+outputs.0.checksums.sha512=401b385b3f2e99470e658aa19fda81fcc4090ccfb0b6d016f107664150c20d32800047648c4dea722b3b400a86daafc82f33c3bbfff808d165fcb8b622b888b5
+
+outputs.1.filename=maven-javadoc-plugin-3.2.1-SNAPSHOT-source-release.zip
+outputs.1.length=3462686
+outputs.1.checksums.sha512=97c1081943cf42e6e6e74925ad2a289a4623acf02795332dafe6eb66a429834977a3a3a0cd78d1b1086a9ed9a2e94204412411963f62cd940f52269249c2b235
+
+outputs.2.filename=maven-javadoc-plugin-3.2.1-SNAPSHOT-sources.jar
+outputs.2.length=182031
+outputs.2.checksums.sha512=0d1327479b84d86ab5266ba41c77b0eb346bd33ba6dae989ce3daedb81b4ffdeba7cf4a5a867d57e734d8ed9b531abdd7d27e30f41a87fc468189b41f79997d8

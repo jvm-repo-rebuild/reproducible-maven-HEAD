@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Changelog Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-changelog-plugin
+version=2.4-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-changelog-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-changelog-plugin-2.4-SNAPSHOT.jar
+outputs.0.length=64569
+outputs.0.checksums.sha512=c659bdd3a415699a96b48201b32aa8178d235eddc484dd4d736938954123a754332bf18a4aebc08d738c5394a8262e6973fcd5b3ef2c26e3912616973c49439d
+
+outputs.1.filename=maven-changelog-plugin-2.4-SNAPSHOT-source-release.zip
+outputs.1.length=459479
+outputs.1.checksums.sha512=885a5f382f2d3a9bfb1a31c07ddfd82b7056e72e5cce6ce1ea2d84fbeb775f2ba0683a81f8f243a3c3315fcb8836a0a4e0ab64b7dafec6df9e5535713a3a21d7
+
+outputs.2.filename=maven-changelog-plugin-2.4-SNAPSHOT-sources.jar
+outputs.2.length=45177
+outputs.2.checksums.sha512=eb0a6788551fae6bea22d4d1386cbb50b656a16e0fa687b6a536b923938a1869ffdf0efe714a77c6087621d4c0a7282b880e9f55f966379374409fc7407ad911

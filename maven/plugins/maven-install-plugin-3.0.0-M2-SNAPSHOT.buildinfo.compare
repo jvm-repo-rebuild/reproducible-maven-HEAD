@@ -1,0 +1,5 @@
+version=3.0.0-M2-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-install-plugin-3.0.0-M2-SNAPSHOT-source-release.zip maven-install-plugin-3.0.0-M2-SNAPSHOT.jar maven-install-plugin-3.0.0-M2-SNAPSHOT-sources.jar"
+koFiles=""

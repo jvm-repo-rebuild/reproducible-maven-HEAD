@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Install Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-install-plugin
+version=3.0.0-M2-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-install-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-install-plugin-3.0.0-M2-SNAPSHOT.jar
+outputs.0.length=29200
+outputs.0.checksums.sha512=76b0a9815231554e92197dc6b00a7dca3caa4cdc0bca20b3dd400661ed8115fc48e067fbf677a4bf0a5f29dc4b849832b2f83a7cd1207b1e8b66243b2dd901da
+
+outputs.1.filename=maven-install-plugin-3.0.0-M2-SNAPSHOT-source-release.zip
+outputs.1.length=217948
+outputs.1.checksums.sha512=8dde7fb29957e9c64a7969921a34af60a47432a68bf8415ccf67b960753f06a5f026aed1cab6370563155887ffb9ac8acbd9cf04935c1599b6b6e2ca3b3338f6
+
+outputs.2.filename=maven-install-plugin-3.0.0-M2-SNAPSHOT-sources.jar
+outputs.2.length=20826
+outputs.2.checksums.sha512=83f836a753f5362b4f91345b29250f021eb3a6c6668a13e1667e17a617a6c53c0dd3c3da01c21f5e5794822f0e14b3d61fd6be46ff5533de5fc418edcf1a5121

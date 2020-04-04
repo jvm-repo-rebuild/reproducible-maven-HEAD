@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven GPG Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-gpg-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-gpg-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-gpg-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=58236
+outputs.0.checksums.sha512=04f585e5344e22ef6dffe63069857f58598b1fc0e4ea6bea3faee5dd5a9e70f5a2ff6bde7d5edffc55f281256d0a55c709b0220abd4d000d8992b98ccb9e0d0c
+
+outputs.1.filename=maven-gpg-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=99473
+outputs.1.checksums.sha512=2347ab02f7a1bdd2eb40996bb1315af3739b6401383e1871a73ea76d33c46c1f9e2daf15605835dc15dca6781f950780386a8cce92c18fbcdf0e4178798eaf35
+
+outputs.2.filename=maven-gpg-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=36129
+outputs.2.checksums.sha512=16b2ddd047e83c3dca168c2800c1108223871e56a1ac639c25033f14940f9d0c845afd9d7adce1d1194f05b48d2a9a94899d920ec5c72d762ddcd0db56472890

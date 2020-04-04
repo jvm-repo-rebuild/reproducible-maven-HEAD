@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven RAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-rar-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-rar-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-rar-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=28679
+outputs.0.checksums.sha512=e7c5134753fc20ed3df1802f90ca3d5780b72db4bb918a3ac82d5c5e9db9ea583cd0aba837c4b00427e18123ab16027e930231f7c3681e2fd7da69f00c1467d0
+
+outputs.1.filename=maven-rar-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=67200
+outputs.1.checksums.sha512=8eff6fd426e7e251a788c2dbcaccd7577de11e6a25f49b2c5b583c03703bbb069cfb358f3adedbf304002f16cfc8fe9dcb1452e2673b00a31095cd547e1de531
+
+outputs.2.filename=maven-rar-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=19752
+outputs.2.checksums.sha512=51399dd2e6aadfad2e57e25f954749f6dcba2e773a5ee16c38385c8fa055aa453bf46819f5d7f72e6c1e1a8747e1223f4a2f568845718dc87a2cbc785ce7aa16

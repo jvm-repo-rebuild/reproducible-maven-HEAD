@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Changes Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-changes-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-changes-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0.5
+
+# output
+
+outputs.0.filename=maven-changes-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=221337
+outputs.0.checksums.sha512=a35ea2fbdc1e29a47fef3f89ae71aa6aaa8b9894fbe9b61eaf403a8cdae38ce3d0c1ccd0e065731f875260da9645be006b9810d388440de25d8c627c1a6cfcf7
+
+outputs.1.filename=maven-changes-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=308817
+outputs.1.checksums.sha512=6ae2583807e642e847f2740283645536337ce4975e5131d31a88f2efd8a02cfbcae61339a7ec83938be7d00bc2893a45c2daefa4e88ba6303f96011f8a0d8a1c
+
+outputs.2.filename=maven-changes-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=169837
+outputs.2.checksums.sha512=3923e2d5834cb7beaa44ee000cafea0847893c263157d4a2286772b3d5be61e6c93f2067ab04e5ba27e3d179d96b2695805598eabd1fe4fe6497090fd38bf463

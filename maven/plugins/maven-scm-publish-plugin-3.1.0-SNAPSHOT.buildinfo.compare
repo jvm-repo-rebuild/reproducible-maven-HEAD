@@ -1,0 +1,5 @@
+version=3.1.0-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-scm-publish-plugin-3.1.0-SNAPSHOT-source-release.zip maven-scm-publish-plugin-3.1.0-SNAPSHOT.jar maven-scm-publish-plugin-3.1.0-SNAPSHOT-sources.jar"

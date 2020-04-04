@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven DOAP Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-doap-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-doap-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-doap-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=74511
+outputs.0.checksums.sha512=ab2a740b35ea2d585047dd284d7e53714b1694d94e293e22e6b264203a961259a19d4aa9ef130ec0f0ca4fedc329e166618fb4ee69b6567abd6b1be082856f9f
+
+outputs.1.filename=maven-doap-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=93911
+outputs.1.checksums.sha512=58235a5250262da28730e1ad773ff4b3ab0c00762d00ab2cb916fea9c73e2faffa8f83adb029cedd5d22954f169584d0ffb60837ad22df7fe340c732c70e3eaa
+
+outputs.2.filename=maven-doap-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=53973
+outputs.2.checksums.sha512=0517a4f560219a7e5aa58b0165f296c5915a72798a66bf4793e7482768a7bd421938b8486f6f5d91406e5855c846731b2c990f335593e94c4d7e3305f018bda9

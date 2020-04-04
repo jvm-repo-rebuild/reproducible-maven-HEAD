@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven ACR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-acr-plugin
+version=3.1.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-acr-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-acr-plugin-3.1.1-SNAPSHOT.jar
+outputs.0.length=24341
+outputs.0.checksums.sha512=96c26518b4da29bdb4c8dcd3a9e2701d899ca2fa6d3b4d3f2dccf95ed281f11a6588c43e4cbfccdcd84ab1e696f08fc1a2187ea312715cadc901790862ee9b6f
+
+outputs.1.filename=maven-acr-plugin-3.1.1-SNAPSHOT-source-release.zip
+outputs.1.length=61965
+outputs.1.checksums.sha512=4d46b3104d8be5d8b647278d4d2aae90f499500aca5c8dcbbbfda71a4d6c6bc49652a7cbc19d3be7aa8b113350a90a159e88b3bf4b6ee337eb92f6abe5611e06
+
+outputs.2.filename=maven-acr-plugin-3.1.1-SNAPSHOT-sources.jar
+outputs.2.length=17406
+outputs.2.checksums.sha512=d37dac8bd4b567b44f26e7198fd757e3ea88ce118896f3ea93893090fc6b06550c6f54f627bf727dc7666809b4943d1f9fe37c45d40e294191244fa07e222485

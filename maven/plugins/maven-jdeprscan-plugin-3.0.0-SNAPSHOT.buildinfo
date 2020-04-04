@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JDeprScan Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jdeprscan-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jdeprscan-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-jdeprscan-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=29915
+outputs.0.checksums.sha512=fe5f0691d3b3e13fd16253ad61a3e4dc3be2d4fee8aa0289932c4d7d120c6c4437903e93ae54016e88c4e93a397c1ebe364e43289afbc718ffc4d67a30483ae4
+
+outputs.1.filename=maven-jdeprscan-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=60146
+outputs.1.checksums.sha512=d8fe7667322254c7aee70bd6a37701b2501ad0f29cc244a8d9df59203c4517d686b13e7f6e6d64d9a83557287f3a28bb409c5867531041ca18f4f6186617b81c
+
+outputs.2.filename=maven-jdeprscan-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=22348
+outputs.2.checksums.sha512=71ce95a47149b6da2ce6c7e15b8f58ff84559c2dc695fe5c56e23c21a1b56d38c4a300cc71b3e7316ba05d17ba036372687670b50294ccdb28634a365bc99bb9

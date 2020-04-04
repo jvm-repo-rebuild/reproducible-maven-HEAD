@@ -1,0 +1,5 @@
+version=3.2.2-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-invoker-plugin-3.2.2-SNAPSHOT-sources.jar maven-invoker-plugin-3.2.2-SNAPSHOT-source-release.zip maven-invoker-plugin-3.2.2-SNAPSHOT.jar"
+koFiles=""

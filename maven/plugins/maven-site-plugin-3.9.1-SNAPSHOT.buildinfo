@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Site Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-site-plugin
+version=3.9.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-site-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-site-plugin-3.9.1-SNAPSHOT.jar
+outputs.0.length=136214
+outputs.0.checksums.sha512=1978f1a06cfd3178db3f6485aaaa901ce185fa6c35cfd8707be156ae038831d8e1edaf7b3783c18d0dd1fcf40c266311481b4077cd41b465476fa9b754440eff
+
+outputs.1.filename=maven-site-plugin-3.9.1-SNAPSHOT-source-release.zip
+outputs.1.length=976644
+outputs.1.checksums.sha512=677d81065aa7dad366db6c628cef7264ac5ebc71254d0baa9dc2db4811e340b67a200b5c739f15791df718039b4028d91d20edfa2e6001f5a754657fd52582ba
+
+outputs.2.filename=maven-site-plugin-3.9.1-SNAPSHOT-sources.jar
+outputs.2.length=96483
+outputs.2.checksums.sha512=c4f1733df577a0263b557ae4c8bdc1d146c1cc6b4a5ad04b5dfbb736c6d2211b6bc33973962249e76f01c9b83e9c531b887509e1b46884c71e1b84648e92e81e

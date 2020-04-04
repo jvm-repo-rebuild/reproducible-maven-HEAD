@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Documentation Checker Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-docck-plugin
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-docck-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-docck-plugin-3.0.0-SNAPSHOT.jar
+outputs.0.length=34934
+outputs.0.checksums.sha512=18c888c200b16bf03f618f766c7a4396b60d4bc89cb4b3276c1c9673226ab1f29bc0734fa4ee0ed389bbbd39639870a621ffdf91f32c2c9ddd3bc0e0680bfa9c
+
+outputs.1.filename=maven-docck-plugin-3.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=47892
+outputs.1.checksums.sha512=97f46a6c34f96755f1b4a98d894d08429b5a8dde60e4b7efb1b7609cadd6cc3bad66665c08daf395bbd87453f6f9b06efd05b1df8343178f41cdab7cf465c2a6
+
+outputs.2.filename=maven-docck-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.2.length=26361
+outputs.2.checksums.sha512=0c826c179facaa0f8b88af2d2a0e0b8c2ea8f62bc1c7c17cfc6332c5e8e7734b1d53c8fc883f56fa734792865ab44d60b86f75a5cdf503dfc3c07d5b1abb3c1c

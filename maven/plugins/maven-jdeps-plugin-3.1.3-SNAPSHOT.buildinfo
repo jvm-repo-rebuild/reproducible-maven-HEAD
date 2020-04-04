@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JDeps Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jdeps-plugin
+version=3.1.3-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jdeps-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-jdeps-plugin-3.1.3-SNAPSHOT.jar
+outputs.0.length=32247
+outputs.0.checksums.sha512=6dc66385819bcff24f77d18d37bb636c4fc228c77b5bf5da8a1f58179cb47c5156e51a0bec76d65445e5040394fdba563ae0a94ad89330719342fe586468d92c
+
+outputs.1.filename=maven-jdeps-plugin-3.1.3-SNAPSHOT-source-release.zip
+outputs.1.length=75903
+outputs.1.checksums.sha512=3ddd318010322e7733e9c3eda59e749c33df99603b6e1f1efde121d24ef68b8350dffbf442c65869614f6e0d1854ee24096bb353508611cf3c484ccaf4822794
+
+outputs.2.filename=maven-jdeps-plugin-3.1.3-SNAPSHOT-sources.jar
+outputs.2.length=22600
+outputs.2.checksums.sha512=8a0241410ac7484d076d2b0465e924039a993ae6d0ec36e3da0ce1a4523ea09c0856425142dd56738bd06b71e4cec6e0ffb8cf47c76805ad4160e2b543e5ba2c

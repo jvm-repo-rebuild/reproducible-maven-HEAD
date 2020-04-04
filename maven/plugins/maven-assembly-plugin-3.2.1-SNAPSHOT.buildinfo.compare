@@ -1,0 +1,5 @@
+version=3.2.1-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-assembly-plugin-3.2.1-SNAPSHOT.jar maven-assembly-plugin-3.2.1-SNAPSHOT-sources.jar maven-assembly-plugin-3.2.1-SNAPSHOT-source-release.zip"

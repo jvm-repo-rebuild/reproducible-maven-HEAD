@@ -1,0 +1,5 @@
+version=3.2.4-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-war-plugin-3.2.4-SNAPSHOT-sources.jar maven-war-plugin-3.2.4-SNAPSHOT.jar maven-war-plugin-3.2.4-SNAPSHOT-source-release.zip"

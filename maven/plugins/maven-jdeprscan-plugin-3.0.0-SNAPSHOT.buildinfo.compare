@@ -1,0 +1,5 @@
+version=3.0.0-SNAPSHOT
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-jdeprscan-plugin-3.0.0-SNAPSHOT.jar maven-jdeprscan-plugin-3.0.0-SNAPSHOT-sources.jar maven-jdeprscan-plugin-3.0.0-SNAPSHOT-source-release.zip"

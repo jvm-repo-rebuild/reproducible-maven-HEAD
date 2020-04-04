@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Checkstyle Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-checkstyle-plugin
+version=3.1.2-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-checkstyle-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-checkstyle-plugin-3.1.2-SNAPSHOT.jar
+outputs.0.length=108589
+outputs.0.checksums.sha512=ab700145948567eb9a28ee01ea5b826fac3d120c0420dc59363dcff411ab975132d9cd8b516b01eae6938409c80cd321c4b940ecdb5588bff6f2cb80ecb85e23
+
+outputs.1.filename=maven-checkstyle-plugin-3.1.2-SNAPSHOT-source-release.zip
+outputs.1.length=452515
+outputs.1.checksums.sha512=9e27be397c06a56edcc449e73173e96ba7f2879a921104520790bfa4c02d47c782c8a79adf96e3f41cd746697a9e42827d430ca7039506ed108642934999f0e0
+
+outputs.2.filename=maven-checkstyle-plugin-3.1.2-SNAPSHOT-sources.jar
+outputs.2.length=77552
+outputs.2.checksums.sha512=d0035631f2d8e36086771d186b743e1f572ac7525b0eefc19a57b5df66a216d7870a21453c02684aaa33ec9dfcff619a507f7f43eed4c3da3c4b0808f94604a3
