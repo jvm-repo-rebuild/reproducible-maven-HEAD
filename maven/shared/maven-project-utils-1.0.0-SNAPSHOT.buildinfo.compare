@@ -1,0 +1,4 @@
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-project-utils-1.0.0-SNAPSHOT-sources.jar maven-project-utils-1.0.0-SNAPSHOT.jar maven-project-utils-1.0.0-SNAPSHOT-source-release.zip"

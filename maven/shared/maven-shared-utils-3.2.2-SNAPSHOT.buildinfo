@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shared Utils
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-utils
+version=3.2.2-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-utils.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-shared-utils-3.2.2-SNAPSHOT.jar
+outputs.0.length=156034
+outputs.0.checksums.sha512=eb8f6cc47d47671afe4f49d3a003263f39debc305c2badee160d85091e7e19ba3cc875b1af52a25dcb8a6b0f7ab7460d82ff287ff49e5a504966c6588f31e4fa
+
+outputs.1.filename=maven-shared-utils-3.2.2-SNAPSHOT-source-release.zip
+outputs.1.length=255239
+outputs.1.checksums.sha512=307000c16a4a334134255e7cfe0dedb0f35270495ee71cd0b44fa3ea81e9097aec8889151ab5fcaea75cd0fef62a9397aaa83a05ea5172b9edba5bb36a1d490c
+
+outputs.2.filename=maven-shared-utils-3.2.2-SNAPSHOT-sources.jar
+outputs.2.length=158228
+outputs.2.checksums.sha512=c7018ccd5d18cd7cf95717386b19747de75bd5a71043cd170cf88422db7e4d64430df5703b0bd7c4155d5a0358191a19e0567e49326a2b8c310c4f3b3093d681

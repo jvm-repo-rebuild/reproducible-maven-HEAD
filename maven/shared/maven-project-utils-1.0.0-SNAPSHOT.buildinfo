@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Project Utils
+group-id=org.apache.maven.shared
+artifact-id=maven-project-utils
+version=1.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-project-utils.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-project-utils-1.0.0-SNAPSHOT.jar
+outputs.0.length=16594
+outputs.0.checksums.sha512=9328a24289799405618dec6386caf8e37ebcc443f6feb1c46f1ecfaa4e8924cc11e2758c013c8a5b20e7bcf276f859e87a2eb00977b249f497d76f9dff2cf990
+
+outputs.1.filename=maven-project-utils-1.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=56714
+outputs.1.checksums.sha512=201efff41f8580826507674987f977cffec93a0a91bcc8d466ff97b136588c0edc642e80e633e912289a86c2ed6940e3c448412c35ef773d51d4cad8ebb2cd45
+
+outputs.2.filename=maven-project-utils-1.0.0-SNAPSHOT-sources.jar
+outputs.2.length=15766
+outputs.2.checksums.sha512=9e7334ad7e8e1218ecdbc7f1780db7f764c09d6be8b153f687b9e7a1965a3f2e707aca7945ad9b6500e43b7b94e8e8dd30ee309a2e4b2265ef035146da6ab4ca

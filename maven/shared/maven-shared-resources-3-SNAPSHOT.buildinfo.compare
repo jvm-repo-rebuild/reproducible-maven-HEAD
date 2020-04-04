@@ -1,0 +1,4 @@
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-shared-resources-3-SNAPSHOT-source-release.zip maven-shared-resources-3-SNAPSHOT.jar maven-shared-resources-3-SNAPSHOT-sources.jar"

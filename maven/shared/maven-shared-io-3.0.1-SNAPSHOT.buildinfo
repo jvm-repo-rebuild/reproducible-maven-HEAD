@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shared I/O API
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-io
+version=3.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-io.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-shared-io-3.0.1-SNAPSHOT.jar
+outputs.0.length=41451
+outputs.0.checksums.sha512=52ff58e2f0a419c9cfef8caf82850ff3aff6f480b6c2a673e887d6b020d7bed06f7b69257f475e1227abc9d48e1e286a985d7f9efe1c944a4e5d3b4856013198
+
+outputs.1.filename=maven-shared-io-3.0.1-SNAPSHOT-source-release.zip
+outputs.1.length=73907
+outputs.1.checksums.sha512=6f98d0a20bc45dd48e840e589209dae19964084c8cbef8f908e523b02a1ef8d2add630673ded47067ec2a9cdffa9f1f92812bda5db9a5e7b8345a7ddf46ce5ba
+
+outputs.2.filename=maven-shared-io-3.0.1-SNAPSHOT-sources.jar
+outputs.2.length=42516
+outputs.2.checksums.sha512=5cb7f9a8a620ffba1212b27284c4489ec776a7cd91a272aff294922f74371565291da634f311136c7e58b31bd8e2c1f58c329d5b0aa178505f58fd4b68a61a1d

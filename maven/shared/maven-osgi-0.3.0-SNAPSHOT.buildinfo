@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven OSGi Integration
+group-id=org.apache.maven.shared
+artifact-id=maven-osgi
+version=0.3.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-osgi.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-osgi-0.3.0-SNAPSHOT.jar
+outputs.0.length=14161
+outputs.0.checksums.sha512=205bd7f08016bd711ed71145c43ca70b856ef493d89ab8de83da1a8626a1faae048dcc626597b1e72211543cf0236d191a1c756bc22d381bc741dcd02a4d2bff
+
+outputs.1.filename=maven-osgi-0.3.0-SNAPSHOT-source-release.zip
+outputs.1.length=1158253
+outputs.1.checksums.sha512=d2312bee4886f6d1476ae3ec12cbe87dae6a5119adb7ed25169e7d4b69641457542a9a8d7e409f3427f28fa24bd792c305e4e4e788e46ad496c9c2093f08cfd5
+
+outputs.2.filename=maven-osgi-0.3.0-SNAPSHOT-sources.jar
+outputs.2.length=13826
+outputs.2.checksums.sha512=7c16b2c8dfe635544a0a21c88427c99f6f76a4d9ee0a58d8b108f900f1967f0853ab860bc0ac1389b35d06e5b5fd318293796f2cdfa1e3436f69ff13cc69c073

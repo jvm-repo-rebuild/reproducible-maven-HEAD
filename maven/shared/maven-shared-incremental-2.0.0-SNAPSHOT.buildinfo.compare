@@ -1,0 +1,4 @@
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-shared-incremental-2.0.0-SNAPSHOT-sources.jar maven-shared-incremental-2.0.0-SNAPSHOT-source-release.zip maven-shared-incremental-2.0.0-SNAPSHOT.jar"

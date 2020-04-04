@@ -1,0 +1,4 @@
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-osgi-0.3.0-SNAPSHOT-sources.jar maven-osgi-0.3.0-SNAPSHOT.jar maven-osgi-0.3.0-SNAPSHOT-source-release.zip"

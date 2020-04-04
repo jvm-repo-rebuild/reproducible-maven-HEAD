@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Mapping
+group-id=org.apache.maven.shared
+artifact-id=maven-mapping
+version=3.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-mapping.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-mapping-3.0.1-SNAPSHOT.jar
+outputs.0.length=10718
+outputs.0.checksums.sha512=30628b08e9acaeda25a45fc42c26efb7eac7a3e669c97c2340fdb77a1f91fb5655aa0148c561dff72f82055f0ef353347499b5f1113d716038e9448d7907d7f7
+
+outputs.1.filename=maven-mapping-3.0.1-SNAPSHOT-source-release.zip
+outputs.1.length=20781
+outputs.1.checksums.sha512=756943d6ddca1c5becb700a9655d3a3201c91bf1460ce387b17918c12eca414d683218988da0f4998bd74b5d7ec4c35f79f7ca47a5a0170b86e2b6a40893b362
+
+outputs.2.filename=maven-mapping-3.0.1-SNAPSHOT-sources.jar
+outputs.2.length=11334
+outputs.2.checksums.sha512=13300002edc4928f87a588c5688c6a8f7742503893e55ba2df5920afe69d8cb649dd33cbb70c01a5c8b39fa6e248c9cb6efca6a461d2b1fe3504e0163f7941b1

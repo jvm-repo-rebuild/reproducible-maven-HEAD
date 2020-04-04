@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Jarsigner
+group-id=org.apache.maven.shared
+artifact-id=maven-jarsigner
+version=3.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jarsigner.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-jarsigner-3.0.1-SNAPSHOT.jar
+outputs.0.length=22296
+outputs.0.checksums.sha512=efb6784eeb2b697e0aea7bd719c56f542b708bdf8d7a6c6ab864ed0bc6ee53e4c20753f2671bc66689c572cd77435f49b3a5061e3dd693616fc807e01042be10
+
+outputs.1.filename=maven-jarsigner-3.0.1-SNAPSHOT-source-release.zip
+outputs.1.length=165293
+outputs.1.checksums.sha512=a3fbdf3a19a419232dbb3c77a2c269c2270682bf7653b95fee7703076eabc49b384799fd51f36a6714f1511845b72506fc91cf1137972ce92f140b7babf1ace0
+
+outputs.2.filename=maven-jarsigner-3.0.1-SNAPSHOT-sources.jar
+outputs.2.length=21893
+outputs.2.checksums.sha512=d15186e795c5556c05d7d42fca60b15a17da2aac4521b031622258478402b9349d77905a21a5e0efbadea5c794526e679e847a1598c610a0e7e10494fc1d95a4

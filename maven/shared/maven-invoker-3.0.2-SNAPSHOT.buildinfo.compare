@@ -1,0 +1,4 @@
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-invoker-3.0.2-SNAPSHOT.jar maven-invoker-3.0.2-SNAPSHOT-sources.jar maven-invoker-3.0.2-SNAPSHOT-source-release.zip"
