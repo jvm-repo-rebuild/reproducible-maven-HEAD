@@ -36,7 +36,7 @@ do
   sumOk=`expr $sumOk + ${ok}`
   sumKo=`expr $sumKo + ${ko}`
 done
-echo -n "|  |  | **${count} ( ${countOk} :heavy_check_mark: `expr ${count} - ${countOk}` :warning: )** "
+echo -n "|  |  | **${count} = ${countOk} :heavy_check_mark: + `expr ${count} - ${countOk}` :warning:** "
 echo "|  |  | **${sumOk} :heavy_check_mark: ${sumKo} :warning:** |"
 ) > summary-table.md
 
