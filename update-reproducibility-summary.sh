@@ -9,7 +9,7 @@ sumOk=0
 sumKo=0
 for buildspec in `find maven -name *.buildspec -print | sort`
 do
-  count=`expr $count + 1`
+  count=$(($count+1))
   . $buildspec
 
   groupDir=$(echo ${groupId} | tr '.' '/')
@@ -32,11 +32,11 @@ do
   fi
   echo "|"
 
-  [ ${ko} -eq 0 ] && countOk=`expr $countOk + 1`
-  sumOk=`expr $sumOk + ${ok}`
-  sumKo=`expr $sumKo + ${ko}`
+  [ ${ko} -eq 0 ] && countOk=$(($countOk + 1))
+  sumOk=$(($sumOk + ${ok}))
+  sumKo=$(($sumKo + ${ko}))
 done
-echo -n "|  |  | **${count} = ${countOk} :heavy_check_mark: + `expr ${count} - ${countOk}` :warning:** "
+echo -n "|  |  | **${count} = ${countOk} :heavy_check_mark: + $((${count}-${countOk})) :warning: ( $((${countOk}*100/${count}))% )** "
 echo "|  |  | **${sumOk} :heavy_check_mark: ${sumKo} :warning:** |"
 ) > summary-table.md
 
