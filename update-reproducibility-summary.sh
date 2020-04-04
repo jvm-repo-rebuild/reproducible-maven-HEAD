@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| dist | groupId | artifactId | build | version | Reproducibility |"
-echo "| ---- | ------- | ------------------ | ----- | ------- | --------------- |"
+cat <(echo "| dist | groupId | artifactId | build | version | Repro |"
+echo "| ---- | ------- | ------------------ | ----- | ------- | ----- |"
 
 for buildspec in `find maven -name *.buildspec -print | sort`
 do
@@ -11,7 +11,7 @@ do
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
 
   echo -n "| [`dirname ${buildspec} | cut -c 7-`](https://downloads.apache.org/`dirname ${buildspec}`) "
-  echo -n "| [`echo ${groupId} | sed s/org.apache.maven/o.a.m/`](https://repo.maven.apache.org/maven2/${groupDir}) "
+  echo -n "| [`echo ${groupId} | sed s/org.apache.maven/m/`](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildspec}) "
   [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/"`basename ${buildinfo}`") "
