@@ -1,0 +1,5 @@
+version=35-SNAPSHOT
+ok=7
+ko=0
+okFiles="maven-parent-35-SNAPSHOT-source-release.zip doxia-tools-35-SNAPSHOT-site.xml maven-shared-components-35-SNAPSHOT-site.xml maven-extensions-35-SNAPSHOT-site.xml maven-plugins-35-SNAPSHOT-site.xml maven-skins-35-SNAPSHOT-site.xml maven-parent-35-SNAPSHOT-site.xml"
+koFiles=""

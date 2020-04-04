@@ -12,8 +12,8 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 ## Results
 
 <!-- BEGIN GENERATED CONTENT -->
-**Total: 87 sub-projects = 24 :heavy_check_mark: + 63 :warning:
-   = 27% :heavy_check_mark:**
+**Total: 89 sub-projects = 26 :heavy_check_mark: + 63 :warning:
+   = 29% :heavy_check_mark:**
    
 | groupId | artifactId | build | version | Repro |
 | ------- | ------------------ | ----- | ------- | ----- |
@@ -82,6 +82,9 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [plugin-testing](https://repo.maven.apache.org/maven2/org/apache/maven/plugin-testing) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/plugin-testing/plugin-testing.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-plugin-testing-harness-3.4.0-SNAPSHOT.buildinfo) | 3.4.0-SNAPSHOT | 1 :heavy_check_mark:  3 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/plugin-testing/maven-plugin-testing-harness-*.buildinfo.compare) |
 | | **dist = [maven/plugin-tools](https://downloads.apache.org/maven/plugin-tools)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [plugin-tools](https://repo.maven.apache.org/maven2/org/apache/maven/plugin-tools) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/plugin-tools/plugin-tools.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-plugin-plugin-3.6.1-SNAPSHOT.buildinfo) | 3.6.1-SNAPSHOT | 27 :heavy_check_mark: |
+| | **dist = [maven/pom](https://downloads.apache.org/maven/pom)** 
+| [org.apache](https://repo.maven.apache.org/maven2/org/apache) | [apache](https://repo.maven.apache.org/maven2/org/apache/apache) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/pom/apache.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/apache-24-SNAPSHOT.buildinfo) | 24-SNAPSHOT | 1 :heavy_check_mark: |
+| [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [maven-parent](https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/pom/maven-parent.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/apache-resource-bundles-35-SNAPSHOT.buildinfo) | 35-SNAPSHOT | 7 :heavy_check_mark: |
 | | **dist = [maven/release](https://downloads.apache.org/maven/release)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [release](https://repo.maven.apache.org/maven2/org/apache/maven/release) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/release/release.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-release-plugin-3.0.0-SNAPSHOT.buildinfo) | 3.0.0-SNAPSHOT | 12 :heavy_check_mark: |
 | | **dist = [maven/reporting](https://downloads.apache.org/maven/reporting)** 
@@ -121,5 +124,5 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [surefire](https://repo.maven.apache.org/maven2/org/apache/maven/surefire) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/surefire/surefire.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/surefire-shared-utils-3.0.0-SNAPSHOT.buildinfo) | 3.0.0-SNAPSHOT | 2 :heavy_check_mark:  48 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/surefire/surefire-shared-utils-*.buildinfo.compare) |
 | | **dist = [maven/wagon](https://downloads.apache.org/maven/wagon)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [wagon](https://repo.maven.apache.org/maven2/org/apache/maven/wagon) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/wagon-webdav-jackrabbit-3.4.0-SNAPSHOT.buildinfo) | 3.4.0-SNAPSHOT | 3 :heavy_check_mark:  30 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon-webdav-jackrabbit-*.buildinfo.compare) |
-|  | **87 = 24 :heavy_check_mark: + 63 :warning:** | **27% :heavy_check_mark:** |  | **220 :heavy_check_mark: 364 :warning:** |
+|  | **89 = 26 :heavy_check_mark: + 63 :warning:** | **29% :heavy_check_mark:** |  | **228 :heavy_check_mark: 364 :warning:** |
 <!-- END GENERATED CONTENT -->

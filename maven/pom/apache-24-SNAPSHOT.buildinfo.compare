@@ -1,0 +1,5 @@
+version=24-SNAPSHOT
+ok=1
+ko=0
+okFiles="apache-24-SNAPSHOT-source-release.zip"
+koFiles=""
