@@ -36,8 +36,9 @@ do
   sumOk=$(($sumOk + ${ok}))
   sumKo=$(($sumKo + ${ko}))
 done
-echo -n "|  |  | **${count} = ${countOk} :heavy_check_mark: + $((${count}-${countOk})) :warning: ( $((${countOk}*100/${count}))% )** "
-echo "|  |  | **${sumOk} :heavy_check_mark: ${sumKo} :warning:** |"
+echo -n "|  |  | **${count} = ${countOk} :heavy_check_mark: + $((${count}-${countOk})) :warning:** "
+echo -n "| **$((${countOk}*100/${count}))% :heavy_check_mark:** "
+echo "|  | **${sumOk} :heavy_check_mark: ${sumKo} :warning:** |"
 ) > summary-table.md
 
 lead='^<!-- BEGIN GENERATED CONTENT -->$'
