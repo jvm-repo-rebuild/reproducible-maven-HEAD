@@ -1,4 +1,4 @@
-Rebuild Reproducibility Check for Apache Maven master HEAD
+Reproducibility Check for Apache Maven master HEADs
 ==========================================================
 
 [```reproducible-central```](https://github.com/jvm-repo-rebuild/reproducible-central) gives a summary of artifacts in Central Repository that are reproducible, eventually partially.
@@ -12,7 +12,7 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 ## Results
 
 <!-- BEGIN GENERATED CONTENT -->
-**Total: 85 sub-projects = 23 :heavy_check_mark: + 62 :warning:
+**Total: 87 sub-projects = 24 :heavy_check_mark: + 63 :warning:
    = 27% :heavy_check_mark:**
    
 | groupId | artifactId | build | version | Repro |
@@ -114,9 +114,12 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 | [m.shared](https://repo.maven.apache.org/maven2/org/apache/maven/shared) | [maven-shared-resources](https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-resources) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/shared/maven-shared-resources.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-shared-resources-3-SNAPSHOT.buildinfo) | 3-SNAPSHOT |  3 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/shared/maven-shared-resources-*.buildinfo.compare) |
 | [m.shared](https://repo.maven.apache.org/maven2/org/apache/maven/shared) | [maven-shared-utils](https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/shared/maven-shared-utils.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-shared-utils-3.2.2-SNAPSHOT.buildinfo) | 3.2.2-SNAPSHOT | 3 :heavy_check_mark: |
 | [m.shared](https://repo.maven.apache.org/maven2/org/apache/maven/shared) | [maven-verifier](https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-verifier) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/shared/maven-verifier.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-verifier-1.7.2-SNAPSHOT.buildinfo) | 1.7.2-SNAPSHOT | 3 :heavy_check_mark: |
+| | **dist = [maven/skins](https://downloads.apache.org/maven/skins)** 
+| [m.skins](https://repo.maven.apache.org/maven2/org/apache/maven/skins) | [maven-default-skin](https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-default-skin) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/skins/maven-default-skin.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-default-skin-1.4-SNAPSHOT.buildinfo) | 1.4-SNAPSHOT |  3 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/skins/maven-default-skin-*.buildinfo.compare) |
+| [m.skins](https://repo.maven.apache.org/maven2/org/apache/maven/skins) | [maven-fluido-skin](https://repo.maven.apache.org/maven2/org/apache/maven/skins/maven-fluido-skin) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/skins/maven-fluido-skin.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-fluido-skin-1.9-SNAPSHOT.buildinfo) | 1.9-SNAPSHOT | 3 :heavy_check_mark: |
 | | **dist = [maven/surefire](https://downloads.apache.org/maven/surefire)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [surefire](https://repo.maven.apache.org/maven2/org/apache/maven/surefire) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/surefire/surefire.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/surefire-shared-utils-3.0.0-SNAPSHOT.buildinfo) | 3.0.0-SNAPSHOT | 2 :heavy_check_mark:  48 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/surefire/surefire-shared-utils-*.buildinfo.compare) |
 | | **dist = [maven/wagon](https://downloads.apache.org/maven/wagon)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [wagon](https://repo.maven.apache.org/maven2/org/apache/maven/wagon) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/wagon-webdav-jackrabbit-3.4.0-SNAPSHOT.buildinfo) | 3.4.0-SNAPSHOT | 3 :heavy_check_mark:  30 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon-webdav-jackrabbit-*.buildinfo.compare) |
-|  | **85 = 23 :heavy_check_mark: + 62 :warning:** | **27% :heavy_check_mark:** |  | **217 :heavy_check_mark: 361 :warning:** |
+|  | **87 = 24 :heavy_check_mark: + 63 :warning:** | **27% :heavy_check_mark:** |  | **220 :heavy_check_mark: 364 :warning:** |
 <!-- END GENERATED CONTENT -->
