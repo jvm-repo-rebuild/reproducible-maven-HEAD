@@ -1,3 +1,4 @@
+version=1.5-SNAPSHOT
 ok=0
 ko=3
 okFiles=""

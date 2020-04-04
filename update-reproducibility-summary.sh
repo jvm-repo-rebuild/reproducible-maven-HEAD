@@ -9,16 +9,15 @@ do
 
   groupDir=$(echo ${groupId} | tr '.' '/')
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
-  version="`basename ${buildinfo} .buildinfo | sed s/${artifactId}-//`"
 
   echo -n "| [`dirname ${buildspec} | cut -c 7-`](https://downloads.apache.org/`dirname ${buildspec}`) "
   echo -n "| [${groupId}](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildspec}) "
   [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/"`basename ${buildinfo}`") "
-  echo -n "| ${version} "
 
   . ${buildinfo}.compare
+  echo -n "| ${version} "
   if [ $? -eq 0 ]; then
     echo -n "| "
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
