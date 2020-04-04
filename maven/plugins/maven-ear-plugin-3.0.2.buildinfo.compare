@@ -1,0 +1,5 @@
+version=3.0.2
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-ear-plugin-3.0.2-source-release.zip maven-ear-plugin-3.0.2.jar maven-ear-plugin-3.0.2-sources.jar"

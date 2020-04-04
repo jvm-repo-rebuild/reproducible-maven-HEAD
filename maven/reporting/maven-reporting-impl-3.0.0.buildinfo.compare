@@ -1,0 +1,5 @@
+version=3.0.0
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-reporting-impl-3.0.0-sources.jar maven-reporting-impl-3.0.0.jar maven-reporting-impl-3.0.0-source-release.zip"

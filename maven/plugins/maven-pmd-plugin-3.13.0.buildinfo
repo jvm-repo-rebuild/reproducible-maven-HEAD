@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven PMD Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-pmd-plugin
+version=3.13.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-pmd-plugin.git
+source.scm.tag=maven-pmd-plugin-3.13.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-pmd-plugin-3.13.0.jar
+outputs.0.length=117687
+outputs.0.checksums.sha512=d021fc147f18eedd0899b67787147fabd458c8d760dacb3e632dcdb2f490a795cd5612c916231467c90a59b43cdc5b5d9be84d95b5c4a4c55d1863d8353a7780
+
+outputs.1.filename=maven-pmd-plugin-3.13.0-source-release.zip
+outputs.1.length=445824
+outputs.1.checksums.sha512=85586bedffa2d5e323f44afca341e92434081446a1f5162fbd9cbbbacdf43c0450bf4b34b9e9c2f520fd45990069e3474cfffa1ec54ee551a79f23c0fea9ce19
+
+outputs.2.filename=maven-pmd-plugin-3.13.0-sources.jar
+outputs.2.length=83542
+outputs.2.checksums.sha512=ee648eaaf833d1a613707bc52a30cd9c61f094312bbfb94973f6a9120976a23de9133693190a5cfda9b55473387d8ba415a89a1761a768eb7f932968b7723be7

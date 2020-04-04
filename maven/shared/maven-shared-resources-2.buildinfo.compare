@@ -1,0 +1,5 @@
+version=2
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-shared-resources-2-source-release.zip maven-shared-resources-2.jar maven-shared-resources-2-sources.jar"

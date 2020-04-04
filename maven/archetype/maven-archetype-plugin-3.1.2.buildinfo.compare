@@ -1,0 +1,5 @@
+version=3.1.2
+ok=2
+ko=11
+okFiles="maven-archetype-3.1.2-site.xml archetype-models-3.1.2-site.xml"
+koFiles="maven-archetype-3.1.2-source-release.zip archetype-packaging-3.1.2.jar archetype-common-3.1.2.jar archetype-catalog-3.1.2.jar archetype-descriptor-3.1.2-sources.jar maven-archetype-plugin-3.1.2.jar maven-archetype-plugin-3.1.2-sources.jar archetype-catalog-3.1.2-sources.jar archetype-descriptor-3.1.2.jar archetype-common-3.1.2-sources.jar archetype-packaging-3.1.2-sources.jar"

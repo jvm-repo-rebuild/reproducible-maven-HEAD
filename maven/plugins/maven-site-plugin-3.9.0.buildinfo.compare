@@ -1,0 +1,5 @@
+version=3.9.0
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-site-plugin-3.9.0.jar maven-site-plugin-3.9.0-sources.jar maven-site-plugin-3.9.0-source-release.zip"

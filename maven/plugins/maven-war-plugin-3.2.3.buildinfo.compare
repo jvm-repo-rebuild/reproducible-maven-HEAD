@@ -1,0 +1,5 @@
+version=3.2.3
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-war-plugin-3.2.3-sources.jar maven-war-plugin-3.2.3.jar maven-war-plugin-3.2.3-source-release.zip"

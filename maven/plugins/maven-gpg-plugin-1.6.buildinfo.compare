@@ -1,0 +1,5 @@
+version=1.6
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-gpg-plugin-1.6.jar maven-gpg-plugin-1.6-sources.jar maven-gpg-plugin-1.6-source-release.zip"

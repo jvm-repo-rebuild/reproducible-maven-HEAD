@@ -1,0 +1,5 @@
+version=3.0.0
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-scm-publish-plugin-3.0.0-source-release.zip maven-scm-publish-plugin-3.0.0-sources.jar maven-scm-publish-plugin-3.0.0.jar"

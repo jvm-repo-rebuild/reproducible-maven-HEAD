@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Toolchains Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-toolchains-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-toolchains-plugin.git
+source.scm.tag=maven-toolchains-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-toolchains-plugin-3.0.0.jar
+outputs.0.length=23875
+outputs.0.checksums.sha512=484cc16d236c98ba62a2fba18c28f78efac35bbc6883635043fd85f3b5bd43acb682aeb154b329cf8f7368bb0574919ea5c89de2efe7aeccd6b77128255fbde7
+
+outputs.1.filename=maven-toolchains-plugin-3.0.0-source-release.zip
+outputs.1.length=51222
+outputs.1.checksums.sha512=02ec42595dea08af954711b3fe829d335c5993827d4bf6984946947a70f38c94a1ac15082a72721363a989a0e9fec0401b136247ab8c671b30c5276aa1f24ac5
+
+outputs.2.filename=maven-toolchains-plugin-3.0.0-sources.jar
+outputs.2.length=17856
+outputs.2.checksums.sha512=4d4e9b56d4407c3e2049bfaa17be00caf4feaecf9fbc106269e91c5440ea3ff2a0325b902083da4cd5aae329f6bdd1261eec776af72dc7a4ef4aca12cf2b55d4

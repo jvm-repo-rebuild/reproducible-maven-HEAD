@@ -1,0 +1,5 @@
+version=1.4
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-reporting-exec-1.4.jar maven-reporting-exec-1.4-source-release.zip maven-reporting-exec-1.4-sources.jar"

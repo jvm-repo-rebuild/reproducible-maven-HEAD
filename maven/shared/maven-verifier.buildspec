@@ -1,9 +1,10 @@
 groupId=org.apache.maven.shared
 artifactId=maven-verifier
-version=master
 
 gitRepo=https://github.com/apache/${artifactId}.git
-gitTag=${version}
+
+latest=1.7.0
+gitTag=${artifactId}-${latest}
 
 jdk=8
 newline=lf

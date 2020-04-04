@@ -1,9 +1,7 @@
 groupId=org.apache.maven.plugins
 artifactId=maven-docck-plugin
-version=master
 
 gitRepo=https://github.com/apache/${artifactId}.git
-gitTag=${version}
 
 jdk=8
 newline=lf

@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Invoker Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-invoker-plugin
+version=3.2.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-invoker-plugin.git
+source.scm.tag=maven-invoker-plugin-3.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-invoker-plugin-3.2.1.jar
+outputs.0.length=126839
+outputs.0.checksums.sha512=2eb0d6e97650a5e0d944b8c2b2e49922cd8a5c1fb4ea743e3ddbc1e68394b26116f1266f4ee6392c5bafd174640b7fd444b2f460a2ed2f1d245f7563d4fe6074
+
+outputs.1.filename=maven-invoker-plugin-3.2.1-source-release.zip
+outputs.1.length=640676
+outputs.1.checksums.sha512=76def5a71ab9cdce678d1eb11765afc830fd88b4c9c016e8dfc8913ff61ecb892b1ba95ae714b52438c1c1af8599b1596e6c43cb67ec8b11e21da9693de343d7
+
+outputs.2.filename=maven-invoker-plugin-3.2.1-sources.jar
+outputs.2.length=81712
+outputs.2.checksums.sha512=a95c9a6c48a821b384b2f36319c8103b7884773974679fda8630a1e315af219812c839d4a72884e0a534f3d87cdbca24cdc8a341c87bed6f34571270a3d6b537

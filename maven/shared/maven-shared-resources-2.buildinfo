@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shared Resources
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-resources
+version=2
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/shared/tags/maven-shared-resources-2
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-shared-resources-2.jar
+outputs.0.length=12997
+outputs.0.checksums.sha512=1423b0213eb7ed54dce03882be5c596a2949a7085d8c5c516409f9c8728d4a3a1ab470aaaf3479bd6a874728dd8191768dfceb6f2d35abb8626bcc1e3d5221ae
+
+outputs.1.filename=maven-shared-resources-2-source-release.zip
+outputs.1.length=20975
+outputs.1.checksums.sha512=935fcffc0d0003b3cabbcc2ab83e85d32ce8e63ef2a78c8cb683980521f23bfed1780056ddf162b8f567b56c5cf8fa6e6a4c38de0f85d96d1c7490212d718376
+
+outputs.2.filename=maven-shared-resources-2-sources.jar
+outputs.2.length=10658
+outputs.2.checksums.sha512=8757b449b6a4f842d4706e4a2b10099786da3da5f15bb6c6846ccdf3e0d1aa288db0034103e5c43a153c4c08180f399793424e4b45aa88d696298cc3526cddc0

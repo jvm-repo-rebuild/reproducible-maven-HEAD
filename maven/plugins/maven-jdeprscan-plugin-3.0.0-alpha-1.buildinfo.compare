@@ -1,0 +1,5 @@
+version=3.0.0-alpha-1
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-jdeprscan-plugin-3.0.0-alpha-1.jar maven-jdeprscan-plugin-3.0.0-alpha-1-sources.jar maven-jdeprscan-plugin-3.0.0-alpha-1-source-release.zip"

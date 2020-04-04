@@ -1,0 +1,5 @@
+version=1.11.1
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-dependency-analyzer-1.11.1-source-release.zip maven-dependency-analyzer-1.11.1.jar maven-dependency-analyzer-1.11.1-sources.jar"

@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Patch Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-patch-plugin
+version=1.2
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-patch-plugin-1.2
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-patch-plugin-1.2.jar
+outputs.0.length=26270
+outputs.0.checksums.sha512=c71fa09236a94f815a508eb0feb89604ec6356bec96393fc68b51f617852f9a8e1ad01ae2a8c028178fc52447989b04a7cf545a2e06216d01c394581a5d2ae33
+
+outputs.1.filename=maven-patch-plugin-1.2-source-release.zip
+outputs.1.length=52496
+outputs.1.checksums.sha512=6fb970b0321e203d426f35fffee1a74a341b1099ea43d7d97f7bf539914b89f50de310011a94d136b19588aebc7a47c0a2cebe5f6869f4f862a2667432802245
+
+outputs.2.filename=maven-patch-plugin-1.2-sources.jar
+outputs.2.length=14607
+outputs.2.checksums.sha512=dafaef455ba365cd6d7837cc8e49a293f8689c3fabcc06c435d7c58397eb877212967fd9d04625e4abb36e679a47531005cbaf98fbffc7e7f5abc33f0386e46f

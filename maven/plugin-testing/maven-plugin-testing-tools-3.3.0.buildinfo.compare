@@ -1,0 +1,5 @@
+version=3.3.0
+ok=1
+ko=7
+okFiles="maven-plugin-testing-3.3.0-site.xml"
+koFiles="maven-plugin-testing-3.3.0-source-release.zip maven-plugin-testing-harness-3.3.0-sources.jar maven-plugin-testing-harness-3.3.0.jar maven-plugin-testing-tools-3.3.0.jar maven-test-tools-3.3.0.jar maven-test-tools-3.3.0-sources.jar maven-plugin-testing-tools-3.3.0-sources.jar"

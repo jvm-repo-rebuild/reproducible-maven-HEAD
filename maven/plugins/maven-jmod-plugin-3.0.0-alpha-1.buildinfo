@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JMod Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jmod-plugin
+version=3.0.0-alpha-1
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-jmod-plugin-3.0.0-alpha-1
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-jmod-plugin-3.0.0-alpha-1.jar
+outputs.0.length=40912
+outputs.0.checksums.sha512=e769fa4d0360031c822febefdd366a8a0e051b00671caaf62a32a35b8409c086284c142d36c62cc4fd2fa2cd7b6207c9c7bf5b7694cf2edcd0332d1bda0f6471
+
+outputs.1.filename=maven-jmod-plugin-3.0.0-alpha-1-source-release.zip
+outputs.1.length=153139
+outputs.1.checksums.sha512=9af52dff72337c451fa1fb914adb8cb6eabdc368cf6d0fb44221645cca97fe8494bf769ea752277900979af30312d92fa43e771fc32f926affd2b9858ac70290
+
+outputs.2.filename=maven-jmod-plugin-3.0.0-alpha-1-sources.jar
+outputs.2.length=28632
+outputs.2.checksums.sha512=30ab34cb72dc138e5e6f6b5d808e9b2764328b4ad0430d621e79358e49888c3b39a0fc9d7abbc7f6f9d0253e46f7fa1652866e5daf27c0013722b88fbb91d6e3

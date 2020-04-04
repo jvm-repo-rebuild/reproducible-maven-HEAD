@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Doxia Tools :: Converter
+group-id=org.apache.maven.doxia
+artifact-id=doxia-converter
+version=1.2
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/doxia/doxia-tools/tags/doxia-tools-1.2/doxia-converter
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=doxia-converter-1.2.jar
+outputs.0.length=34475
+outputs.0.checksums.sha512=fa19840275d55b7476cf6400a4bb44c6402cc9d07f28d234ca752689f65a73b5cd310a45ff24e64c6a13af46d93151db06ea8a885ea05a30f6abba983afd9691
+
+outputs.1.filename=doxia-converter-1.2-jar-with-dependencies.jar
+outputs.1.length=20071480
+outputs.1.checksums.sha512=57d2a310832f01f572df3e820ad1e1767d1290be595bab93320fc668a5066e47576bfb12c2e99ecbcc21fca1d9b225198f553ecdebffcde3f4a577d43397403c
+
+outputs.2.filename=doxia-converter-1.2-source-release.zip
+outputs.2.length=18449099
+outputs.2.checksums.sha512=cd49742c21df886e8ed570e2960d3a6470aa801a1fe181d24179bfd2f376bfbf24a1aaf077d6b6ca5733a2d0a2b7b549238c48e00f00ddc1ba0ea0623dc3ddef
+
+outputs.3.filename=doxia-converter-1.2-jar-with-dependencies.jar
+outputs.3.length=20071480
+outputs.3.checksums.sha512=57d2a310832f01f572df3e820ad1e1767d1290be595bab93320fc668a5066e47576bfb12c2e99ecbcc21fca1d9b225198f553ecdebffcde3f4a577d43397403c
+
+outputs.4.filename=doxia-converter-1.2-sources.jar
+outputs.4.length=32537
+outputs.4.checksums.sha512=15eeae9981dc3a1025c9f7c2c8091cd259bc727ae7402e8ae9b9dc9055d0ffcc851c1465125677aecb6de8d70c4fb8b1e69d17a9a9a4087e51eb5b16f6c43cfe

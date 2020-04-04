@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JLink Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jlink-plugin
+version=3.0.0-alpha-1
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-jlink-plugin-3.0.0-alpha-1
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-jlink-plugin-3.0.0-alpha-1.jar
+outputs.0.length=33914
+outputs.0.checksums.sha512=0711f4a2517eb57c665882d7543c3b7be2c2ee5aa4dac95ebd4c6ae7ba45877f3b6542ef1db53e2c716cb23c513bf3d6005f2dce025157b7db907ae1f8b850d6
+
+outputs.1.filename=maven-jlink-plugin-3.0.0-alpha-1-source-release.zip
+outputs.1.length=31130
+outputs.1.checksums.sha512=39f452f539fe8b7b9be2037b64e6c91cdfc2af45966b03a69e033c2cbbd267659a337de5f47171a27f72f3c9d5dad9373a81a9e9cafc12fdf091315824b3a064
+
+outputs.2.filename=maven-jlink-plugin-3.0.0-alpha-1-sources.jar
+outputs.2.length=23639
+outputs.2.checksums.sha512=48c6d5ddc4ba3f71ece65980f7a608f7fb10f1edb1ab13b082dd513f6986c0aca975a41ee8a0014b23a33a53079abfb0d06efcffba6448ec0ddeb1a701b3c4ac

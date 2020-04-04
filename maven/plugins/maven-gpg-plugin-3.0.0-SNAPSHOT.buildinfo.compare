@@ -1,5 +1,5 @@
 version=3.0.0-SNAPSHOT
-ok=2
-ko=1
-okFiles="maven-gpg-plugin-3.0.0-SNAPSHOT.jar maven-gpg-plugin-3.0.0-SNAPSHOT-sources.jar"
-koFiles="maven-gpg-plugin-3.0.0-SNAPSHOT-source-release.zip"
+ok=3
+ko=0
+okFiles="maven-gpg-plugin-3.0.0-SNAPSHOT.jar maven-gpg-plugin-3.0.0-SNAPSHOT-source-release.zip maven-gpg-plugin-3.0.0-SNAPSHOT-sources.jar"
+koFiles=""

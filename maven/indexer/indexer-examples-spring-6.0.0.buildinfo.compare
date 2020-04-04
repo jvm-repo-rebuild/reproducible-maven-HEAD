@@ -1,0 +1,5 @@
+version=6.0.0
+ok=1
+ko=12
+okFiles="maven-indexer-6.0.0-site.xml"
+koFiles="indexer-cli-6.0.0-sources.jar indexer-reader-6.0.0-sources.jar indexer-examples-spring-6.0.0.jar maven-indexer-6.0.0-source-release.zip indexer-core-6.0.0.jar indexer-reader-6.0.0.jar indexer-examples-basic-6.0.0-sources.jar indexer-examples-spring-6.0.0-sources.jar indexer-core-6.0.0-sources.jar indexer-examples-basic-6.0.0.jar indexer-cli-6.0.0.jar indexer-core-6.0.0-shaded-lucene.jar"

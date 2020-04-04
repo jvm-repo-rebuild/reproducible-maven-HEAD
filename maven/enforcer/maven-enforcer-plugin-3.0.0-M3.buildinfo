@@ -1,0 +1,68 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Enforcer
+group-id=org.apache.maven.enforcer
+artifact-id=enforcer
+version=3.0.0-M3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-enforcer.git
+source.scm.tag=enforcer-3.0.0-M3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.enforcer:enforcer
+
+outputs.0.0.filename=enforcer-3.0.0-M3-site.xml
+outputs.0.0.length=1543
+outputs.0.0.checksums.sha512=4247ede6825f685b73968a3d55c90c1b7710d92676a0e50a7bbb8e54d2f7fd27ac0e7865e481a96a05e4e02664db65f19113af7106d24f3b0a681d19d936bef4
+
+outputs.0.1.filename=enforcer-3.0.0-M3-source-release.zip
+outputs.0.1.length=548588
+outputs.0.1.checksums.sha512=c2da6f5466b0d7acd6593763dc146f22c093d6a36a2d3b03681c7ece5861143cd29a84d1b4b30a09293d86a4a923490a9a9c5acfef9c1a5f4a064fe1faabc653
+
+outputs.1.coordinates=org.apache.maven.enforcer:enforcer-api
+
+outputs.1.0.filename=enforcer-api-3.0.0-M3.jar
+outputs.1.0.length=11691
+outputs.1.0.checksums.sha512=f51c9b12a4e5fab9c26dfd98b968531583b39372004a7c96494582036c3972fb8320c1c75ba7b228b25d15415d539cf4f965b65c17fec7057c3d0fb08c0612e8
+
+outputs.1.1.filename=enforcer-api-3.0.0-M3-sources.jar
+outputs.1.1.length=14199
+outputs.1.1.checksums.sha512=cd0e3c4d1efd9e94ad8ccfbd42d979fdb46f4bee4e8468704ae0332008b6a5ab2b3c6abcd08ee5509ebd79498b2eaa0b6813c639828f115bb0c80f0c25b81672
+
+outputs.2.coordinates=org.apache.maven.enforcer:enforcer-rules
+
+outputs.2.0.filename=enforcer-rules-3.0.0-M3.jar
+outputs.2.0.length=107014
+outputs.2.0.checksums.sha512=3f28f139ed90a2d19679b06ba9c7a11f2c35f75d1fade5314659bbb6ee1bac8f5aa3b9da21336d209ac21b86006be208beba74d5bc6fc53e2bfc9b77dc557a97
+
+outputs.2.1.filename=enforcer-rules-3.0.0-M3-sources.jar
+outputs.2.1.length=91533
+outputs.2.1.checksums.sha512=4d9b0c67c0af5706b222f6e323077a7e106577c6968e873d66ba1720872ef25a05f8670102642afab9ebdb6aff283456cdb32f49f6a27105c07f9f33e488cfbf
+
+outputs.2.2.filename=enforcer-rules-3.0.0-M3-tests.jar
+outputs.2.2.length=91312
+outputs.2.2.checksums.sha512=d742ad0a9e9226bdc90b0d8db0fdfc7418b747a5d42091e995dcf98c7c55390aa4052b5db1d2b410265d15c7225e65ad7f2d9bc60bf8de9ee1dbaf1f1290020e
+
+outputs.3.coordinates=org.apache.maven.plugins:maven-enforcer-plugin
+
+outputs.3.0.filename=maven-enforcer-plugin-3.0.0-M3.jar
+outputs.3.0.length=26994
+outputs.3.0.checksums.sha512=ae4e372e3e58cfa6a0b7a10d22969cf9e65d2f1db4742f454a9cebb0c1cb038202a4104d09dc7dacd5b01c702b258d7d7dc97b187d8aa86a3128134d79fa7c4c
+
+outputs.3.1.filename=maven-enforcer-plugin-3.0.0-M3-sources.jar
+outputs.3.1.length=20569
+outputs.3.1.checksums.sha512=a92f6ee2fc50eabf36944b2ec2f533f65ae7b166edf7fa083a2179ddafba6ad09331c90364a34417f06ca306a33afb4dafab139c481e80a74836f51c1b700862

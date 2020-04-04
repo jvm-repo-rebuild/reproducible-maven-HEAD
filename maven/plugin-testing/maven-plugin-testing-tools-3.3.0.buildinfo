@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Plugin Testing
+group-id=org.apache.maven.plugin-testing
+artifact-id=maven-plugin-testing
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://git-wip-us.apache.org/repos/asf/maven-plugin-testing.git
+source.scm.tag=maven-plugin-testing-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.1.1
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing
+
+outputs.0.0.filename=maven-plugin-testing-3.3.0-source-release.zip
+outputs.0.0.length=135972
+outputs.0.0.checksums.sha512=247d992c54b1fc8395972281b9c00d65579f5ea05a6822a52309eb9b0e2c1cd5601e3c43aa1ce24ba8205f058dd24648e30cf9fbf0b8a492fa30dad816aa8ffb
+
+outputs.0.1.filename=maven-plugin-testing-3.3.0-site.xml
+outputs.0.1.length=1450
+outputs.0.1.checksums.sha512=ab8c9274ff18021bd129c5327ae94c48c1ed7a7af4e5382ae75fbb6eb1698ec9b8a7d75f8af02288b92d8093c28e78357362190a47b70098d7eabb2a355d7b73
+
+outputs.1.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing-harness
+
+outputs.1.0.filename=maven-plugin-testing-harness-3.3.0.jar
+outputs.1.0.length=50782
+outputs.1.0.checksums.sha512=705cbd2862aa9493bc1db431ebe7aafca3c66a6cec34299fc09e33e2763a216b4d4bba2840ad07835254d95d86501e77ac5d51f1321f3587be31fd2f4c58b05f
+
+outputs.1.1.filename=maven-plugin-testing-harness-3.3.0-sources.jar
+outputs.1.1.length=41484
+outputs.1.1.checksums.sha512=f8df1d25c9e01ac64f6117f84227c24fa4126fef5bf0eb654f8fb3e3ad1e1aa5f03eb31f0ae202b12b3b7f00080f2cd68b6c37dbc580fc05c6da0cae3da2a35e
+
+outputs.1.2.filename=maven-plugin-testing-harness-3.3.0-sources.jar
+outputs.1.2.length=41484
+outputs.1.2.checksums.sha512=f8df1d25c9e01ac64f6117f84227c24fa4126fef5bf0eb654f8fb3e3ad1e1aa5f03eb31f0ae202b12b3b7f00080f2cd68b6c37dbc580fc05c6da0cae3da2a35e
+
+outputs.2.coordinates=org.apache.maven.plugin-testing:maven-test-tools
+
+outputs.2.0.filename=maven-test-tools-3.3.0.jar
+outputs.2.0.length=17718
+outputs.2.0.checksums.sha512=8fc54b37f632ca1781b6f42c0da227b2046f9c070851ca01b90b2a69fa10da5876327aaaa868f90eb373f33892922f81e3d5fe53ff67b8775b6ddffb5ded4c41
+
+outputs.2.1.filename=maven-test-tools-3.3.0-sources.jar
+outputs.2.1.length=11743
+outputs.2.1.checksums.sha512=437c1f6782c65d97ace9d996010f61c3d70ec317598cc17f3b60a1ee072de39bd7d9b4fadcf1b53800d5e6c4763a1a9d9e1abf6b80f26d42c96b80b8a1c3833f
+
+outputs.3.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing-tools
+
+outputs.3.0.filename=maven-plugin-testing-tools-3.3.0.jar
+outputs.3.0.length=29317
+outputs.3.0.checksums.sha512=e99d2890751ce36224c56c806a98f959209d08642a62d820549322a80af98b7d54ceae1f59c58a3e2559463d581d05e8ed57a4c2d36fafb56a8886255c2072e9
+
+outputs.3.1.filename=maven-plugin-testing-tools-3.3.0-sources.jar
+outputs.3.1.length=21975
+outputs.3.1.checksums.sha512=3f973559d3cf9a4edfc2fceacc69b1bf8524bbe8350afcf4b511eb2425c6a847a1bc20de58530763bf2e5a5a68232a1f871c59ffe95e1faa86e8a8585a5bc468

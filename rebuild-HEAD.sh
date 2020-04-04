@@ -21,9 +21,7 @@ echo "Rebuilding from spec ${buildspec}"
 
 echo "- groupId: ${groupId}"
 echo "- artifactId: ${artifactId}"
-echo "- version: ${version}"
 echo "- gitRepo: ${gitRepo}"
-echo "- gitTag: ${gitTag}"
 echo "- jdk: ${jdk}"
 echo "- newline: ${newline}"
 echo "- command: ${command}"
@@ -39,11 +37,14 @@ pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspe
 cd target
 [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
 cd ${artifactId}
+git checkout master || fatal "failed to git checkout master"
 git pull || fatal "failed to git pull"
 
 pwd
 
-# the effective rebuild command, adding buildinfo plugin to compare with central content
+# the effective rebuild command for latest, adding buildinfo plugin to compare with central content
+mvn_rebuild_latest="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
+# the effective rebuild commands for master HEAD, adding buildinfo plugin and install on first run to compare on second
 mvn_rebuild_1="${command} -V -e buildinfo:buildinfo install:install"
 mvn_rebuild_2="${command} -V -e buildinfo:buildinfo -Dreference.repo=file:./stage -Dreference.compare.save"
 
@@ -91,9 +92,25 @@ mvnBuildLocal() {
 # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
 #   jenv shell ${jdk}
 #   sdk use java ${jdk}
+
+# git checkout latest then rebuild latest
+if [ "${latest}" == "" ]
+then
+  gitTag="`git describe --abbrev=0`"
+  version="${gitTag}"
+else
+  version="${latest}"
+fi
+git checkout ${gitTag} || fatal "failed to git checkout latest ${version}"
+mvnBuildDocker "${mvn_rebuild_latest}" || fatal "failed to build latest"
+
+cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
+
+# git checkout master then rebuild HEAD twice
+git checkout master || fatal "failed to git checkout master"
 mvnBuildDocker "${mvn_rebuild_1}" || fatal "failed to build first time"
 mvnBuildDocker "${mvn_rebuild_2}" || fatal "failed to build second time"
 
-cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
+cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
 
 popd > /dev/null

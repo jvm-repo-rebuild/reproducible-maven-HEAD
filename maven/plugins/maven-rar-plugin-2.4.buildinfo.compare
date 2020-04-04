@@ -1,0 +1,5 @@
+version=2.4
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-rar-plugin-2.4-sources.jar maven-rar-plugin-2.4-source-release.zip maven-rar-plugin-2.4.jar"

@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Default Skin
+group-id=org.apache.maven.skins
+artifact-id=maven-default-skin
+version=1.3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-default-skin.git
+source.scm.tag=maven-default-skin-1.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-default-skin-1.3.jar
+outputs.0.length=13732
+outputs.0.checksums.sha512=24821f76d25ced5cede7f3da6d5f6f690b3143cca9009d02fc0b96ec6e8b60a36ac1fa60b88e290d38b966f6749e515152e8410963ab70b3b0a56437262cca88
+
+outputs.1.filename=maven-default-skin-1.3-source-release.zip
+outputs.1.length=26150
+outputs.1.checksums.sha512=2bdf835b606747f85c803a0518bee65ae90d57e251ef8c271a0bb997c948ba74b957e62e1ee3f7f954244364a69c01099c31b039aec21fd84820b58dce1073d3
+
+outputs.2.filename=maven-default-skin-1.3-sources.jar
+outputs.2.length=13593
+outputs.2.checksums.sha512=db2b3f087a23e220f66c0c9b1e5a86f8a0b6dcc18e0a5ae4c9b20f3f94f0e60c21d2607687863276aae3af998b0431be1570e5dea5aba58d9689d5f7d9217006

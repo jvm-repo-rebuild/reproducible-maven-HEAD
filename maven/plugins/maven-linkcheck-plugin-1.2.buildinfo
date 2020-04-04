@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Linkcheck Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-linkcheck-plugin
+version=1.2
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-linkcheck-plugin-1.2
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-linkcheck-plugin-1.2.jar
+outputs.0.length=42576
+outputs.0.checksums.sha512=dadbe2abca7c4b306670fdb513bde5b8b9ff7a72c64d9fc0d4cdd187194e2d0a7a0fef5ccb35379a88fc7541336cbda5d02fd344fe9f8d968776abeac08faa28
+
+outputs.1.filename=maven-linkcheck-plugin-1.2-source-release.zip
+outputs.1.length=138086
+outputs.1.checksums.sha512=e62e6255f239d27a5de854ad7a108deeca10673b16763fa80de413314d14567843f6c5e322babb35583910b8400c867d7e756423b30e2ea53ef58890075e9180
+
+outputs.2.filename=maven-linkcheck-plugin-1.2-sources.jar
+outputs.2.length=27929
+outputs.2.checksums.sha512=b7eb1896d6ad2bcf4f51459b4ba1a9d4bd5646f5e18ea9fc62a31eca3c0718312ad23cac2b002695e4201719d25c121e9120f1850515fafaa16e0838e6be4365

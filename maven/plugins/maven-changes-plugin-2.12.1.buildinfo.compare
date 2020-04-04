@@ -1,0 +1,5 @@
+version=2.12.1
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-changes-plugin-2.12.1-sources.jar maven-changes-plugin-2.12.1-source-release.zip maven-changes-plugin-2.12.1.jar"

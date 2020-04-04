@@ -1,0 +1,5 @@
+version=1.2
+ok=0
+ko=4
+okFiles=""
+koFiles="apache-doxia-1.2-jar-with-dependencies.jar doxia-converter-1.2.jar apache-doxia-1.2-source-release.zip doxia-converter-1.2-sources.jar"

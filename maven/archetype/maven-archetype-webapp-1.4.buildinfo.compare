@@ -1,0 +1,5 @@
+version=1.4
+ok=1
+ko=23
+okFiles="maven-archetype-bundles-1.4-site.xml"
+koFiles="maven-archetype-site-skin-1.4-sources.jar maven-archetype-plugin-1.4-sources.jar maven-archetype-simple-1.4-sources.jar maven-archetype-plugin-site-1.4-sources.jar maven-archetype-webapp-1.4.jar maven-archetype-site-1.4.jar maven-archetype-archetype-1.4-sources.jar maven-archetype-j2ee-simple-1.4.jar maven-archetype-portlet-1.4-sources.jar maven-archetype-quickstart-1.4-sources.jar maven-archetype-site-simple-1.4-sources.jar maven-archetype-plugin-site-1.4.jar maven-archetype-plugin-1.4.jar maven-archetype-simple-1.4.jar maven-archetype-bundles-1.4-source-release.zip maven-archetype-site-skin-1.4.jar maven-archetype-archetype-1.4.jar maven-archetype-site-1.4-sources.jar maven-archetype-j2ee-simple-1.4-sources.jar maven-archetype-webapp-1.4-sources.jar maven-archetype-quickstart-1.4.jar maven-archetype-site-simple-1.4.jar maven-archetype-portlet-1.4.jar"

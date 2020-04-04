@@ -1,0 +1,5 @@
+version=1.2
+ok=0
+ko=3
+okFiles=""
+koFiles="doxia-linkcheck-1.2.jar doxia-linkcheck-1.2-source-release.zip doxia-linkcheck-1.2-sources.jar"

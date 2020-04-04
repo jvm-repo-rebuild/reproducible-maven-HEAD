@@ -1,0 +1,5 @@
+version=1.8
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-fluido-skin-1.8-sources.jar maven-fluido-skin-1.8.jar maven-fluido-skin-1.8-source-release.zip"

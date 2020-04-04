@@ -1,0 +1,5 @@
+version=2.3
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-changelog-plugin-2.3-source-release.zip maven-changelog-plugin-2.3.jar maven-changelog-plugin-2.3-sources.jar"

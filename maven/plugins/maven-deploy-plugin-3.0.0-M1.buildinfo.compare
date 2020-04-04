@@ -1,0 +1,5 @@
+version=3.0.0-M1
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-deploy-plugin-3.0.0-M1.jar maven-deploy-plugin-3.0.0-M1-sources.jar maven-deploy-plugin-3.0.0-M1-source-release.zip"

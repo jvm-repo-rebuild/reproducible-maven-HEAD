@@ -1,0 +1,90 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven-Indexer
+group-id=org.apache.maven.indexer
+artifact-id=maven-indexer
+version=6.0.0
+
+# source information
+source.scm.uri=scm:git:https://git-wip-us.apache.org/repos/asf/maven-indexer.git
+source.scm.tag=maven-indexer-6.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.indexer:maven-indexer
+
+outputs.0.0.filename=maven-indexer-6.0.0-site.xml
+outputs.0.0.length=1974
+outputs.0.0.checksums.sha512=b20e3d566b2a839887ceb46560e336ce75b450ec9c5227b90605465f59c744ee84ac18a4556f5cfbcc80ac99d4e88384871ee7c42cd21659920ee642e2b50600
+
+outputs.0.1.filename=maven-indexer-6.0.0-source-release.zip
+outputs.0.1.length=17203883
+outputs.0.1.checksums.sha512=271ea5e277985f698e8d28f21bfe93bd31be8e02570703ab1b1c2d9cd30a7ca47e94d7be543aac48f5988021f627c21b9967aad162755d3796ec677d44f4d103
+
+outputs.1.coordinates=org.apache.maven.indexer:indexer-core
+
+outputs.1.0.filename=indexer-core-6.0.0.jar
+outputs.1.0.length=265127
+outputs.1.0.checksums.sha512=5fe43124eb54d87c4819005ae0f8a13e8182b79b4045eacabf6e42f9b0e19c4401e7aed660c197cfbfcd81ac3df1bcd74d687560255d8b4d4f711f8bb76090d0
+
+outputs.1.1.filename=indexer-core-6.0.0-sources.jar
+outputs.1.1.length=228459
+outputs.1.1.checksums.sha512=7e965009c8b551d127c8f6e502aa30632eea5bbf65834a2556f655a100cef876387666d096cd6b521436a22ed0dd80b06ace400b595c8a87ad95bdbc52c02bd3
+
+outputs.1.2.filename=indexer-core-6.0.0-shaded-lucene.jar
+outputs.1.2.length=10233894
+outputs.1.2.checksums.sha512=393f1d4ac5987676acc9ddf65b5326bcd58717acccbe8049d333b9886e956d5a8263f29183ada3e91e3eb2381bd89241c1f7c513aa546a2495d52fb685f74e97
+
+outputs.2.coordinates=org.apache.maven.indexer:indexer-cli
+
+outputs.2.0.filename=indexer-cli-6.0.0.jar
+outputs.2.0.length=14914685
+outputs.2.0.checksums.sha512=61315a8366dc17321d140259a9301a20d4b7c0ad7e380974208a17fc2ca57fb3e93625ae31a665e6085972e1864960c1323bf7c3efb5baabc2e375f70c2f36c4
+
+outputs.2.1.filename=indexer-cli-6.0.0-sources.jar
+outputs.2.1.length=15929
+outputs.2.1.checksums.sha512=1a8d19457079b989bff76f70ed87ecdf218a27f7b7360f4366ea8fbd5c5aa10bde12fd782f879a5c9196e0523493767734b5d74e9ace722f6b6d1e7eea33d874
+
+outputs.3.coordinates=org.apache.maven.indexer:indexer-reader
+
+outputs.3.0.filename=indexer-reader-6.0.0.jar
+outputs.3.0.length=38613
+outputs.3.0.checksums.sha512=b63131867f58b205f01912f789b1ed248b050c9fb68c751c38adc930b7268d33175e733847dcb4e0db2fe826b1bd9ec4dd513b2d3ca4a668037a903508a76dc8
+
+outputs.3.1.filename=indexer-reader-6.0.0-sources.jar
+outputs.3.1.length=30289
+outputs.3.1.checksums.sha512=ce50c691c30aa41a601560705bacd4fb4e55b6c88f6e84e0a61eb9b846094ba5975b02042796f1e82ba4dd88cec29ef49aa7f1c7239c966c93d40581b91f4ab9
+
+outputs.4.coordinates=org.apache.maven.indexer:maven-indexer-examples
+
+outputs.5.coordinates=org.apache.maven.indexer:indexer-examples-basic
+
+outputs.5.0.filename=indexer-examples-basic-6.0.0.jar
+outputs.5.0.length=16827
+outputs.5.0.checksums.sha512=4c6b2ff1a2c6c6b46f2c110f53453db4e889e57c345775c67db9fe43dbf982a7ca0db43050d41b4949ef42cc199f321c308cc0a24f7384b6a1a13ead38ee6613
+
+outputs.5.1.filename=indexer-examples-basic-6.0.0-sources.jar
+outputs.5.1.length=13746
+outputs.5.1.checksums.sha512=bcef33c63945eb798e21e0278c7835efdcb02fd2d616291f3234bf857382fc4374ac42b807e5b3eaccf5e0fc1e0e85a3173546f61beeaacb8a411d163d42a6a3
+
+outputs.6.coordinates=org.apache.maven.indexer:indexer-examples-spring
+
+outputs.6.0.filename=indexer-examples-spring-6.0.0.jar
+outputs.6.0.length=27249
+outputs.6.0.checksums.sha512=f69b9293feaf609a4eb9b023ea4c081939babe927056acc200ff7e02b8134f812c71d420562e4cbd09d5ffe5caf6aee5589ef5972d5b71c4f018cf141a331c4e
+
+outputs.6.1.filename=indexer-examples-spring-6.0.0-sources.jar
+outputs.6.1.length=22792
+outputs.6.1.checksums.sha512=509548b538018d81288176c4530ff6cebdc11a8593ff6b09f03ccf7d87bded71edc07d0a10b123fd6ed0eb5edc413270ba2c45490b3877619261d797c77e29ec

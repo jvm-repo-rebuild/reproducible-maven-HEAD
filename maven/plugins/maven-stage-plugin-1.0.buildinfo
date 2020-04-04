@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Stage Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-stage-plugin
+version=1.0
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-stage-plugin-1.0
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-stage-plugin-1.0.jar
+outputs.0.length=26508
+outputs.0.checksums.sha512=b9fa197cb44b4086d8ffeb4561fd0dedf3f06a98a3206c32069a68c965c983b7b12cbe783250ea31f8388f5a8bcb07da6e7688a6e8f5192c288c2cb942cc354f
+
+outputs.1.filename=maven-stage-plugin-1.0-source-release.zip
+outputs.1.length=1226210
+outputs.1.checksums.sha512=59d8021d43fe2479a3a8d6cfc5e64b3a6a84079e7316d08ec2f5c8ddb4d4a539acbbbe79e7371db2bf55a7d234376a7a0f0106bd6d2da9cef72d40b084ff5e55
+
+outputs.2.filename=maven-stage-plugin-1.0-sources.jar
+outputs.2.length=17011
+outputs.2.checksums.sha512=d2fef336557995ba5424cf1fa5be532fa53254163713bd7c94336ac9ebf37c8b9e1bf74824f0298af3899c559c3ed71222f70888e2e1ae83bca29e79a8cd86f1

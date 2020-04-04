@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Remote Resources Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-remote-resources-plugin
+version=1.7.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-remote-resources-plugin.git
+source.scm.tag=maven-remote-resources-plugin-1.7.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-remote-resources-plugin-1.7.0.jar
+outputs.0.length=70329
+outputs.0.checksums.sha512=df45a2b5307e172be53234495c329dccfade8d9374b8ea6f9815988451f24faf48b6884e503d5bc442af166b638b76c05b3e8465307fef068c4a0cc8f7205f74
+
+outputs.1.filename=maven-remote-resources-plugin-1.7.0-source-release.zip
+outputs.1.length=185225
+outputs.1.checksums.sha512=98e6435012939c6dca0b7a60b2b7ecd140f822bfb09d4c01badfd7c3facef6f8758e322418f513066ec68011f7c718bb651fc973754959214d7380290774f789
+
+outputs.2.filename=maven-remote-resources-plugin-1.7.0-sources.jar
+outputs.2.length=43686
+outputs.2.checksums.sha512=de20f3c27c8be624e73cf0b34db68d903b46d306e8785ec4ed47536ed0c3e63507c7594feeabfa1a1a65cf31acab5d314366ce4820ca5149a98002f8500060d0

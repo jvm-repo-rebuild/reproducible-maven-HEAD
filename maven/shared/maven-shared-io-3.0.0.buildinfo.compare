@@ -1,0 +1,5 @@
+version=3.0.0
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-shared-io-3.0.0-source-release.zip maven-shared-io-3.0.0.jar maven-shared-io-3.0.0-sources.jar"

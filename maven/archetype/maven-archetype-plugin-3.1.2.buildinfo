@@ -1,0 +1,90 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Archetype
+group-id=org.apache.maven.archetype
+artifact-id=maven-archetype
+version=3.1.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-archetype.git
+source.scm.tag=maven-archetype-3.1.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.archetype:maven-archetype
+
+outputs.0.0.filename=maven-archetype-3.1.2-site.xml
+outputs.0.0.length=2301
+outputs.0.0.checksums.sha512=c3e530a5c2891eb01fb5fb162d1785651cd81e4280d19e65654a15580e524b3e27b67e329042c93bd479a10249579b1e921fe5315d4f141405e3cd142d805599
+
+outputs.0.1.filename=maven-archetype-3.1.2-source-release.zip
+outputs.0.1.length=870302
+outputs.0.1.checksums.sha512=53149649e33b359abc9c6156c9947b4690c424e564b6dba7a7ac50bfc28f4bbd6a667d0d2236f7bd706825dde1fa0c052be40fc8209a47dfceae63f6743d6318
+
+outputs.1.coordinates=org.apache.maven.archetype:archetype-models
+
+outputs.1.0.filename=archetype-models-3.1.2-site.xml
+outputs.1.0.length=1419
+outputs.1.0.checksums.sha512=685eca04992578ef7d1a735a2def0fb9832f187892229e8eab0a056ad48eb883a924c83fef1fa2974d85b13effddcc47806dae99872ec5f658d67fbaef10f065
+
+outputs.2.coordinates=org.apache.maven.archetype:archetype-catalog
+
+outputs.2.0.filename=archetype-catalog-3.1.2.jar
+outputs.2.0.length=19166
+outputs.2.0.checksums.sha512=988c4c67f613c438d7cf12cd01c018cfb27199705a731364cda719c6e535518cf543091172e8efcd8856ee44c487ab8a7b97e1ce162bcebc4c96c72a9fde0210
+
+outputs.2.1.filename=archetype-catalog-3.1.2-sources.jar
+outputs.2.1.length=15464
+outputs.2.1.checksums.sha512=9db57d5c9dc32ea0f46264846a4665c60a445bbecfdf4de3bb946ba9d6efd622919cc46a6bd507d62efd6f55cffb6f9f744c3ec35015add82cd91295ddef6acf
+
+outputs.3.coordinates=org.apache.maven.archetype:archetype-descriptor
+
+outputs.3.0.filename=archetype-descriptor-3.1.2.jar
+outputs.3.0.length=24017
+outputs.3.0.checksums.sha512=530793e07d71edf99734602becf50635c227891c23bd1985fc30c743acf6b5ce517d46a109af0fba0fdeefa45f1293ef2ffe3c0e051b9175f696cb23bbac441e
+
+outputs.3.1.filename=archetype-descriptor-3.1.2-sources.jar
+outputs.3.1.length=19458
+outputs.3.1.checksums.sha512=542feb14184cb2a39398f8aa7cf6db1af9e1faa261cb14864920cceac63babe53e73868933c27b56984731d49d0afd23fb9571602311989b837e0a3e2fcc6283
+
+outputs.4.coordinates=org.apache.maven.archetype:archetype-common
+
+outputs.4.0.filename=archetype-common-3.1.2.jar
+outputs.4.0.length=184937
+outputs.4.0.checksums.sha512=00638959ab8561b0dafadaf713d23cb8c0a3a64dac11206c7464717cacd170c94ae6cbfb9a73fb97d96b5a1c7235406c7eb6f7fa591c78cbe377e56b94b9fb6a
+
+outputs.4.1.filename=archetype-common-3.1.2-sources.jar
+outputs.4.1.length=149636
+outputs.4.1.checksums.sha512=3d0ec8fd03bdde6405d44b468858439d3542c662090fb0badce196998b0493b6f9721959a121f465c2994c36a88f00acd610d2efd53dd013be851035483e5039
+
+outputs.5.coordinates=org.apache.maven.archetype:archetype-packaging
+
+outputs.5.0.filename=archetype-packaging-3.1.2.jar
+outputs.5.0.length=7496
+outputs.5.0.checksums.sha512=94a062dc78270c1ca453ff137dc954c3858780b98f3b66cf89e94320d45dedb994334cde97718d4e08fc43b2dd5c49edb831b1c59b7076683680dcb67b7fd8d2
+
+outputs.5.1.filename=archetype-packaging-3.1.2-sources.jar
+outputs.5.1.length=7822
+outputs.5.1.checksums.sha512=27d55f3ee06f3afe4b5251fc2f0d00f1d7e05708e0d8ab6e8ca3e225b094f59a2ba544611ef83617a7c8500fc1453717787b1c75d8af8498992b34a5be0b8e7e
+
+outputs.6.coordinates=org.apache.maven.plugins:maven-archetype-plugin
+
+outputs.6.0.filename=maven-archetype-plugin-3.1.2.jar
+outputs.6.0.length=96522
+outputs.6.0.checksums.sha512=001f159e08c7cc0bd2f2fac0d28c225f7b0bf9d6884824555ad3445b0943f6dda7dd87d487e39102e231f8470a55a4f630943d3a91b43338823fbb99a0a81df3
+
+outputs.6.1.filename=maven-archetype-plugin-3.1.2-sources.jar
+outputs.6.1.length=68877
+outputs.6.1.checksums.sha512=6dc4f15d4d11ed7331008607502b5552f8866137abb58a5c45ea35e4397418d4c5301428f75f5fe24664f284a25f00a200fee38a168834ae153f6f55e3a4ce59

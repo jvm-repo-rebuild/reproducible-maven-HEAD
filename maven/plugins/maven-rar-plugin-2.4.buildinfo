@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven RAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-rar-plugin
+version=2.4
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/plugins/tags/maven-rar-plugin-2.4
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=maven-rar-plugin-2.4.jar
+outputs.0.length=27388
+outputs.0.checksums.sha512=b26395a23d03f0a2ed264e8296d4efc8eb35f18ba09b5abcd4df0be53f82f3f8d723f0ef4aaef8cddc91573bd4ad6faf5a033776b443dcdeb88916687323c429
+
+outputs.1.filename=maven-rar-plugin-2.4-source-release.zip
+outputs.1.length=62075
+outputs.1.checksums.sha512=00448b8ddf1aa571b8fdc72e8e822d48e94f14f32748105895e115f7fecada465d5be67dbac12622bd8664d02818616bcc9879016bde24ce503c205863bef256
+
+outputs.2.filename=maven-rar-plugin-2.4-sources.jar
+outputs.2.length=15936
+outputs.2.checksums.sha512=aa68bb52ae8baa8da962384ece60e39f1cb8a4c4020434b73872aa372b6afbb1d083ca1c71be676c5e31b081eba0cb5aa7b0d291c770e3f64bd88da03d7fb0b5

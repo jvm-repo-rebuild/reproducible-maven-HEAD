@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Incremental Build support utilities
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-incremental
+version=1.1
+
+# source information
+source.scm.uri=scm:svn:http://svn.apache.org/repos/asf/maven/shared/tags/maven-shared-incremental-1.1
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-shared-incremental-1.1.jar
+outputs.0.length=13503
+outputs.0.checksums.sha512=c6483a40ddb4b80b99e5389d3d76a66c7e22be38cacda72aa5b1974f20af5dff59b6c6de921a2594904f219b852a960f53e7d9c79dac3ec749d5ebb421f65384
+
+outputs.1.filename=maven-shared-incremental-1.1-source-release.zip
+outputs.1.length=14516
+outputs.1.checksums.sha512=793e995811b377adf3e1bd598d5619fc09b8c72d44cdbd49fbb8f33fc1801c6c6b7f0bc8e9b642c51ae136effd40fd33e6fb20bcf68b1703ca42100294a01a8a
+
+outputs.2.filename=maven-shared-incremental-1.1-sources.jar
+outputs.2.length=10994
+outputs.2.checksums.sha512=43f9ffc653c31a894ebb1d2b50752b07c839b2821fcfbf346c26b9ecd587cc58d0fcfedec86bc484c0cc48b87416dd02358c76b67dbb330074bde0fefb63d000

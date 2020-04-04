@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven JXR Parent
+group-id=org.apache.maven.jxr
+artifact-id=jxr
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jxr.git
+source.scm.tag=jxr-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.jxr:jxr
+
+outputs.0.0.filename=jxr-3.0.0-site.xml
+outputs.0.0.length=1634
+outputs.0.0.checksums.sha512=84acd38462ff97bf2e797068e11a8ed110d5842bf9641c024b5f348a3e66d3b19f65e166602f492f2737845d8da39d64de7ec8764abdf0bac34a3d91c4de5527
+
+outputs.0.1.filename=jxr-3.0.0-source-release.zip
+outputs.0.1.length=356346
+outputs.0.1.checksums.sha512=a5fc910d2f134993442808304847d954dc0f2960f7ebf6fb4d55bbb336426d35f74630789adcfd37453fb89b7410ff21ba499a65cde4dbde4a7064b4b8c4fc61
+
+outputs.1.coordinates=org.apache.maven:maven-jxr
+
+outputs.1.0.filename=maven-jxr-3.0.0.jar
+outputs.1.0.length=71705
+outputs.1.0.checksums.sha512=d441ad49a30b9eddd1e75af2b75de39c2d81250cc5f69395d0b8f06bb6ebceaa7b6b5316f6d33ce5d3a30a11056cb7b26d30e7be7e4f5e2d57275cc99881f624
+
+outputs.1.1.filename=maven-jxr-3.0.0-sources.jar
+outputs.1.1.length=72231
+outputs.1.1.checksums.sha512=7c505860f4cd1bb6fbf6c30686f584ea37c3fa4fedde1df5b2b0a00a7b067f906abe1aa3c964028ad84b5217c7a128ada8eb4b0b7c1c25267d3f48f2e69d5d21
+
+outputs.2.coordinates=org.apache.maven.plugins:maven-jxr-plugin
+
+outputs.2.0.filename=maven-jxr-plugin-3.0.0.jar
+outputs.2.0.length=67048
+outputs.2.0.checksums.sha512=654e9c1f6885860b6f5d94eb9b342bee126873f2b1963eb0186cc6439931b4c7f90d3f988f26ab81b2a6836bd4be517aefac2b7b7ea867feece16f95a5cb2573
+
+outputs.2.1.filename=maven-jxr-plugin-3.0.0-sources.jar
+outputs.2.1.length=57009
+outputs.2.1.checksums.sha512=3d3290acc43d2b2b4d232cd487b57022653b7450b83d7dff4b79c54bc5b70a478b1a02e73d366c1146de9ec295201929e94447ad281285c3ffe67632d311b37f

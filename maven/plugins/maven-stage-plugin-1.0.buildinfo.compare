@@ -1,0 +1,5 @@
+version=1.0
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-stage-plugin-1.0-sources.jar maven-stage-plugin-1.0-source-release.zip maven-stage-plugin-1.0.jar"
