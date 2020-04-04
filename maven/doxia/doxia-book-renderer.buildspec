@@ -1,4 +1,4 @@
-groupId=org.apache.maven.doxia-book-renderer
+groupId=org.apache.maven.doxia
 artifactId=doxia-book-renderer
 version=master
 

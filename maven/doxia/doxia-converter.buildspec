@@ -1,4 +1,4 @@
-groupId=org.apache.maven.doxia-converter
+groupId=org.apache.maven.doxia
 artifactId=doxia-converter
 version=master
 

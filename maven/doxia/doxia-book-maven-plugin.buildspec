@@ -1,4 +1,4 @@
-groupId=org.apache.maven.doxia-book-maven-plugin
+groupId=org.apache.maven.doxia
 artifactId=doxia-book-maven-plugin
 version=master
 
