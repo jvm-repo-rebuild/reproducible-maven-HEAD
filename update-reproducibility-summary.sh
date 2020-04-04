@@ -43,16 +43,21 @@ do
   sumOk=$(($sumOk + ${ok}))
   sumKo=$(($sumKo + ${ko}))
 done
-echo -n "|  |  | **${count} = ${countOk} :heavy_check_mark: + $((${count}-${countOk})) :warning:** "
+echo -n "|  | **${count} = ${countOk} :heavy_check_mark: + $((${count}-${countOk})) :warning:** "
 echo -n "| **$((${countOk}*100/${count}))% :heavy_check_mark:** "
 echo "|  | **${sumOk} :heavy_check_mark: ${sumKo} :warning:** |"
+echo "**Total: ${count} sub-projects = ${countOk} :heavy_check_mark: + $((${count}-${countOk})) :warning:
+   = $((${countOk}*100/${count}))% :heavy_check_mark:**
+   " > summary.md
 ) > summary-table.md
 
 lead='^<!-- BEGIN GENERATED CONTENT -->$'
 tail='^<!-- END GENERATED CONTENT -->$'
-sed -e "/$lead/,/$tail/{ /$lead/{p; r summary-table.md
+sed -e "/$lead/,/$tail/{ /$lead/{p; r summary.md
+        r summary-table.md
         }; /$tail/p; d }" README.md > README.md.tmp
 
 mv README.md.tmp README.md
 
+rm summary.md
 rm summary-table.md

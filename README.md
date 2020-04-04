@@ -12,6 +12,9 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 ## Results
 
 <!-- BEGIN GENERATED CONTENT -->
+**Total: 85 sub-projects = 23 :heavy_check_mark: + 62 :warning:
+   = 27% :heavy_check_mark:**
+   
 | groupId | artifactId | build | version | Repro |
 | ------- | ------------------ | ----- | ------- | ----- |
 | | **dist = [maven/archetype](https://downloads.apache.org/maven/archetype)** 
@@ -115,5 +118,5 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [surefire](https://repo.maven.apache.org/maven2/org/apache/maven/surefire) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/surefire/surefire.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/surefire-shared-utils-3.0.0-SNAPSHOT.buildinfo) | 3.0.0-SNAPSHOT | 2 :heavy_check_mark:  48 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/surefire/surefire-shared-utils-*.buildinfo.compare) |
 | | **dist = [maven/wagon](https://downloads.apache.org/maven/wagon)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [wagon](https://repo.maven.apache.org/maven2/org/apache/maven/wagon) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/wagon-webdav-jackrabbit-3.4.0-SNAPSHOT.buildinfo) | 3.4.0-SNAPSHOT | 3 :heavy_check_mark:  30 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon-webdav-jackrabbit-*.buildinfo.compare) |
-|  |  | **85 = 23 :heavy_check_mark: + 62 :warning:** | **27% :heavy_check_mark:** |  | **217 :heavy_check_mark: 361 :warning:** |
+|  | **85 = 23 :heavy_check_mark: + 62 :warning:** | **27% :heavy_check_mark:** |  | **217 :heavy_check_mark: 361 :warning:** |
 <!-- END GENERATED CONTENT -->
