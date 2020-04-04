@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven
+artifact-id=maven-archiver
+version=3.5.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-archiver.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-archiver-3.5.1-SNAPSHOT.jar
+outputs.0.length=25478
+outputs.0.checksums.sha512=3d51ce61e54e245cf1b4dda28172690280d05cae910d2fd932564c1ea1e3937eba91b9ec5395fecf5b5a838d651bcbbb497c1f09bf11778204ddc31d47dd49d4
+
+outputs.1.filename=maven-archiver-3.5.1-SNAPSHOT-source-release.zip
+outputs.1.length=283065
+outputs.1.checksums.sha512=b40e2104636149a65c0eb97d242073e90340adabdef0282e81ea20cd05236f84aa180f49b6a58e5977151311a2df46f5af091be01691897bf5e7854b69c627a8
+
+outputs.2.filename=maven-archiver-3.5.1-SNAPSHOT-sources.jar
+outputs.2.length=23737
+outputs.2.checksums.sha512=29de3a96b303ab2b2ac055251cb65342f6851e885d6c59e35b504f8d459be63952e4784e5ee1dcdec68a20f354ba3e5072ee08539bcd75c3d294c69c22a09f5d

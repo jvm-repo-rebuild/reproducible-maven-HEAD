@@ -1,0 +1,4 @@
+ok=0
+ko=3
+okFiles=""
+koFiles="maven-archiver-3.5.1-SNAPSHOT.jar maven-archiver-3.5.1-SNAPSHOT-source-release.zip maven-archiver-3.5.1-SNAPSHOT-sources.jar"
