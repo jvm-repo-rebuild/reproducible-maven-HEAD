@@ -17,7 +17,7 @@ Total: Apache Maven consists in 89 sub-projects:
 - **Latest release Reproducibility: 85 = 7 :heavy_check_mark: + 78 :warning:
    = 8% :heavy_check_mark:**
 
-- **HEAD Reproducibility: 89 = 27 :heavy_check_mark: + 62 :warning:
+- **HEAD SNAPSHOT Reproducibility: 89 = 27 :heavy_check_mark: + 62 :warning:
    = 30% :heavy_check_mark:**
    
 | groupId | artifactId: buildspec  | latest release: Reproducibility | HEAD version: Reproducibility |

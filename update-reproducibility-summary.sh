@@ -77,7 +77,7 @@ echo "Total: Apache Maven consists in ${count} sub-projects:
 - **Latest release Reproducibility: ${countLatest} = ${countLatestOk} :heavy_check_mark: + $((${countLatest}-${countLatestOk})) :warning:
    = $((${countLatestOk}*100/${countLatest}))% :heavy_check_mark:**
 
-- **HEAD Reproducibility: ${count} = ${countHEADOk} :heavy_check_mark: + $((${count}-${countHEADOk})) :warning:
+- **HEAD SNAPSHOT Reproducibility: ${count} = ${countHEADOk} :heavy_check_mark: + $((${count}-${countHEADOk})) :warning:
    = $((${countHEADOk}*100/${count}))% :heavy_check_mark:**
    " > summary.md
 ) > summary-table.md
