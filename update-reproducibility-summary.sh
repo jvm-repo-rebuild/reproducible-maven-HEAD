@@ -1,21 +1,28 @@
 #!/bin/bash
 
-cat <(echo "| dist | groupId | artifactId | build | version | Repro |"
-echo "| ---- | ------- | ------------------ | ----- | ------- | ----- |"
+cat <(echo "| groupId | artifactId | build | version | Repro |"
+echo "| ------- | ------------------ | ----- | ------- | ----- |"
 
 count=0
 countOk=0
 sumOk=0
 sumKo=0
+prevDist=""
 for buildspec in `find maven -name *.buildspec -print | sort`
 do
   count=$(($count+1))
   . $buildspec
 
+  dist="`dirname ${buildspec}`"
+  if [ "${prevDist}" != "${dist}" ]; then
+    echo -n "| "
+    echo "| **dist = [${dist}](https://downloads.apache.org/`dirname ${buildspec}`)** "
+    prevDist="${dist}"
+  fi
+
   groupDir=$(echo ${groupId} | tr '.' '/')
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
 
-  echo -n "| [`dirname ${buildspec} | cut -c 7- | sed s/plugin-/p-/`](https://downloads.apache.org/`dirname ${buildspec}`) "
   echo -n "| [`echo ${groupId} | sed s/org.apache.maven/m/`](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildspec}) "
