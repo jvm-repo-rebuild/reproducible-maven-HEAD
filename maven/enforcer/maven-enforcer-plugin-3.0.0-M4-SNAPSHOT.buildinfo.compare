@@ -1,0 +1,5 @@
+version=3.0.0-M4-SNAPSHOT
+ok=1
+ko=8
+okFiles="enforcer-3.0.0-M4-SNAPSHOT-site.xml"
+koFiles="enforcer-rules-3.0.0-M4-SNAPSHOT-tests.jar enforcer-rules-3.0.0-M4-SNAPSHOT.jar enforcer-rules-3.0.0-M4-SNAPSHOT-sources.jar maven-enforcer-plugin-3.0.0-M4-SNAPSHOT-sources.jar maven-enforcer-plugin-3.0.0-M4-SNAPSHOT.jar enforcer-api-3.0.0-M4-SNAPSHOT-sources.jar enforcer-3.0.0-M4-SNAPSHOT-source-release.zip enforcer-api-3.0.0-M4-SNAPSHOT.jar"

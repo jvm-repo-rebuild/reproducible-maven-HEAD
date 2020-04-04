@@ -1,0 +1,90 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Archetype
+group-id=org.apache.maven.archetype
+artifact-id=maven-archetype
+version=3.1.3-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-archetype.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.archetype:maven-archetype
+
+outputs.0.0.filename=maven-archetype-3.1.3-SNAPSHOT-site.xml
+outputs.0.0.length=2301
+outputs.0.0.checksums.sha512=c3e530a5c2891eb01fb5fb162d1785651cd81e4280d19e65654a15580e524b3e27b67e329042c93bd479a10249579b1e921fe5315d4f141405e3cd142d805599
+
+outputs.0.1.filename=maven-archetype-3.1.3-SNAPSHOT-source-release.zip
+outputs.0.1.length=883496
+outputs.0.1.checksums.sha512=c74afc1ffb07c0e087cd503158634ce670786d7cdecd58ad605af821361c99af2ccf6780a3d07775334641f115acb9c91219987a8b5a5a4280a82b7ece8e951f
+
+outputs.1.coordinates=org.apache.maven.archetype:archetype-models
+
+outputs.1.0.filename=archetype-models-3.1.3-SNAPSHOT-site.xml
+outputs.1.0.length=1419
+outputs.1.0.checksums.sha512=685eca04992578ef7d1a735a2def0fb9832f187892229e8eab0a056ad48eb883a924c83fef1fa2974d85b13effddcc47806dae99872ec5f658d67fbaef10f065
+
+outputs.2.coordinates=org.apache.maven.archetype:archetype-catalog
+
+outputs.2.0.filename=archetype-catalog-3.1.3-SNAPSHOT.jar
+outputs.2.0.length=18910
+outputs.2.0.checksums.sha512=ad359711cea27047e351e5db60edda9fe0547a5d78f63e2bc8f837197c1a3a4be5e48a1746dd738dbf7469e8408635951c9a7d2ad6096e64e3f3ecf1c15fd25e
+
+outputs.2.1.filename=archetype-catalog-3.1.3-SNAPSHOT-sources.jar
+outputs.2.1.length=15277
+outputs.2.1.checksums.sha512=a3e39918629cf33aa15dc7bb1b217e27c303bc9194a4acf731c734c4b4318989a77af49ad4e9d9add06d337209e19c6fd1a20a1903c27d0a7d11862aee730a68
+
+outputs.3.coordinates=org.apache.maven.archetype:archetype-descriptor
+
+outputs.3.0.filename=archetype-descriptor-3.1.3-SNAPSHOT.jar
+outputs.3.0.length=23718
+outputs.3.0.checksums.sha512=4a882b43f477b1764b9f7805d8501120cbb72233d277e55e74a45e06bfe9d188369915d06cf48b5f4509a371180efb1004557bd6c4d31860a8a6ccccd6780fc0
+
+outputs.3.1.filename=archetype-descriptor-3.1.3-SNAPSHOT-sources.jar
+outputs.3.1.length=19226
+outputs.3.1.checksums.sha512=f9af75a3b0006f86458f5ee63e32fe49c17d9f61db388eb40c20985bfd7914cd5ab2e721bb631fe0376421e40e74eb3e6a75fc06a8c5a092c8fb6ef2bfd7b99b
+
+outputs.4.coordinates=org.apache.maven.archetype:archetype-common
+
+outputs.4.0.filename=archetype-common-3.1.3-SNAPSHOT.jar
+outputs.4.0.length=183594
+outputs.4.0.checksums.sha512=7f4c46aeb7607b0b45911ad9afc0d1fc735f44d3f90748138cf7060466fd7d65b4df112b511bc0670464a3d0897137406066f43cb5362715ed3bb39c882cdacf
+
+outputs.4.1.filename=archetype-common-3.1.3-SNAPSHOT-sources.jar
+outputs.4.1.length=148448
+outputs.4.1.checksums.sha512=5f7afa70fbe8032b9d3a0f08dc4a8aa480608784486a42fbb43e6b4747800148cbe3f8c771d1650fbb5b993862e50bb26ac062dba2f843d3d256c3b6d0be45bc
+
+outputs.5.coordinates=org.apache.maven.archetype:archetype-packaging
+
+outputs.5.0.filename=archetype-packaging-3.1.3-SNAPSHOT.jar
+outputs.5.0.length=7326
+outputs.5.0.checksums.sha512=efa2a0d8d232fa4af9d1ba980e010096d49e5436cc47c48ff2dab23de49c2f727d89bfff999a0359fdeb5c49ad1c5f32c351fcea5035c9554672087dcb04d68b
+
+outputs.5.1.filename=archetype-packaging-3.1.3-SNAPSHOT-sources.jar
+outputs.5.1.length=7685
+outputs.5.1.checksums.sha512=51c5e979640c0bd24d0a9238e4124e6b67a1ef0cb3d25b500247b1c0ef8878496df9ba74b813c9ac4714a9f1a6a10a108041095cbbd5b629fb01e8f664fdfca8
+
+outputs.6.coordinates=org.apache.maven.plugins:maven-archetype-plugin
+
+outputs.6.0.filename=maven-archetype-plugin-3.1.3-SNAPSHOT.jar
+outputs.6.0.length=96122
+outputs.6.0.checksums.sha512=5f7fbe4765d55226b0e5d46abac15af17adb68bd0355ee0f76d39945527f60d36be6eb292bae44d036118458aba49f16d47f3add7ac3ae293ea845184c3643af
+
+outputs.6.1.filename=maven-archetype-plugin-3.1.3-SNAPSHOT-sources.jar
+outputs.6.1.length=68417
+outputs.6.1.checksums.sha512=470f6d4230577d0eef4c989cb01e86d01ce0855e6281383073b5f629b06cb4b38207725dd88f490bef39faab6950856af349e7343634e82c61e3646bbcd24c1f

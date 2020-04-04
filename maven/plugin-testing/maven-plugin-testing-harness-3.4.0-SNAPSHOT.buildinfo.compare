@@ -1,0 +1,5 @@
+version=3.4.0-SNAPSHOT
+ok=1
+ko=3
+okFiles="maven-plugin-testing-3.4.0-SNAPSHOT-site.xml"
+koFiles="maven-plugin-testing-3.4.0-SNAPSHOT-source-release.zip maven-plugin-testing-harness-3.4.0-SNAPSHOT.jar maven-plugin-testing-harness-3.4.0-SNAPSHOT-sources.jar"

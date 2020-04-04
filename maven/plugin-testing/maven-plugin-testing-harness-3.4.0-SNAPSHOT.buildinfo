@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Plugin Testing
+group-id=org.apache.maven.plugin-testing
+artifact-id=maven-plugin-testing
+version=3.4.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-plugin-testing.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.1.1
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing
+
+outputs.0.0.filename=maven-plugin-testing-3.4.0-SNAPSHOT-site.xml
+outputs.0.0.length=1450
+outputs.0.0.checksums.sha512=ab8c9274ff18021bd129c5327ae94c48c1ed7a7af4e5382ae75fbb6eb1698ec9b8a7d75f8af02288b92d8093c28e78357362190a47b70098d7eabb2a355d7b73
+
+outputs.0.1.filename=maven-plugin-testing-3.4.0-SNAPSHOT-source-release.zip
+outputs.0.1.length=92621
+outputs.0.1.checksums.sha512=d4d2c10393578d4d8e16fa7a7b579bddcb618e172cb0fefce34397d18c2e9f1052b97d9857873e96606d2cbee6e504865a19abd8ce8128ec8f25bc4646ec3f30
+
+outputs.1.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing-harness
+
+outputs.1.0.filename=maven-plugin-testing-harness-3.4.0-SNAPSHOT.jar
+outputs.1.0.length=51306
+outputs.1.0.checksums.sha512=c1ed07289dc5408461388278e1963544c86d8fa2881839639a0743926f0c938cfc1463eb1cb2ecc522df4362af90a2bb474739a8f26ebf57602fafc954954eeb
+
+outputs.1.1.filename=maven-plugin-testing-harness-3.4.0-SNAPSHOT-sources.jar
+outputs.1.1.length=43958
+outputs.1.1.checksums.sha512=3c014fb8c8b2f20c15d06fa16fa37cd31ae2d2813d1833c878cc39e71976bff0562c49305403e77b52676fcbcdfc6b5ab51d7de038cebc560f3bd0a73c509291
+
+outputs.1.2.filename=maven-plugin-testing-harness-3.4.0-SNAPSHOT-sources.jar
+outputs.1.2.length=43958
+outputs.1.2.checksums.sha512=3c014fb8c8b2f20c15d06fa16fa37cd31ae2d2813d1833c878cc39e71976bff0562c49305403e77b52676fcbcdfc6b5ab51d7de038cebc560f3bd0a73c509291

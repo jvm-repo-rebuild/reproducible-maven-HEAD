@@ -1,0 +1,84 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Release
+group-id=org.apache.maven.release
+artifact-id=maven-release
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-release.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.release:maven-release
+
+outputs.0.0.filename=maven-release-3.0.0-SNAPSHOT-site.xml
+outputs.0.0.length=1435
+outputs.0.0.checksums.sha512=ce15a8de4ac0e248119723ca493c6ef506c61aeb40cdc273ea1113a24d988b549f41fc7376371dbc6a47513de9d8e2132dcecec58e0645524ec0df63f94b28c6
+
+outputs.0.1.filename=maven-release-3.0.0-SNAPSHOT-source-release.zip
+outputs.0.1.length=1767443
+outputs.0.1.checksums.sha512=7d517c76c11cc1c64ed8a8c023c33638c310cb1a14b1401154aa5a2f557b589b0364b35e2598a5d93ac33a6e1bc317dbb6dc08d5f0f8565e6a705ae62aba40d2
+
+outputs.1.coordinates=org.apache.maven.release:maven-release-api
+
+outputs.1.0.filename=maven-release-api-3.0.0-SNAPSHOT.jar
+outputs.1.0.length=26276
+outputs.1.0.checksums.sha512=6ba4961fe3bc242b915f27b8247be64838d87a64d58c376bbbc4fb48a3d6ebde30a8a555185c3b720a16d178e00cc1742ed71458be109f6a4cd00a4d31a54024
+
+outputs.1.1.filename=maven-release-api-3.0.0-SNAPSHOT-sources.jar
+outputs.1.1.length=33825
+outputs.1.1.checksums.sha512=66a60ce860007641464854ec9aba37b6797d63241a2f38a812e1340d7ccd66a32081dfaf0dcb689a54d126aabad80d9d8e4eb156f5d2f59dbcda8e2c46da35f3
+
+outputs.2.coordinates=org.apache.maven.release:maven-release-manager
+
+outputs.2.0.filename=maven-release-manager-3.0.0-SNAPSHOT.jar
+outputs.2.0.length=231871
+outputs.2.0.checksums.sha512=2fea5d78463d51634a542836df6875855420271e4fb3a8d427ed0af317b343253cb478b0afad03277bb3bad3fda3ad1b2b04050bac1f965aef1e5b2b45c9ba33
+
+outputs.2.1.filename=maven-release-manager-3.0.0-SNAPSHOT-sources.jar
+outputs.2.1.length=194605
+outputs.2.1.checksums.sha512=cf299e8b4dc203783178027998987cc86992be3b4d7e7d4c68b85ee86c86095737ef54e1e703e3f412aeb646f97f1a4118dd49babf6c369bb07a1e12fa711611
+
+outputs.3.coordinates=org.apache.maven.release:maven-release-oddeven-policy
+
+outputs.3.0.filename=maven-release-oddeven-policy-3.0.0-SNAPSHOT.jar
+outputs.3.0.length=11422
+outputs.3.0.checksums.sha512=b6e743a09e6b26e8384a7ccf4086e6ebd16f3dbe776c3468b0ecafe88c44ed8bec0f333002d6c08950f34723fe0713b176e896a970f46318fe3586d3a172ae15
+
+outputs.3.1.filename=maven-release-oddeven-policy-3.0.0-SNAPSHOT-sources.jar
+outputs.3.1.length=11304
+outputs.3.1.checksums.sha512=f5d675498147bea4312ba77a2b3aae5a31ed7c4310abe388c0302f6365f90a8c4ac393e80cf39c8625b20da3c9920e164cb0e6bf5862b89c7d654310ffa0853b
+
+outputs.4.coordinates=org.apache.maven.release:maven-release-semver-policy
+
+outputs.4.0.filename=maven-release-semver-policy-3.0.0-SNAPSHOT.jar
+outputs.4.0.length=10703
+outputs.4.0.checksums.sha512=bb7c2791a963c94319abdd3fea37eb22f32b39b5bc1f1b981ab327b6d252b93c5a9dfdb34d49ec9a85a2257968c5e25dd1254f44d5f4cc9d8c6639270795a765
+
+outputs.4.1.filename=maven-release-semver-policy-3.0.0-SNAPSHOT-sources.jar
+outputs.4.1.length=10032
+outputs.4.1.checksums.sha512=ac7dfabd39267b11942b3030b961be404c7d7197ac11fd13fd1099df4825b5b35fb6aa90ce931aed3f2d6a0def16a5f24a077bf4e259c8ae9f885bb58ab0f5d9
+
+outputs.5.coordinates=org.apache.maven.plugins:maven-release-plugin
+
+outputs.5.0.filename=maven-release-plugin-3.0.0-SNAPSHOT.jar
+outputs.5.0.length=59529
+outputs.5.0.checksums.sha512=fef17a95650971c718d331ce97a7aa80c790f8be5a69d89322473bb620d2bbfbc4b652d87a80ca36830a0eacea8ad2178f0049f9439fe17d04d40ddc9fedb4a2
+
+outputs.5.1.filename=maven-release-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.5.1.length=37867
+outputs.5.1.checksums.sha512=6aaf3c03555c92b8621a5bad2f0fa8fc08d27d86666aaef0016c163de3608ae2127141d90dfa6bc0a17bafc93ce23dbf96a4b1600ad78c3e7eee59e44ea9cda2

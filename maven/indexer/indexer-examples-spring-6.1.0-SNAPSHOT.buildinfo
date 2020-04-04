@@ -1,0 +1,90 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven-Indexer
+group-id=org.apache.maven.indexer
+artifact-id=maven-indexer
+version=6.1.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-indexer.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.indexer:maven-indexer
+
+outputs.0.0.filename=maven-indexer-6.1.0-SNAPSHOT-site.xml
+outputs.0.0.length=1974
+outputs.0.0.checksums.sha512=b20e3d566b2a839887ceb46560e336ce75b450ec9c5227b90605465f59c744ee84ac18a4556f5cfbcc80ac99d4e88384871ee7c42cd21659920ee642e2b50600
+
+outputs.0.1.filename=maven-indexer-6.1.0-SNAPSHOT-source-release.zip
+outputs.0.1.length=17228306
+outputs.0.1.checksums.sha512=02da889dcb96272670d144a040263668f81f514e8397006718882ab0986873dcbf9ebddb8a0ee3b9c773a602867dca7bfd35527a298f050a7bdde2d818d7467b
+
+outputs.1.coordinates=org.apache.maven.indexer:indexer-core
+
+outputs.1.0.filename=indexer-core-6.1.0-SNAPSHOT.jar
+outputs.1.0.length=253799
+outputs.1.0.checksums.sha512=d6859930f10f17cd725f669da9fa9f3fe77b904e942af935d617410683ad5fbdadce0d956d40aded7dcc1d93cb9edebc0fd468f21e19fb91628c060df96f4de3
+
+outputs.1.1.filename=indexer-core-6.1.0-SNAPSHOT-sources.jar
+outputs.1.1.length=218878
+outputs.1.1.checksums.sha512=67a41ba3335b579374d7810c904c3476f25b872682d7bb9883b0d6164e58425ea60ac105d5d02d6ca81fa1cfe7c2d63be4718394d24e3dfb47725f5a6deaa174
+
+outputs.1.2.filename=indexer-core-6.1.0-SNAPSHOT-shaded-lucene.jar
+outputs.1.2.length=5973866
+outputs.1.2.checksums.sha512=74475f610afcf5e608189428499c362cf50a691868bc97bc02e56a7b4fd33802a5e86afefe70e7bce29cc3ca4067f1412893a4761e3c65135ebf69dc8c217533
+
+outputs.2.coordinates=org.apache.maven.indexer:indexer-cli
+
+outputs.2.0.filename=indexer-cli-6.1.0-SNAPSHOT.jar
+outputs.2.0.length=10918111
+outputs.2.0.checksums.sha512=07422b4c2b61415f642e21eff950482dec74936cd7fcea84baac8e7a7db4eb5d7a15513cde815f947c71b82d2bc0db7192c3fa9dce569fc4827bd0e82f8543d5
+
+outputs.2.1.filename=indexer-cli-6.1.0-SNAPSHOT-sources.jar
+outputs.2.1.length=15421
+outputs.2.1.checksums.sha512=5c6165bf106d789847681c04b5658dc9af3a401f247960ce12f519445fb0d41296df51607ebe5c44d8d22e1d2a42bdf91d0ee99c857f276a5741b62eb275e2ab
+
+outputs.3.coordinates=org.apache.maven.indexer:indexer-reader
+
+outputs.3.0.filename=indexer-reader-6.1.0-SNAPSHOT.jar
+outputs.3.0.length=38658
+outputs.3.0.checksums.sha512=29373c91373c468f001c08b1d97c0b3be16f549ae6314403aca22c219708df0fc897301c055542ec5c7f5cb6f69d023d0da01c3527f1473a7533943804678ed0
+
+outputs.3.1.filename=indexer-reader-6.1.0-SNAPSHOT-sources.jar
+outputs.3.1.length=29970
+outputs.3.1.checksums.sha512=6a26b506a8f4b3c4752c8d73646d392c27a49e5212500e51180fccaaf227594011a74819aff54bc87d9e420984200a8ec3e15c63a75563ef986160c8ad630160
+
+outputs.4.coordinates=org.apache.maven.indexer:maven-indexer-examples
+
+outputs.5.coordinates=org.apache.maven.indexer:indexer-examples-basic
+
+outputs.5.0.filename=indexer-examples-basic-6.1.0-SNAPSHOT.jar
+outputs.5.0.length=16639
+outputs.5.0.checksums.sha512=5db4c87b5ea9c4da122aa0a62683c021ca8c7e5da16b2a380c566ec7a80118123565e38d8a9d02eb128591a7c860e81425fcbf1108a8c67568b70aca770192eb
+
+outputs.5.1.filename=indexer-examples-basic-6.1.0-SNAPSHOT-sources.jar
+outputs.5.1.length=13598
+outputs.5.1.checksums.sha512=bcfd8461a391d56f9fdb36e680720071a4a92392f5a15bb3f1a3c89e80f38b6458ac203576142bef9af0d52a405d933365ba1d9dfc99bfeaa1ac9230e14da830
+
+outputs.6.coordinates=org.apache.maven.indexer:indexer-examples-spring
+
+outputs.6.0.filename=indexer-examples-spring-6.1.0-SNAPSHOT.jar
+outputs.6.0.length=26876
+outputs.6.0.checksums.sha512=a7b509eaadfd706b5c8fc2f3509be9581bc319e69fe5a5c9ec917e9e4b78b60cda8500ca8bcc4c78913ef26af47e0afb5b8bb5343a8549f2c09a774c6c950ee4
+
+outputs.6.1.filename=indexer-examples-spring-6.1.0-SNAPSHOT-sources.jar
+outputs.6.1.length=22504
+outputs.6.1.checksums.sha512=375dc5936b81258b35ce000226333e34ebb76d0b1bde6fa67e75713433e13cc05d840ae586f3be8a35ba51c9cbb585f113dd47fc67532b18bca4b870c269bb47
