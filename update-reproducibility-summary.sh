@@ -26,14 +26,14 @@ do
   echo -n "| [`echo ${groupId} | sed s/org.apache.maven/m/`](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildspec}) "
-  [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/"`basename ${buildinfo}`") "
+  [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/"`ls ${buildinfo}`") "
 
   . ${buildinfo}.compare
   echo -n "| ${version} "
   if [ $? -eq 0 ]; then
     echo -n "| "
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
-    [ ${ko} -gt 0 ] && echo -n " ${ko} [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildinfo}.compare) "
+    [ ${ko} -gt 0 ] && echo -n " ${ko} [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/`ls ${buildinfo}.compare`) "
   else
     echo -n "| :x: "
   fi
