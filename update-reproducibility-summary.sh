@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| groupId | artifactId | build | version | Reproducibility |"
-echo "| ------- | ------------------ | ----- | ------- | ----- |"
+cat <(echo "| groupId | artifactId | build | HEAD version | Reproducibility |"
+echo "| ------- | ------------------ | ----- | ------------ | ----- |"
 
 count=0
 countOk=0

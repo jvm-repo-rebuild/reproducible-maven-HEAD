@@ -15,8 +15,8 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 **Total: 89 sub-projects = 26 :heavy_check_mark: + 63 :warning:
    = 29% :heavy_check_mark:**
    
-| groupId | artifactId | build | version | Reproducibility |
-| ------- | ------------------ | ----- | ------- | ----- |
+| groupId | artifactId | build | HEAD version | Reproducibility |
+| ------- | ------------------ | ----- | ------------ | ----- |
 | | **dist = [maven/archetype](https://downloads.apache.org/maven/archetype)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [archetype](https://repo.maven.apache.org/maven2/org/apache/maven/archetype) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/archetype/archetype.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-archetype-plugin-3.1.3-SNAPSHOT.buildinfo) | 3.1.3-SNAPSHOT | 13 :heavy_check_mark: |
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [archetypes](https://repo.maven.apache.org/maven2/org/apache/maven/archetypes) | [spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/archetype/archetype-bundles.buildspec) / [info](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven-archetype-webapp-1.5-SNAPSHOT.buildinfo) | 1.5-SNAPSHOT | 1 :heavy_check_mark:  23 [:warning:](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/archetype/maven-archetype-webapp-*.buildinfo.compare) |
