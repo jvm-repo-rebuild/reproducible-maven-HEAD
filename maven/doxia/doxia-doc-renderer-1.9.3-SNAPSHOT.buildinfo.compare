@@ -1,0 +1,5 @@
+version=1.9.3-SNAPSHOT
+ok=12
+ko=0
+okFiles="doxia-site-renderer-1.9.3-SNAPSHOT-sources.jar doxia-skin-model-1.9.3-SNAPSHOT-sources.jar doxia-sitetools-1.9.3-SNAPSHOT-site.xml doxia-integration-tools-1.9.3-SNAPSHOT.jar doxia-doc-renderer-1.9.3-SNAPSHOT-sources.jar doxia-decoration-model-1.9.3-SNAPSHOT.jar doxia-integration-tools-1.9.3-SNAPSHOT-sources.jar doxia-site-renderer-1.9.3-SNAPSHOT.jar doxia-skin-model-1.9.3-SNAPSHOT.jar doxia-sitetools-1.9.3-SNAPSHOT-source-release.zip doxia-decoration-model-1.9.3-SNAPSHOT-sources.jar doxia-doc-renderer-1.9.3-SNAPSHOT.jar"
+koFiles=""
