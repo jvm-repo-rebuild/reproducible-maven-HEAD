@@ -6,11 +6,28 @@ fatal()
   exit 1
 }
 
+usage()
+{
+  echo "usage: $0 [-r] <file.buildspec>
+  -r: rebuild also latest release" 1>&2
+  exit 1
+}
+
+rebuildLatest='false'
+while getopts ":r" option; do
+  case "${option}" in
+    r)
+      rebuildLatest='true'
+      ;;
+    *)
+      usage
+      ;;
+  esac
+done
+shift $((OPTIND-1))
+
 buildspec=$1
-if [ -z "${buildspec}" ]
-then
-  fatal "usage: buildspec"
-fi
+[ -z "${buildspec}" ] && usage
 
 # known limitation: can't rebuild Windows reference artifact
 # because we need to do Git checkout with Windows newlines (at least for pom.xml)
@@ -64,7 +81,7 @@ mvnBuildDocker() {
   esac
 
   echo "Rebuilding using Docker image ${mvnImage}"
-  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
+  local docker_command="docker run -it --rm --name rebuild-maven -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
   local mvn_docker_params="-Duser.home=/var/maven"
   if [ "${newline}" == "crlf" ]
   then
@@ -93,20 +110,30 @@ mvnBuildLocal() {
 #   jenv shell ${jdk}
 #   sdk use java ${jdk}
 
-# git checkout latest then rebuild latest
-if [ "${latest}" == "" ]
+if ${rebuildLatest}
 then
-  gitTag="`git describe --abbrev=0`"
-  version="${gitTag}"
-else
-  version="${latest}"
+  echo "******************************************************"
+  echo "* rebuilding latest release and comparing to central *"
+  echo "******************************************************"
+  # git checkout latest tag then rebuild latest release
+  if [ -z "${latest}" ]
+  then
+    # auto-detect last Git tag
+    gitTag="`git describe --abbrev=0`"
+    version="${gitTag}"
+  else
+    version="${latest}"
+  fi
+  git checkout ${gitTag} || fatal "failed to git checkout latest ${version}"
+  mvnBuildDocker "${mvn_rebuild_latest}" || fatal "failed to build latest"
+
+  cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
 fi
-git checkout ${gitTag} || fatal "failed to git checkout latest ${version}"
-mvnBuildDocker "${mvn_rebuild_latest}" || fatal "failed to build latest"
 
-cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
-
-# git checkout master then rebuild HEAD twice
+echo "*******************************************************"
+echo "* rebuilding master HEAD SNAPSHOT twice and comparing *"
+echo "*******************************************************"
+# git checkout master then rebuild HEAD SNAPSHOT twice
 git checkout master || fatal "failed to git checkout master"
 mvnBuildDocker "${mvn_rebuild_1}" || fatal "failed to build first time"
 mvnBuildDocker "${mvn_rebuild_2}" || fatal "failed to build second time"
