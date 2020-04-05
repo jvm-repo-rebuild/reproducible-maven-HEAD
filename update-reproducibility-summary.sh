@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| groupId | artifactId: buildspec  | latest release: Reproducibility | HEAD version: Reproducibility |"
-echo "| ------- | ------------------------- | ----------------- | ----------------- |"
+cat <(echo "| groupId | artifactId (buildspec, Git)  | latest release | master HEAD SNAPSHOT |"
+echo "| ------- | ------------------------------ | ----------------- | ----------------- |"
 
 count=0
 countHEADOk=0
@@ -27,8 +27,9 @@ do
   groupDir=$(echo ${groupId} | tr '.' '/')
 
   echo -n "| [`echo ${groupId} | sed s/org.apache.maven/m/`](https://repo.maven.apache.org/maven2/${groupDir}) "
-  echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}): "
-  echo -n "[spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildspec}) "
+  echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
+  echo -n "([spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/${buildspec}), "
+  echo -n "[Git](${gitRepo})) "
 
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
   b=`echo "${buildinfo}" | sed s/-SNAPSHOT//`
@@ -72,13 +73,15 @@ echo -n "${sumLatestOk} :heavy_check_mark: ${sumLatestKo} :warning:** "
 echo -n "| **${count}: ${countHEADOk} :heavy_check_mark: + $((${count}-${countHEADOk})) :warning: = "
 echo -n "$((${countHEADOk}*100/${count}))% :heavy_check_mark:: "
 echo "${sumHEADOk} :heavy_check_mark: ${sumHEADKo} :warning:** |"
-echo "Total: Apache Maven consists in ${count} sub-projects:
+echo "Apache Maven consists in ${count} sub-projects:
 
-- **Latest release Reproducibility: ${countLatest} = ${countLatestOk} :heavy_check_mark: + $((${countLatest}-${countLatestOk})) :warning:
+- **Latest release: ${countLatest} = ${countLatestOk} :heavy_check_mark: + $((${countLatest}-${countLatestOk})) :warning:
    = $((${countLatestOk}*100/${countLatest}))% :heavy_check_mark:**
 
-- **HEAD SNAPSHOT Reproducibility: ${count} = ${countHEADOk} :heavy_check_mark: + $((${count}-${countHEADOk})) :warning:
+- **master HEAD SNAPSHOT: ${count} = ${countHEADOk} :heavy_check_mark: + $((${count}-${countHEADOk})) :warning:
    = $((${countHEADOk}*100/${count}))% :heavy_check_mark:**
+
+   sub-projects details:
    " > summary.md
 ) > summary-table.md
 
