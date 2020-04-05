@@ -130,14 +130,25 @@ then
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
 fi
 
-echo "*******************************************************"
-echo "* rebuilding master HEAD SNAPSHOT twice and comparing *"
-echo "*******************************************************"
-# git checkout master then rebuild HEAD SNAPSHOT twice
 git checkout master || fatal "failed to git checkout master"
-mvnBuildDocker "${mvn_rebuild_1}" || fatal "failed to build first time"
-mvnBuildDocker "${mvn_rebuild_2}" || fatal "failed to build second time"
+currentCommit="`git rev-parse HEAD`"
+prevCommitFile="../`basename $(pwd)`.HEAD"
+if [ "${currentCommit}" == "`cat ${prevCommitFile}`" ]
+then
+  echo "*******************************************"
+  echo "* no new commit on HEAD, skipping rebuild *"
+  echo "*******************************************"
+else
+  echo "*******************************************************"
+  echo "* rebuilding master HEAD SNAPSHOT twice and comparing *"
+  echo "*******************************************************"
+  # git checkout master then rebuild HEAD SNAPSHOT twice
+  mvnBuildDocker "${mvn_rebuild_1}" || fatal "failed to build first time"
+  mvnBuildDocker "${mvn_rebuild_2}" || fatal "failed to build second time"
 
-cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
+  cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
+
+  echo -n "${currentCommit}" > ${prevCommitFile}
+fi
 
 popd > /dev/null
