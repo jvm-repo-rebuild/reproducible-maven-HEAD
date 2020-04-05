@@ -29,18 +29,13 @@ shift $((OPTIND-1))
 buildspec=$1
 [ -z "${buildspec}" ] && usage
 
-# known limitation: can't rebuild Windows reference artifact
-# because we need to do Git checkout with Windows newlines (at least for pom.xml)
-
 echo "Rebuilding from spec ${buildspec}"
 
 . ${buildspec} || fatal "could not source ${buildspec}"
 
-echo "- groupId: ${groupId}"
-echo "- artifactId: ${artifactId}"
+echo "- ${groupId}:${artifactId}"
 echo "- gitRepo: ${gitRepo}"
 echo "- jdk: ${jdk}"
-echo "- newline: ${newline}"
 echo "- command: ${command}"
 echo "- buildinfo: ${buildinfo}"
 
@@ -48,10 +43,9 @@ base="$PWD"
 
 pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspec}"
 
-# prepare source, using provided Git repository and tag
-# TODO: support svn, support getting source-release.zip
-[ -d target ] || mkdir target
-cd target
+# prepare source, using provided Git repository
+[ -d buildcache ] || mkdir buildcache
+cd buildcache
 [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
 cd ${artifactId}
 git checkout master || fatal "failed to git checkout master"
@@ -150,5 +144,7 @@ else
 
   echo -n "${currentCommit}" > ${prevCommitFile}
 fi
+
+echo
 
 popd > /dev/null
