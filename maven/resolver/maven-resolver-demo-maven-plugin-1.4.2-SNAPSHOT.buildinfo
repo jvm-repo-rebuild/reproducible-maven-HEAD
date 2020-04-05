@@ -30,108 +30,108 @@ outputs.0.0.length=1759
 outputs.0.0.checksums.sha512=9ff6757d5494b89a0d404e0215e5f9f4d637109982bf8803c4ad65f6ed0557635a069f021c7b29c5eff15cbd167e87e9ba189ce1653430658cb6542063c9a01b
 
 outputs.0.1.filename=maven-resolver-1.4.2-SNAPSHOT-source-release.zip
-outputs.0.1.length=1372269
-outputs.0.1.checksums.sha512=0866a11689887d76124a149a8d93b1f071fa298c4467dd35b475844d280b0f048b6f97e15c92b986efd297f49c3ca01ec83a014a7be6394e86b632bb570ea964
+outputs.0.1.length=1352624
+outputs.0.1.checksums.sha512=25dbca28a7f3329895b87cf6063f70a331bfe758e36cc37777415021589a4fc6064b4e9e0bef518618d07d399b7129d84f63f581f8882360556b02c6fa522494
 
 outputs.1.coordinates=org.apache.maven.resolver:maven-resolver-api
 
 outputs.1.0.filename=maven-resolver-api-1.4.2-SNAPSHOT.jar
-outputs.1.0.length=149023
-outputs.1.0.checksums.sha512=5fc3dbdecee70a602a42043116d39494fa3287cf4d538ad0c45e45a968dbd3f41aa2d9e49e6a6fd77267265a6812bc77c82e49b7a975e73a7ee541a8595ccdd5
+outputs.1.0.length=146799
+outputs.1.0.checksums.sha512=0bccf320d4139864cb2f58e3d0858319e6f7f098c9a1ff15f131b853cd071a159a6624e324336006474fa6603af4404de73903b4c9fbc290456fbfdbf2140b8d
 
 outputs.1.1.filename=maven-resolver-api-1.4.2-SNAPSHOT-sources.jar
-outputs.1.1.length=199463
-outputs.1.1.checksums.sha512=b572e17374e51004f64726a563adbd533fb95fe0e3083b5e1766d1b043ea8f216b6aa995f0c33a6d0c045b16ed6f51751a27b47e64d5ae662a343a61b6af9d3b
+outputs.1.1.length=197307
+outputs.1.1.checksums.sha512=89ac916dc9ffd83cfad26d0fa4f8ca9ff351daa977dae9261fedd522f9b7aa253deae1f6e5d8d36a41cd5b3d269b9b8738bae3198ec3f8da2033dc8cf083bdd9
 
 outputs.2.coordinates=org.apache.maven.resolver:maven-resolver-spi
 
 outputs.2.0.filename=maven-resolver-spi-1.4.2-SNAPSHOT.jar
-outputs.2.0.length=36768
-outputs.2.0.checksums.sha512=716907b7608d86471d041467b7274fc2d9336903ecec4f7a90b780c84e2cb636bd4b70a6f4c654c971ce266f00160cef56579d77d5653b79e1e654c0aacb2cf7
+outputs.2.0.length=36113
+outputs.2.0.checksums.sha512=b499c6be645f717de503d4dd589083020c82da0c69a946141c4890c66e95cd6ad3f997b033b85d2ce662b84526966fba113acfbc199781fef160a7df34d19c6e
 
 outputs.2.1.filename=maven-resolver-spi-1.4.2-SNAPSHOT-sources.jar
-outputs.2.1.length=60500
-outputs.2.1.checksums.sha512=7e4719c2b3d961dc9c598cf8c99fed02df6b58db72907e2bf3e9e022ab2d94d71eb56278f06f85a983b851501dba204102d468ddc2b1f213e1f8ad6409842ada
+outputs.2.1.length=59736
+outputs.2.1.checksums.sha512=b3623e3cc3a2c7d9cfdc42b2e163c1add6e449bd7959bf4d8d87f7c5fc414261945342b2a20be53a55132e7984f7b6851e4373ad147a41adc4cc04dc8d412fb9
 
 outputs.3.coordinates=org.apache.maven.resolver:maven-resolver-test-util
 
 outputs.3.0.filename=maven-resolver-test-util-1.4.2-SNAPSHOT.jar
-outputs.3.0.length=53611
-outputs.3.0.checksums.sha512=20d7647c7e4958e575a7208478692ced297c19aeb7c92e4beb50e30acd8e9c44ffdd09c59c795b9570d7a1c337a16c260bc11c0eafef66b0c46f0d2a2d9f9cc2
+outputs.3.0.length=53099
+outputs.3.0.checksums.sha512=5f855aee6e2b4c5934921a1f83228adee476f81e44959d78d3005515da5b7c041cf600df92e4130133e70f253af3849d78a397fd998f44de95495ff1509b7bba
 
 outputs.3.1.filename=maven-resolver-test-util-1.4.2-SNAPSHOT-sources.jar
-outputs.3.1.length=40679
-outputs.3.1.checksums.sha512=cfec2813e40ce1138ddd6e146949fa69de8a793267718983ec34b1decfa106365fc5a6d5366bc5bd08c300d2ce7c48f088e11857ebd373fff86ad02f9303f330
+outputs.3.1.length=40219
+outputs.3.1.checksums.sha512=fbe87745d89a843bcad76b1e61ac41748070d6792583838911b5b8354b387cc58e61fa0378832ff5a0d8f9be6e1d1b83670204daa8c915714ad15edf4a01a7b9
 
 outputs.4.coordinates=org.apache.maven.resolver:maven-resolver-util
 
 outputs.4.0.filename=maven-resolver-util-1.4.2-SNAPSHOT.jar
-outputs.4.0.length=166862
-outputs.4.0.checksums.sha512=043e31e19c65cf5fd1a368430fb5562e027a492b9ad13ee1371ad0cb8671552aa447eaf4898fbb3090356e1a49a88a458b77f1af9d818cf0c36777f44b0f5645
+outputs.4.0.length=165072
+outputs.4.0.checksums.sha512=97236971e93ab402faeb952a1bbb04811358817534f55797331c5c544a16da08f6c87c19e80d813b30491f85512f3f0b48e981c1a3e789cf56c57c08f6cb09a8
 
 outputs.4.1.filename=maven-resolver-util-1.4.2-SNAPSHOT-sources.jar
-outputs.4.1.length=150948
-outputs.4.1.checksums.sha512=c541b8131c57ae6ef47fafa1b30f3f20f6f61a2aa392a605402f9b7bafdf3eefc3ce16c840230965a7ce888944a4ded1da12b8e1e54e7e26a8a9367c2e5b5f82
+outputs.4.1.length=149352
+outputs.4.1.checksums.sha512=0ef4f955a5cb11b169dabe2621629805366fede6be2bb3f9ebc60841a829b1b772070234af389b70bc58c3029115be0eb373e32303eaab61e670e50349df6924
 
 outputs.5.coordinates=org.apache.maven.resolver:maven-resolver-impl
 
 outputs.5.0.filename=maven-resolver-impl-1.4.2-SNAPSHOT.jar
-outputs.5.0.length=180445
-outputs.5.0.checksums.sha512=1e334394dafc4ebdee02062ecb718fcf15980d1eb9330a22a514e8d6e2bbe352126a3fa1e6e5ddc36986e066f1c7511d5d2c59ffb74110157c8d6124a6311e6c
+outputs.5.0.length=178795
+outputs.5.0.checksums.sha512=91b975e9aee736e43736584b216fe34905b09e19f90e0738b9dd7973d705e0bc529316f79df3b1ac2c11ac0817997fc6b1202be4cdbfa319de304cd369ff4994
 
 outputs.5.1.filename=maven-resolver-impl-1.4.2-SNAPSHOT-sources.jar
-outputs.5.1.length=128037
-outputs.5.1.checksums.sha512=76e18a5149c7af73ca858a393ecdd32516c955f674289a10eb474c1e60ba10a6cc8ce79f1a34c70ff5506f58779ed7aa3dcb35fb1fc06102c832ef71d32419f1
+outputs.5.1.length=126793
+outputs.5.1.checksums.sha512=811f40ec50d5ccb8303292ab7b0eb6c1e5c97596130a3817b28cd3b05186304773c5e6c974adbc850f87918a9e6f9c3097c0474b89492053402f32c6c699548b
 
 outputs.6.coordinates=org.apache.maven.resolver:maven-resolver-connector-basic
 
 outputs.6.0.filename=maven-resolver-connector-basic-1.4.2-SNAPSHOT.jar
-outputs.6.0.length=44139
-outputs.6.0.checksums.sha512=e16445728cd7bcc72995dfa4c6c487dc7bda17c0791ae415fe2720caeb142dde8d759aafc2cbb3779ace737060c2324c1660db1b90be3ebe6f0a076e5aae36d5
+outputs.6.0.length=43706
+outputs.6.0.checksums.sha512=bc6d8bc6dbba315301f931a7ef846abb80120f5b6b414ccaaf90d3b051086e383a9057a66ef94dcf2e0be31d7a7a840737a94bebc94b2076adef89ec26e2c919
 
 outputs.6.1.filename=maven-resolver-connector-basic-1.4.2-SNAPSHOT-sources.jar
-outputs.6.1.length=26128
-outputs.6.1.checksums.sha512=96cd07e22a7bbb41101fc77eac8069f723175bb4523c387deb9b1514e63d601ae2ac23a8a7e939c7ea537e850bef1de24eb67a1dd1439dd532adb96915c0ba39
+outputs.6.1.length=25844
+outputs.6.1.checksums.sha512=da813222a555c345c2f053e2bf6c74c8e69783f33a11f70ded0bb7a4905efe56fcb37bce32a1f06e7341c1109996bae719cfa25497cb763e629b325b248574f7
 
 outputs.7.coordinates=org.apache.maven.resolver:maven-resolver-transport-classpath
 
 outputs.7.0.filename=maven-resolver-transport-classpath-1.4.2-SNAPSHOT.jar
-outputs.7.0.length=12559
-outputs.7.0.checksums.sha512=28d3bddeb30f14a2628ba0078a06e09156d229f395711495621b9b4ac1743d31160a8e2d1ce08b5ac9f4d34206853eefcbe20db49f90c862e61dc753943015c8
+outputs.7.0.length=12384
+outputs.7.0.checksums.sha512=74d45c62519a5708075c23bef1f3a32b6fc9f0974f685f71c7f9b0870669b20dfaab8c299c40315cecfb5ac466af7401588b1334eb61fe5ea519a0e59c439acb
 
 outputs.7.1.filename=maven-resolver-transport-classpath-1.4.2-SNAPSHOT-sources.jar
-outputs.7.1.length=12912
-outputs.7.1.checksums.sha512=755a6eae7f7d976712c61118819e7bdd3ba995ce7e923ffb13c9bb65d6e49a82dc37693592471550b1359741fba2689c210e10e062d35b7c14c861c343ae792b
+outputs.7.1.length=12709
+outputs.7.1.checksums.sha512=ebebc4897d84a57df79e37ce829aff37c456f4aec668036d51a4153fd413b397272d4c4d930d34740be7c0cd3833052974ef46a95d4d3dc76b228a9425d95d44
 
 outputs.8.coordinates=org.apache.maven.resolver:maven-resolver-transport-file
 
 outputs.8.0.filename=maven-resolver-transport-file-1.4.2-SNAPSHOT.jar
-outputs.8.0.length=13526
-outputs.8.0.checksums.sha512=d1065a47f71e8b59ef3b50509d3076cae5e2c9700a0e8b742f7caafe68b5123106d5855f19a775aea531f5eb9a86cc10286a79d377abc45ed5966870b114a1ef
+outputs.8.0.length=13334
+outputs.8.0.checksums.sha512=e59b6db95b32560ade61693917beafaea30a3db92e5762a4053eff60d299892c84228cbf2e31689196a0aa6ead659d3d735714be3be920a9284ab8430770c087
 
 outputs.8.1.filename=maven-resolver-transport-file-1.4.2-SNAPSHOT-sources.jar
-outputs.8.1.length=14035
-outputs.8.1.checksums.sha512=c70b3c98831476fda1115f4bc9699be89501e5f8e7d4100bc53a27dad90186e7355843fe7ffd051b9c4b37d8359a8f4ab2b7460618733edcbb45de04a34fd180
+outputs.8.1.length=13815
+outputs.8.1.checksums.sha512=c1c5a6be9ff00f84ad01a2ba939e056d70ac21d77107eab78bf1fc4074207d5a73dc988b659015b079ac71491ac2721f9ed235685295433ea78bfd7500168d4e
 
 outputs.9.coordinates=org.apache.maven.resolver:maven-resolver-transport-http
 
 outputs.9.0.filename=maven-resolver-transport-http-1.4.2-SNAPSHOT.jar
-outputs.9.0.length=41734
-outputs.9.0.checksums.sha512=f81e4444b6aabe0e8d8da7b94cb3a9a844a1323e9f61065fff742ababf298f594dc5a5fb231719a8df79e36625bbcb3b4a4d3247dffda02bb0494d81a0988027
+outputs.9.0.length=41286
+outputs.9.0.checksums.sha512=887f1d4efdc1c24e24e76f04744b21b8d8e27e2e26c1168e5a689591a17c8f841845237f14f1d83c428ab81c80de3c6e5ea11fe0d49044277e93f6121deb974e
 
 outputs.9.1.filename=maven-resolver-transport-http-1.4.2-SNAPSHOT-sources.jar
-outputs.9.1.length=31704
-outputs.9.1.checksums.sha512=4dbfe293220521a9eee653a284e9f7f5edb2decad75b74dd92b0323c7376e50fcabaf87232eff7b466701e05f1af31249a2129dc08d9a586725ab25af95cec50
+outputs.9.1.length=31324
+outputs.9.1.checksums.sha512=231cc230ab2381086e3891e65287edbe6632f8086d4182656192fdf615a87b89899dfa1b5ce2f61ea27b23da34201c4da98ed007ccc9cc2cd096efc098dfec93
 
 outputs.10.coordinates=org.apache.maven.resolver:maven-resolver-transport-wagon
 
 outputs.10.0.filename=maven-resolver-transport-wagon-1.4.2-SNAPSHOT.jar
-outputs.10.0.length=31109
-outputs.10.0.checksums.sha512=ebbc0ad1f338258836a8bde490b10cd7d65537ee1a33ef3c1240db82fc351cdd564e629ae99faa341b1a9d7676612dd86b0e7c181b79d41bd7924389d2fd9fde
+outputs.10.0.length=30725
+outputs.10.0.checksums.sha512=3123e009bca318cb3eda95adf077b6e2d3c67d273c87dde37ca1ec3491cc527b1cf039d81fd52833abe3a60579962c7a00de95527c2126db090f63b10186babd
 
 outputs.10.1.filename=maven-resolver-transport-wagon-1.4.2-SNAPSHOT-sources.jar
-outputs.10.1.length=23412
-outputs.10.1.checksums.sha512=00a2c7ab4c3a238b281a31230cf20136a15d8102bf8771db217c98966eaa0004de1bbaf7c899d8acf55be15863f01d682a3a98c15cd44bf14e824ce723b96189
+outputs.10.1.length=23110
+outputs.10.1.checksums.sha512=74983d198a612dbef9adeb747d0ceed452694704f9d8ff2528f92d1685f2a97fe3cbf23a420092ee986ae99332696f887cdeb5ac9899e01a2831f94b54728dc5
 
 outputs.11.coordinates=org.apache.maven.resolver:maven-resolver-demos
 
@@ -142,19 +142,19 @@ outputs.11.0.checksums.sha512=9b860abb4ab2f4644ac00d4eb7bf06b92a27284157138a7ed4
 outputs.12.coordinates=org.apache.maven.resolver:maven-resolver-demo-snippets
 
 outputs.12.0.filename=maven-resolver-demo-snippets-1.4.2-SNAPSHOT.jar
-outputs.12.0.length=43627
-outputs.12.0.checksums.sha512=f1222cfd8186a23583f7cde15ebe3fbe97e294bdce501de006721e0cb42a46f58b7b46a2ac0cd965df2a6223b5848b49753206369831a9011b5f464f8f3a6410
+outputs.12.0.length=43030
+outputs.12.0.checksums.sha512=22c600f5e2c4443143968ed37f967c5a1cde8b3633db5bdbb81e0dc045bd07959bf8bba729f096d81410b3a6a109b01f1a20f465e6a5e44030eeda34248315b0
 
 outputs.12.1.filename=maven-resolver-demo-snippets-1.4.2-SNAPSHOT-sources.jar
-outputs.12.1.length=36626
-outputs.12.1.checksums.sha512=8c085653c722c6f74d053d6018de3699779028af8e89f8c1715b6098e450c65ecf7efd900e6ef9316744f8bd36a93b56ed22054b1c897f59b9a08e02fa08c463
+outputs.12.1.length=36131
+outputs.12.1.checksums.sha512=2ca10179c6707d13e383491eb3e9c3a9f53e6e1388f3100c5f30e110107d6d3bebd52d401cf500509a3f931d9f90d19a36c8a1cafdc5cc6c7cd460d934e3d1e7
 
 outputs.13.coordinates=org.apache.maven.resolver:maven-resolver-demo-maven-plugin
 
 outputs.13.0.filename=maven-resolver-demo-maven-plugin-1.4.2-SNAPSHOT.jar
-outputs.13.0.length=12158
-outputs.13.0.checksums.sha512=f3e2532292ac2bbaa0a28aa362ba6d7e03d8042a55d8c3bdd70476184a2ecc266a68f560a53ca677d0196391f1541e21e8af61804378a680869a275e6c1f7925
+outputs.13.0.length=11907
+outputs.13.0.checksums.sha512=ad83fc646ab008a1c64559ecb87f070e1ef3955e77e0b9fb5160aad49125434a4d0812dcacbfeb72074661073c89093c056de807d0b5ed81f03d142d40431aa8
 
 outputs.13.1.filename=maven-resolver-demo-maven-plugin-1.4.2-SNAPSHOT-sources.jar
-outputs.13.1.length=9932
-outputs.13.1.checksums.sha512=6a50826d4f61b64428c3be94b58615144b9e90b99766dbb70c4b0dd85b17846071c4a17803ad460b64935d1c3e6be43333f7eb2ead553fe164f1738dd77b5c36
+outputs.13.1.length=9890
+outputs.13.1.checksums.sha512=f197d93083145309155448d46da2da07ed296f7b36befcf44334cf698e317a3af76ce241061dfcd0212ba64449213b4c284fe22b5ce16cdf2daaa0a980c004db

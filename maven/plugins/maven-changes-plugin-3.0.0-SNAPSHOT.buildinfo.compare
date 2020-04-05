@@ -1,5 +1,5 @@
 version=3.0.0-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-changes-plugin-3.0.0-SNAPSHOT-sources.jar maven-changes-plugin-3.0.0-SNAPSHOT-source-release.zip maven-changes-plugin-3.0.0-SNAPSHOT.jar"
+ok=1
+ko=2
+okFiles="maven-changes-plugin-3.0.0-SNAPSHOT-source-release.zip"
+koFiles="maven-changes-plugin-3.0.0-SNAPSHOT-sources.jar maven-changes-plugin-3.0.0-SNAPSHOT.jar"
