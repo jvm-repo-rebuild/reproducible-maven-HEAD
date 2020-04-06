@@ -1,0 +1,5 @@
+version=3.2.0-SNAPSHOT
+ok=13
+ko=0
+okFiles="archetype-catalog-3.2.0-SNAPSHOT.jar maven-archetype-plugin-3.2.0-SNAPSHOT-sources.jar archetype-common-3.2.0-SNAPSHOT.jar archetype-models-3.2.0-SNAPSHOT-site.xml archetype-packaging-3.2.0-SNAPSHOT.jar archetype-catalog-3.2.0-SNAPSHOT-sources.jar archetype-packaging-3.2.0-SNAPSHOT-sources.jar archetype-common-3.2.0-SNAPSHOT-sources.jar archetype-descriptor-3.2.0-SNAPSHOT.jar maven-archetype-plugin-3.2.0-SNAPSHOT.jar maven-archetype-3.2.0-SNAPSHOT-site.xml maven-archetype-3.2.0-SNAPSHOT-source-release.zip archetype-descriptor-3.2.0-SNAPSHOT-sources.jar"
+koFiles=""

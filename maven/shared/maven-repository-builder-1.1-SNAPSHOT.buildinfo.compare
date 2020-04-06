@@ -1,5 +1,0 @@
-version=1.1-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-repository-builder-1.1-SNAPSHOT.jar maven-repository-builder-1.1-SNAPSHOT-sources.jar maven-repository-builder-1.1-SNAPSHOT-source-release.zip"

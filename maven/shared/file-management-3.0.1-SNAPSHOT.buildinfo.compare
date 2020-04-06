@@ -1,5 +1,5 @@
 version=3.0.1-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="file-management-3.0.1-SNAPSHOT-source-release.zip file-management-3.0.1-SNAPSHOT.jar file-management-3.0.1-SNAPSHOT-sources.jar"
+ok=3
+ko=0
+okFiles="file-management-3.0.1-SNAPSHOT-source-release.zip file-management-3.0.1-SNAPSHOT.jar file-management-3.0.1-SNAPSHOT-sources.jar"
+koFiles=""

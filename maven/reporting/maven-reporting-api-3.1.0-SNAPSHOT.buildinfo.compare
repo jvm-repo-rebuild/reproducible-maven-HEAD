@@ -1,5 +1,5 @@
 version=3.1.0-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-reporting-api-3.1.0-SNAPSHOT-sources.jar maven-reporting-api-3.1.0-SNAPSHOT-source-release.zip maven-reporting-api-3.1.0-SNAPSHOT.jar"
+ok=3
+ko=0
+okFiles="maven-reporting-api-3.1.0-SNAPSHOT-sources.jar maven-reporting-api-3.1.0-SNAPSHOT-source-release.zip maven-reporting-api-3.1.0-SNAPSHOT.jar"
+koFiles=""
