@@ -141,6 +141,7 @@ else
   mvnBuildDocker "${mvn_rebuild_2}" || fatal "failed to build second time"
 
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
+  # TODO detect if buildinfo.commit has changed: if not, restore previous buildinfo since update is mostly noise
 
   echo -n "${currentCommit}" > ${prevCommitFile}
 fi
