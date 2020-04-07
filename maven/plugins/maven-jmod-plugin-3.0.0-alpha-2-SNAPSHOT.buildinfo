@@ -25,13 +25,13 @@ mvn.minimum.version=3.0
 # output
 
 outputs.0.filename=maven-jmod-plugin-3.0.0-alpha-2-SNAPSHOT.jar
-outputs.0.length=40558
-outputs.0.checksums.sha512=447f34a0c80e95b3132aeca85794959185bcc390dd81a7bc95e449f28349d3957eccb293584bdf3271f09c7dffa2574cb61dbe3fa2f26e09bd37aeecbe1dbcdb
+outputs.0.length=40265
+outputs.0.checksums.sha512=bc07c1cd5cadc863bd15c42e4ed6e39e8373fd1b966ff6481e902c9567b42dcb02e8235a1fe00c2a913dcf6622c887b8ca2d7586d965d04eebe27a3856a181a5
 
 outputs.1.filename=maven-jmod-plugin-3.0.0-alpha-2-SNAPSHOT-source-release.zip
-outputs.1.length=194318
-outputs.1.checksums.sha512=bd5b28a3c1b8d4daa27f0b005ee741ec5134e0ecd5351858fad101558bd3af426616e96511688cd2ebfb882e188dee72a3ed5b98a7308bcd0b9712e0e1ab209e
+outputs.1.length=191972
+outputs.1.checksums.sha512=5872f5626c567629b6b7f21559e2674979115b99180b08c18e2488cb445ba831ab156b9c22092e1d9c7e9981b0135f82cf57092b14fb73934541704cae3f7381
 
 outputs.2.filename=maven-jmod-plugin-3.0.0-alpha-2-SNAPSHOT-sources.jar
-outputs.2.length=28412
-outputs.2.checksums.sha512=d2c3546a9eb22089127b7062d82673a994ecbc75ce2f1ca3199006df3b7e0ba8e5b3ae7991bd0450ac54de1085398f49dadd9112c45a7aa4cbd0318ddf787439
+outputs.2.length=28198
+outputs.2.checksums.sha512=fe4314160a920272c9e0348f17beeb328ae5e9bc6fc95f392766de2afc2589a8a31a4de8077ace1306b521956aeb2f0f3e7bdd7e2e8b87a2b5123d44601fa5ec

@@ -25,13 +25,13 @@ mvn.minimum.version=3.0
 # output
 
 outputs.0.filename=maven-jlink-plugin-3.0.0-alpha-2-SNAPSHOT.jar
-outputs.0.length=34846
-outputs.0.checksums.sha512=2263f1cb31cd4ac86b7c967a75b38a695c9f190daddf1c734db8604c4383054b9a4b1e5fe31320398ad2274ffae8ed882ba72dedf72cc53cb0e60014b76c5234
+outputs.0.length=34602
+outputs.0.checksums.sha512=92a0a92acc199e351f44257ed4ee619706aed9cf51339a8358f1e6eae481cd007f92072e63368ed8f6da4122da74fcb6253ad5157ab32d8c3b96008fb2b97fd0
 
 outputs.1.filename=maven-jlink-plugin-3.0.0-alpha-2-SNAPSHOT-source-release.zip
-outputs.1.length=133372
-outputs.1.checksums.sha512=9e9f2cb7ac263b06329bf22ecd78c352f01c4469cc5bab23e2c7edb9cd6ccc2f542f50ff366a32c4569d58701b227b0da98f5b1e2ad07932070a8a4ee9cf4e79
+outputs.1.length=131974
+outputs.1.checksums.sha512=fb05a50cfcfe0e94535f7510720d2ff8e8a1f4f1268a43912fe402723f42cd22dd2237876aa9fb43d8398855a963271f7479310fd61145dd0227efcc40467f93
 
 outputs.2.filename=maven-jlink-plugin-3.0.0-alpha-2-SNAPSHOT-sources.jar
-outputs.2.length=24365
-outputs.2.checksums.sha512=f1c3c08de5921bcd0eec359fce0d91f92ecb666b72814c9b5460f6e4b770dca8532ecf4333e859882e4bb4cd63ab46c08fd32c35d6cb480db9449f5727f02ab0
+outputs.2.length=24202
+outputs.2.checksums.sha512=267d8ba1569cdbc86cc276026cd37881f03b7f61781e2556565d561675f587c8c9f95d8171f4015925fbf8796c26a35428c953d3c105a329b23e376351bdae91

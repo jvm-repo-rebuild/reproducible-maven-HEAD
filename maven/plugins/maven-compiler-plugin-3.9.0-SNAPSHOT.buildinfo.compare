@@ -1,5 +1,5 @@
 version=3.9.0-SNAPSHOT
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-compiler-plugin-3.9.0-SNAPSHOT-source-release.zip maven-compiler-plugin-3.9.0-SNAPSHOT-sources.jar maven-compiler-plugin-3.9.0-SNAPSHOT.jar"
+ok=3
+ko=0
+okFiles="maven-compiler-plugin-3.9.0-SNAPSHOT-source-release.zip maven-compiler-plugin-3.9.0-SNAPSHOT-sources.jar maven-compiler-plugin-3.9.0-SNAPSHOT.jar"
+koFiles=""

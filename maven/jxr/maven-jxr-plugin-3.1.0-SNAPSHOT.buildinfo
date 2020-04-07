@@ -30,25 +30,25 @@ outputs.0.0.length=1634
 outputs.0.0.checksums.sha512=84acd38462ff97bf2e797068e11a8ed110d5842bf9641c024b5f348a3e66d3b19f65e166602f492f2737845d8da39d64de7ec8764abdf0bac34a3d91c4de5527
 
 outputs.0.1.filename=jxr-3.1.0-SNAPSHOT-source-release.zip
-outputs.0.1.length=376778
-outputs.0.1.checksums.sha512=ce09013fb6cb4ac3562a6e9ae04d62ff7474fed3fa4933d761267e6f1faffc05562f1b8b5a66a2dd77b73c63eb2a1b4338be4e7682c3fc7cabfe7961834660cf
+outputs.0.1.length=373062
+outputs.0.1.checksums.sha512=d90f94fec927dfcc01858de15aa24a613f0d64d4a34b44428490ca8105ac2cdc07f485d65fea1ccf3b9a79a76d20ad3ffb658744a1be9e96f3fff8730dca935f
 
 outputs.1.coordinates=org.apache.maven:maven-jxr
 
 outputs.1.0.filename=maven-jxr-3.1.0-SNAPSHOT.jar
-outputs.1.0.length=73599
-outputs.1.0.checksums.sha512=8944140f5e299e42edbe8fd4f4cda3c974fca6c90fc80478bdd20107383b3c1800639fa3dd83941fd3a62c23bf27a5c8bc670e196f2665da79dbc356bcffe249
+outputs.1.0.length=72736
+outputs.1.0.checksums.sha512=04c9ae59954c885687a75a10c40ca87bb98efc79ee43af8c66b4fa848cdd927de1184eed27f107b78ec025fdc4aa146cb769633dbbd4c5643316b2985c3b6496
 
 outputs.1.1.filename=maven-jxr-3.1.0-SNAPSHOT-sources.jar
-outputs.1.1.length=71305
-outputs.1.1.checksums.sha512=3a6b8bba774c09e92a866fda14ced9de23e05d28fb141a59bdc763d41d585022146e04f459a27857daba44943b84e798cde8a267e03767b132c9c254d16717d6
+outputs.1.1.length=70540
+outputs.1.1.checksums.sha512=a0031d579ccb7c41f89c09953a8d8e0c8c20c54ddf1aa22cd18cc9b66c2f5936a198bf6105dd5df5fe9748609fcc915440bf50d5ec052bb31611a950c6fcf43e
 
 outputs.2.coordinates=org.apache.maven.plugins:maven-jxr-plugin
 
 outputs.2.0.filename=maven-jxr-plugin-3.1.0-SNAPSHOT.jar
-outputs.2.0.length=68636
-outputs.2.0.checksums.sha512=a46f32f443773efb1bdb18b01eeaa161d9e5865fe5862955a0b5a2feabebb1b8e410cf0f7a4aecaec7bcf1efcc18289ec53bf46cf7fb39dd659edb7985e73097
+outputs.2.0.length=68021
+outputs.2.0.checksums.sha512=35e3c0b01e2432067a48210fad6243a07df336d2342d8ff77be41e88646a0ecea07a5c469a56c1b87f3fff75f36f8217bf3ce821df9152a91533f5c8050be5a5
 
 outputs.2.1.filename=maven-jxr-plugin-3.1.0-SNAPSHOT-sources.jar
-outputs.2.1.length=58434
-outputs.2.1.checksums.sha512=d94a9d8c70cfed9a75841d96f74ec98134c6fd6e399b51fe7ea801d9347dee1b1d681a66cfca690f0dd07a067191c7f58d4d76b8d43e1f86a4241e40bb7dca26
+outputs.2.1.length=57896
+outputs.2.1.checksums.sha512=55065bec674cf80e75ba90ca3b2f759184872d4c0b0425b34166bd7c70149b6dfb3d461e0cc9f668f8cf9fdbf759452751ce7546b2c846dd6eea0037f2a8b217
