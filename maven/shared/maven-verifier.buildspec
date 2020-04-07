@@ -3,11 +3,8 @@ artifactId=maven-verifier
 
 gitRepo=https://github.com/apache/${artifactId}.git
 
-latest=1.7.0
-gitTag=${artifactId}-${latest}
-
 jdk=8
-newline=lf
+newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drat.skip"
 buildinfo=target/${artifactId}-*.buildinfo

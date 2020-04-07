@@ -1,5 +1,0 @@
-version=1.7.0
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-verifier-1.7.0-sources.jar maven-verifier-1.7.0-source-release.zip maven-verifier-1.7.0.jar"
