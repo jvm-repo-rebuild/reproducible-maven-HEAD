@@ -30,39 +30,39 @@ outputs.0.0.length=1543
 outputs.0.0.checksums.sha512=4247ede6825f685b73968a3d55c90c1b7710d92676a0e50a7bbb8e54d2f7fd27ac0e7865e481a96a05e4e02664db65f19113af7106d24f3b0a681d19d936bef4
 
 outputs.0.1.filename=enforcer-3.0.0-M4-SNAPSHOT-source-release.zip
-outputs.0.1.length=565861
-outputs.0.1.checksums.sha512=0bae370699db19fbc37c6cbceda2410b151515dce7cb82cb1d5983b0ef707031542c804aac0c27dbeb2cd9284643abb24dd392d048e731cb28802d47086c7ecd
+outputs.0.1.length=560249
+outputs.0.1.checksums.sha512=7fdcf91f913abd7cfbb99f596785c5db97e7344f9f94c102c2ed89f2f9cbb8c48a672df38acabd3f5a7cf3d9fee856f12758df6ff5b86dbc40e1ccb000721704
 
 outputs.1.coordinates=org.apache.maven.enforcer:enforcer-api
 
 outputs.1.0.filename=enforcer-api-3.0.0-M4-SNAPSHOT.jar
-outputs.1.0.length=11719
-outputs.1.0.checksums.sha512=d52c3d91b01e589fbbf7c7a74f4f26008ca2949ed06794f99637c3468cf1d42c5fb5a8f96ebbc8819cc756e5b60ce8744f114544935c0205c5b4113e4ce598a5
+outputs.1.0.length=11464
+outputs.1.0.checksums.sha512=1fc4d18c2b0755b2eed1b42ffad360b9ee56f0cc87cc40d0e05783743edb9c962b8de3c05746c37ed5f56bc48f403cdca0d95c7085d7dd67ad11757f4943a383
 
 outputs.1.1.filename=enforcer-api-3.0.0-M4-SNAPSHOT-sources.jar
-outputs.1.1.length=14219
-outputs.1.1.checksums.sha512=4bdee3d44a47e0a7939106bbcefec4b9af0c286eca99891660fb7780b3ff8fb749263ff217f2043152b1480da0fa2ef0cc0cbb50318d7946c06ad371c628c1f6
+outputs.1.1.length=13998
+outputs.1.1.checksums.sha512=e5d0dd36a1c48cc92ff61ba08b821078fa5b4f3a7d809fe3c83b1927d5032ba98ee3dc322e6a58a078cc239837ad2a0c029d7ef1d91b9f20324cb69048dbb4ce
 
 outputs.2.coordinates=org.apache.maven.enforcer:enforcer-rules
 
 outputs.2.0.filename=enforcer-rules-3.0.0-M4-SNAPSHOT.jar
-outputs.2.0.length=107051
-outputs.2.0.checksums.sha512=be459aba76a124e1eaceb6c5668fbc644eae431f194cd122e931e8afd318cdbd67705045951f70e79e8eac3036a2e6ed5761df19d63b7e13e1e738eabefa4703
+outputs.2.0.length=106103
+outputs.2.0.checksums.sha512=21b9c6d940a82fb85090cc4d919b9c6f0a2b86c73e854697b917f681210f0aeac4c43eb834b04354d452b7b814745e5d2c38e3e0e9a893e49d1782086c64c8de
 
 outputs.2.1.filename=enforcer-rules-3.0.0-M4-SNAPSHOT-sources.jar
-outputs.2.1.length=91560
-outputs.2.1.checksums.sha512=461add2a7e51145d356fa7c98d574db4686239c9bb29dae040b3a2d5a84106a688f8b879a44823092cb58fdcb98a69403df8337f90773aa29dde289149e5a87c
+outputs.2.1.length=90709
+outputs.2.1.checksums.sha512=97beb718cd13472b396dbbd1133a9463911dac6c493837a9adf89070a4b92810b78aa687268610a34bae60da3384dd5b829356ba928b9af709efec173ef6454c
 
 outputs.2.2.filename=enforcer-rules-3.0.0-M4-SNAPSHOT-tests.jar
-outputs.2.2.length=91349
-outputs.2.2.checksums.sha512=bb78bdec5744a263d48d9b03eac1b478e5ba79a5b5dc532888fb1b5c782dac4c9053f8a147c467d040cdbb9d64e478cd1ab471992df110abbbafb1d6afedc473
+outputs.2.2.length=90321
+outputs.2.2.checksums.sha512=5b9315dbc824f77209cf802b69a8f88137d8f6d3e5bf024b8a65a16a72026ccc9fea846d962df2374c28e882c18fbacbf68b71d4e6100455203f9a95521923b2
 
 outputs.3.coordinates=org.apache.maven.plugins:maven-enforcer-plugin
 
 outputs.3.0.filename=maven-enforcer-plugin-3.0.0-M4-SNAPSHOT.jar
-outputs.3.0.length=27054
-outputs.3.0.checksums.sha512=aa0692c6f8753196b38add5f96b74cc7c49a1eab413990b143f29757d323b629fce02d5e652fe4d08b9bb2379e9e301540e897b1f63e6606df91e44c378742b0
+outputs.3.0.length=26751
+outputs.3.0.checksums.sha512=3fc24627a92b3448ba9d54a80bf510b2b028f19c78ea707cabb188aedc3bdff8c8129d140c392d488d1ecb82fe1417fdae7c5244cb58868ac6e7219f03c9f7f9
 
 outputs.3.1.filename=maven-enforcer-plugin-3.0.0-M4-SNAPSHOT-sources.jar
-outputs.3.1.length=20599
-outputs.3.1.checksums.sha512=98d86adee44c00ecf167413db4241f3f59466010627e382a22386209fcb58271a2f7275cc3b0024b67a39e7d537764a02f737a5ff5f5daf0b701e4ee56297df3
+outputs.3.1.length=20373
+outputs.3.1.checksums.sha512=c72967c645afe5dc393517ff56dc95b180f97787c93226f36aad8b4b29cc43765a502bbfbe81101f4d9d94aa9e0c547e4b956f85b4f874a8340d93f005b06629
