@@ -75,13 +75,13 @@ echo -n "$((${countHEADOk}*100/${count}))% :heavy_check_mark:: "
 echo "${sumHEADOk} :heavy_check_mark: ${sumHEADKo} :warning:** |"
 echo "Apache Maven consists in ${count} sub-projects:
 
-- **Latest release: ${countLatest} = ${countLatestOk} :heavy_check_mark: + $((${countLatest}-${countLatestOk})) :warning:
+- **Latest release: on ${countLatest} releases, reproducibility status is ${countLatestOk} :heavy_check_mark: + $((${countLatest}-${countLatestOk})) :warning:
    = $((${countLatestOk}*100/${countLatest}))% :heavy_check_mark:**
 
-- **master HEAD SNAPSHOT: ${count} = ${countHEADOk} :heavy_check_mark: + $((${count}-${countHEADOk})) :warning:
+- **master HEAD SNAPSHOT: on ${count} SNAPSHOTs, reproducibility status is ${countHEADOk} :heavy_check_mark: + $((${count}-${countHEADOk})) :warning:
    = $((${countHEADOk}*100/${count}))% :heavy_check_mark:**
 
-   sub-projects details:
+sub-projects details:
    " > summary.md
 ) > summary-table.md
 

@@ -14,13 +14,13 @@ For the many Apache Maven sub-projects, We need to check reproducibility of late
 <!-- BEGIN GENERATED CONTENT -->
 Apache Maven consists in 87 sub-projects:
 
-- **Latest release: 83 = 8 :heavy_check_mark: + 75 :warning:
+- **Latest release: on 83 releases, reproducibility status is 8 :heavy_check_mark: + 75 :warning:
    = 9% :heavy_check_mark:**
 
-- **master HEAD SNAPSHOT: 87 = 85 :heavy_check_mark: + 2 :warning:
+- **master HEAD SNAPSHOT: on 87 SNAPSHOTs, reproducibility status is 85 :heavy_check_mark: + 2 :warning:
    = 97% :heavy_check_mark:**
 
-   sub-projects details:
+sub-projects details:
    
 | groupId | artifactId (buildspec, Git)  | latest release | master HEAD SNAPSHOT |
 | ------- | ------------------------------ | ----------------- | ----------------- |
