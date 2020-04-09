@@ -30,8 +30,8 @@ outputs.0.0.length=1491
 outputs.0.0.checksums.sha512=ca257492bdbd7e1e74a4f5aa482873da6d2fea214835faf9c19c493b965630eaaf0191c389d45c6d1b9b1dc860d3fe7b6ad622a1827b29d844b10afbe79512af
 
 outputs.0.1.filename=wagon-3.4.0-SNAPSHOT-source-release.zip
-outputs.0.1.length=642630
-outputs.0.1.checksums.sha512=58a49145236257c1133b80bc50c33e937f6b78cd6a520a29b8729d4944b1576110a943dbd5f3e32103c19acc2da70ae1e945f91768c7ecafc1b646a787ffa192
+outputs.0.1.length=642742
+outputs.0.1.checksums.sha512=11d9a70380daea6c497c2db184db19498174d70b43e31b3214ba6118895bae29677ca761c9f13f0cb9f9e8d64b7e151796fc8b9461112648ed4f0b10db844eb7
 
 outputs.1.coordinates=org.apache.maven.wagon:wagon-provider-api
 
@@ -116,8 +116,8 @@ outputs.9.1.length=11124
 outputs.9.1.checksums.sha512=9161c29b441240f58fb4317e7e5a303cd2a5a6d5b94f0f3f66e83ee08805d4475cccf90b4b440ebdd23760b487e844154ce089e593e37055fdd6a51b32c5e99f
 
 outputs.9.2.filename=wagon-http-3.4.0-SNAPSHOT-shaded.jar
-outputs.9.2.length=2213510
-outputs.9.2.checksums.sha512=9edc938b9dc1d5d15633cdbbb9c8f2c69d4aa81eddddab0a15aacafaddea886e6a5328c35f22e25060ef2a016bcc7503bad336ae00bec5becee4a866f1cd81ec
+outputs.9.2.length=2214272
+outputs.9.2.checksums.sha512=80486bb5416f07e32f2e0e76ecd5157e476d9edb87ba6e2b0a07828a130da7fb3fd86e7ac6988b69771ddaca56f2ad3496811b566c9664c2cadf399931454bb6
 
 outputs.10.coordinates=org.apache.maven.wagon:wagon-http-lightweight
 

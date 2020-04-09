@@ -1,5 +1,5 @@
 version=6.1.0-SNAPSHOT
-ok=10
-ko=3
-okFiles="maven-indexer-6.1.0-SNAPSHOT-site.xml indexer-core-6.1.0-SNAPSHOT-sources.jar indexer-examples-basic-6.1.0-SNAPSHOT.jar indexer-examples-spring-6.1.0-SNAPSHOT.jar indexer-examples-spring-6.1.0-SNAPSHOT-sources.jar maven-indexer-6.1.0-SNAPSHOT-source-release.zip indexer-cli-6.1.0-SNAPSHOT-sources.jar indexer-reader-6.1.0-SNAPSHOT-sources.jar indexer-core-6.1.0-SNAPSHOT.jar indexer-examples-basic-6.1.0-SNAPSHOT-sources.jar"
-koFiles="indexer-cli-6.1.0-SNAPSHOT.jar indexer-core-6.1.0-SNAPSHOT-shaded-lucene.jar indexer-reader-6.1.0-SNAPSHOT.jar"
+ok=12
+ko=1
+okFiles="indexer-cli-6.1.0-SNAPSHOT.jar maven-indexer-6.1.0-SNAPSHOT-site.xml indexer-core-6.1.0-SNAPSHOT-sources.jar indexer-examples-basic-6.1.0-SNAPSHOT.jar indexer-core-6.1.0-SNAPSHOT-shaded-lucene.jar indexer-examples-spring-6.1.0-SNAPSHOT.jar indexer-examples-spring-6.1.0-SNAPSHOT-sources.jar maven-indexer-6.1.0-SNAPSHOT-source-release.zip indexer-cli-6.1.0-SNAPSHOT-sources.jar indexer-reader-6.1.0-SNAPSHOT-sources.jar indexer-core-6.1.0-SNAPSHOT.jar indexer-examples-basic-6.1.0-SNAPSHOT-sources.jar"
+koFiles="indexer-reader-6.1.0-SNAPSHOT.jar"

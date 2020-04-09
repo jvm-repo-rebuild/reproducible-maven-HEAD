@@ -30,8 +30,8 @@ outputs.0.0.length=1974
 outputs.0.0.checksums.sha512=b20e3d566b2a839887ceb46560e336ce75b450ec9c5227b90605465f59c744ee84ac18a4556f5cfbcc80ac99d4e88384871ee7c42cd21659920ee642e2b50600
 
 outputs.0.1.filename=maven-indexer-6.1.0-SNAPSHOT-source-release.zip
-outputs.0.1.length=17228306
-outputs.0.1.checksums.sha512=02da889dcb96272670d144a040263668f81f514e8397006718882ab0986873dcbf9ebddb8a0ee3b9c773a602867dca7bfd35527a298f050a7bdde2d818d7467b
+outputs.0.1.length=17228485
+outputs.0.1.checksums.sha512=6695e3b68c892247fd54ebaf642df12e287d625c234455ccbbcd712eb9b3cd8ba11f61b4316797ac9a49a2394e0496b4308350991dffeced408937b5b3e82c8f
 
 outputs.1.coordinates=org.apache.maven.indexer:indexer-core
 
@@ -44,14 +44,14 @@ outputs.1.1.length=218878
 outputs.1.1.checksums.sha512=67a41ba3335b579374d7810c904c3476f25b872682d7bb9883b0d6164e58425ea60ac105d5d02d6ca81fa1cfe7c2d63be4718394d24e3dfb47725f5a6deaa174
 
 outputs.1.2.filename=indexer-core-6.1.0-SNAPSHOT-shaded-lucene.jar
-outputs.1.2.length=5973866
-outputs.1.2.checksums.sha512=bdfdc2d60a380174568493dc441970a74622af6260553c296b27576ecfd1ad310344edf7bc2a409e52229260d418cf01d99470da4413e4f18fc2b77bd2c73585
+outputs.1.2.length=5976430
+outputs.1.2.checksums.sha512=894f6d2db4d74348bacf4e803878652829e0ad28f84298fa990e1f8706217587e32a44e6c0885fbc6b1a6d36de901e25d5f7638872c1bdc6af7c80aefcd657bc
 
 outputs.2.coordinates=org.apache.maven.indexer:indexer-cli
 
 outputs.2.0.filename=indexer-cli-6.1.0-SNAPSHOT.jar
 outputs.2.0.length=10918111
-outputs.2.0.checksums.sha512=43acdab39e58dbc819fefe2bc780fd0de09e6c37f565ed92ac10cca760133bc840f8a90957e0409c30453e840a71ce654cdd4d9bb9340dbf135363b38bccdf89
+outputs.2.0.checksums.sha512=a938ba6b82d67d935d3ab881a3e68a20d3c019abb52fc82c417cd945d2fd06955a1f53c3dc0de97a79b19b2e24e9b32fb83129bd13fbcbed932d14d6d445d3ef
 
 outputs.2.1.filename=indexer-cli-6.1.0-SNAPSHOT-sources.jar
 outputs.2.1.length=15421
@@ -60,12 +60,12 @@ outputs.2.1.checksums.sha512=5c6165bf106d789847681c04b5658dc9af3a401f247960ce12f
 outputs.3.coordinates=org.apache.maven.indexer:indexer-reader
 
 outputs.3.0.filename=indexer-reader-6.1.0-SNAPSHOT.jar
-outputs.3.0.length=38658
-outputs.3.0.checksums.sha512=6a177fe643678b59d6fe1a5b4f9ce599528c056c0f4d4d90d97f9e5a1ecf4ae4d0fd9a2ba30519f913cd62d8bebabcf4943c6a3d170bbe96cf34f7d6ef24fd8f
+outputs.3.0.length=38826
+outputs.3.0.checksums.sha512=9b62d8777639f1d8c9f7bbffef08a3272fdb6b2f5b8d3a45a4c11e3ab2f5e628bdcc1f9e5984e26c8d4587e39960a22e4ff52d98f30d819296a9f45d556f02cc
 
 outputs.3.1.filename=indexer-reader-6.1.0-SNAPSHOT-sources.jar
-outputs.3.1.length=29970
-outputs.3.1.checksums.sha512=6a26b506a8f4b3c4752c8d73646d392c27a49e5212500e51180fccaaf227594011a74819aff54bc87d9e420984200a8ec3e15c63a75563ef986160c8ad630160
+outputs.3.1.length=30028
+outputs.3.1.checksums.sha512=c2a3bb684b40c7511c9a609d74de3973b8e762ae431e8e213c1d07f554e5b064415a17fa8575bf52b113a57dee0b5a769398420ce64c2095253a2b8043058b4c
 
 outputs.4.coordinates=org.apache.maven.indexer:maven-indexer-examples
 
