@@ -1,5 +1,0 @@
-version=1.8
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-antrun-plugin-1.8.jar maven-antrun-plugin-1.8-sources.jar maven-antrun-plugin-1.8-source-release.zip"
