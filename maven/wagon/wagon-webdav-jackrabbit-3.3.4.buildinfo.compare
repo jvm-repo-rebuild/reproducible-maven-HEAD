@@ -1,5 +1,0 @@
-version=3.3.4
-ok=3
-ko=30
-okFiles="wagon-3.3.4-site.xml wagon-tcks-3.3.4-site.xml wagon-providers-3.3.4-site.xml"
-koFiles="wagon-ssh-3.3.4.jar wagon-webdav-jackrabbit-3.3.4.jar wagon-provider-test-3.3.4-sources.jar wagon-http-3.3.4-sources.jar wagon-ftp-3.3.4.jar wagon-tck-http-3.3.4.jar wagon-webdav-jackrabbit-3.3.4-sources.jar wagon-ssh-common-test-3.3.4.jar wagon-http-shared-3.3.4.jar wagon-ssh-3.3.4-sources.jar wagon-http-3.3.4.jar wagon-3.3.4-source-release.zip wagon-http-3.3.4-shaded.jar wagon-ssh-external-3.3.4.jar wagon-http-lightweight-3.3.4.jar wagon-ssh-common-test-3.3.4-sources.jar wagon-file-3.3.4.jar wagon-ssh-external-3.3.4-sources.jar wagon-http-lightweight-3.3.4-sources.jar wagon-scm-3.3.4-sources.jar wagon-ssh-common-3.3.4-sources.jar wagon-file-3.3.4-sources.jar wagon-http-shared-3.3.4-sources.jar wagon-provider-api-3.3.4-sources.jar wagon-provider-test-3.3.4.jar wagon-ftp-3.3.4-sources.jar wagon-scm-3.3.4.jar wagon-provider-api-3.3.4.jar wagon-ssh-common-3.3.4.jar wagon-tck-http-3.3.4-sources.jar"

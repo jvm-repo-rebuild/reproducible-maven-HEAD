@@ -57,7 +57,7 @@ pwd
 mvn_rebuild_latest="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
 # the effective rebuild commands for master HEAD, adding buildinfo plugin and install on first run to compare on second
 mvn_rebuild_1="${command} -V -e install:install buildinfo:buildinfo"
-mvn_rebuild_2="${command} -V -e buildinfo:buildinfo -Dreference.repo=file:./stage -Dreference.compare.save"
+mvn_rebuild_2="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
 
 mvnBuildDocker() {
   local mvnCommand mvnImage
@@ -119,11 +119,19 @@ then
     version="${latest}"
   fi
   git checkout ${gitTag} || fatal "failed to git checkout latest ${version}"
+  if [ "${newline}" == "crlf" ]
+  then
+    echo "converting newlines to crlf"
+    git ls-files --eol | grep w/lf | cut -c 40- | xargs -d '\n' unix2dos
+  fi
   mvnBuildDocker "${mvn_rebuild_latest}" || fatal "failed to build latest"
+  git reset --hard
 
+  dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
 fi
 
+# work on master HEAD
 git checkout master || fatal "failed to git checkout master"
 currentCommit="`git rev-parse HEAD`"
 prevCommitFile="../`basename $(pwd)`.HEAD"
@@ -136,10 +144,17 @@ else
   echo "*******************************************************"
   echo "* rebuilding master HEAD SNAPSHOT twice and comparing *"
   echo "*******************************************************"
-  # git checkout master then rebuild HEAD SNAPSHOT twice
+  if [ "${newline}" == "crlf" ]
+  then
+    echo "converting newlines to crlf"
+    git ls-files --eol | grep w/lf | cut -c 40- | xargs -d '\n' unix2dos
+  fi
+  # rebuild HEAD SNAPSHOT twice
   mvnBuildDocker "${mvn_rebuild_1}" || fatal "failed to build first time"
   mvnBuildDocker "${mvn_rebuild_2}" || fatal "failed to build second time"
+  git reset --hard
 
+  dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
   # TODO detect if buildinfo.commit has changed: if not, restore previous buildinfo since update is mostly noise
 
