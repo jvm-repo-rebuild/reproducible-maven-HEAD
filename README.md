@@ -7,7 +7,7 @@ This is great to spread the word once reproducibility work has been done for a p
 when reproducibility work has not yet been done, it's sad to discover the issue after having done
 a release with the whole legal process.
 
-For the many Apache Maven sub-projects, We need to check reproducibility of latest SNAPSHOT/master HEAD to identify issues before releasing.
+For the many Apache Maven sub-projects, we need to check reproducibility of latest SNAPSHOT/master HEAD to identify as much as possible issues before releasing.
 
 ## Reproducibility Results
 
@@ -130,3 +130,6 @@ sub-projects details:
 | | **dist = [maven/wagon](https://downloads.apache.org/maven/wagon)** 
 | [m](https://repo.maven.apache.org/maven2/org/apache/maven) | [wagon](https://repo.maven.apache.org/maven2/org/apache/maven/wagon) ([spec](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon.buildspec), [Git](https://github.com/apache/maven-wagon.git)) | [3.4.0](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon-webdav-jackrabbit-3.4.0.buildinfo): 33 :heavy_check_mark: | [3.4.1-SNAPSHOT](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD/tree/master/maven/wagon/wagon-webdav-jackrabbit-3.4.1-SNAPSHOT.buildinfo): 33 :heavy_check_mark: |
 | | **87** | **83: 11 :heavy_check_mark: + 72 :warning: = 13% :heavy_check_mark:: 118 :heavy_check_mark: 435 :warning:** | **87: 86 :heavy_check_mark: + 1 :warning: = 98% :heavy_check_mark:: 562 :heavy_check_mark: 1 :warning:** |
+<!-- END GENERATED CONTENT -->
+
+Known limitation: as the 2 builds of HEAD SNAPSHOT are done with the same container image, only issues with non-reproducible timestamps are detected. Known issues not detected are those impacted by JDK patch version, username, current path, official release process running build with `run-its` profile.
