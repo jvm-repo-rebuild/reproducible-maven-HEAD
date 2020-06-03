@@ -129,6 +129,8 @@ then
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
+
+  cat ${buildinfo}*.compare
 fi
 
 # work on master HEAD
@@ -157,6 +159,8 @@ else
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
   # TODO detect if buildinfo.commit has changed: if not, restore previous buildinfo since update is mostly noise
+
+  cat ${buildinfo}*.compare
 
   echo -n "${currentCommit}" > ${prevCommitFile}
 fi
