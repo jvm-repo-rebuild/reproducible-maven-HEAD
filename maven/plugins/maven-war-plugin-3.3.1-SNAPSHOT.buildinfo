@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven WAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-war-plugin
+version=3.3.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-war-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-war-plugin-3.3.1-SNAPSHOT.jar
+outputs.0.length=81120
+outputs.0.checksums.sha512=19a086e271ad695e93536495c4871c508a52b3b1dbf381fc5e3fa2bcd73ea8742bfdcdd41b2d7425491743e689fe739a41f33be9c451b8bbc8006db2d38fe2a3
+
+outputs.1.filename=maven-war-plugin-3.3.1-SNAPSHOT-source-release.zip
+outputs.1.length=669042
+outputs.1.checksums.sha512=6bc5699e748d6ccf48c3e57ceb2be17c53e64a765fcea62ac9b290b7d965a658556b2632bc10df825ce082dee4cf5bdca8db302c69806b0e44a33d269f973fdc
+
+outputs.2.filename=maven-war-plugin-3.3.1-SNAPSHOT-sources.jar
+outputs.2.length=63048
+outputs.2.checksums.sha512=fa025c4fb15fda564636d5ee01124a6a4237d7d976adf515777a34dae3be48c0e4fdc60a842ea54cb3aac476c3037a3b87d8e4dac3b4728df219f34bf1b7a245
