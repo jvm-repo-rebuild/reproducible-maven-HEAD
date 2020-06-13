@@ -1,5 +1,0 @@
-version=3.0.1
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-ejb-plugin-3.0.1.jar maven-ejb-plugin-3.0.1-sources.jar maven-ejb-plugin-3.0.1-source-release.zip"

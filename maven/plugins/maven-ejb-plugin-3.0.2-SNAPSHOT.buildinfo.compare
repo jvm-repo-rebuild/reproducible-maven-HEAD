@@ -1,5 +1,0 @@
-version=3.0.2-SNAPSHOT
-ok=3
-ko=0
-okFiles="maven-ejb-plugin-3.0.2-SNAPSHOT-source-release.zip maven-ejb-plugin-3.0.2-SNAPSHOT.jar maven-ejb-plugin-3.0.2-SNAPSHOT-sources.jar"
-koFiles=""
