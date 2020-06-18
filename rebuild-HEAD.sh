@@ -77,7 +77,7 @@ mvnBuildDocker() {
   echo "Rebuilding using Docker image ${mvnImage}"
   local docker_command="docker run -it --rm --name rebuild-maven -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
   local mvn_docker_params="-Duser.home=/var/maven"
-  if [ "${newline}" == "crlf" ]
+  if [[ "${newline}" == crlf* ]]
   then
     ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
   else
@@ -91,7 +91,7 @@ mvnBuildLocal() {
 
   echo "Rebuilding using local JDK ${jdk}"
   # TODO need to define settings with ${base}/repository local repository to avoid mixing reproducible-central dependencies with day to day builds
-  if [ "${newline}" == "crlf" ]
+  if [[ "${newline}" == crlf* ]]
   then
     ${mvnCommand} -Dline.separator=$'\r\n'
   else
