@@ -115,8 +115,10 @@ then
     # auto-detect last Git tag
     gitTag="`git describe --abbrev=0`"
     version="${gitTag}"
+    echo "last Git tag is ${gitTag}"
   else
     version="${latest}"
+    echo "configured latest is ${latest} with Git tag ${gitTag}"
   fi
   git checkout ${gitTag} || fatal "failed to git checkout latest ${version}"
   if [ "${newline}" == "crlf" ]
