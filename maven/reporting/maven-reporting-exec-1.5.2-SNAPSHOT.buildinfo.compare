@@ -1,0 +1,5 @@
+version=1.5.2-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-reporting-exec-1.5.2-SNAPSHOT.jar maven-reporting-exec-1.5.2-SNAPSHOT-source-release.zip maven-reporting-exec-1.5.2-SNAPSHOT-sources.jar"
+koFiles=""

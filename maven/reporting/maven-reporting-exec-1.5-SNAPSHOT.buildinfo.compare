@@ -1,5 +1,0 @@
-version=1.5-SNAPSHOT
-ok=3
-ko=0
-okFiles="maven-reporting-exec-1.5-SNAPSHOT-sources.jar maven-reporting-exec-1.5-SNAPSHOT-source-release.zip maven-reporting-exec-1.5-SNAPSHOT.jar"
-koFiles=""
