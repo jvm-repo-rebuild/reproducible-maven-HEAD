@@ -53,11 +53,11 @@ git pull || fatal "failed to git pull"
 
 pwd
 
-# the effective rebuild command for latest, adding buildinfo plugin to compare with central content
-mvn_rebuild_latest="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
-# the effective rebuild commands for master HEAD, adding buildinfo plugin and install on first run to compare on second
-mvn_rebuild_1="${command} -V -e install:install buildinfo:buildinfo"
-mvn_rebuild_2="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
+# the effective rebuild command for latest, adding artifact:buildinfo goal to compare with central content
+mvn_rebuild_latest="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
+# the effective rebuild commands for master HEAD, adding artifact:buildinfo goal and install on first run to compare on second
+mvn_rebuild_1="${command} -V -e install:install artifact:buildinfo"
+mvn_rebuild_2="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
 
 mvnBuildDocker() {
   local mvnCommand mvnImage
