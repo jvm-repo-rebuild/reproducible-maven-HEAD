@@ -1,5 +1,0 @@
-version=3.9.1-SNAPSHOT
-ok=3
-ko=0
-okFiles="maven-site-plugin-3.9.1-SNAPSHOT-sources.jar maven-site-plugin-3.9.1-SNAPSHOT.jar maven-site-plugin-3.9.1-SNAPSHOT-source-release.zip"
-koFiles=""
