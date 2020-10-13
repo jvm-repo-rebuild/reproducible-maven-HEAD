@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Resources Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-resources-plugin
+version=3.2.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-resources-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.1.0
+
+# output
+
+outputs.0.filename=maven-resources-plugin-3.2.1-SNAPSHOT.jar
+outputs.0.length=33012
+outputs.0.checksums.sha512=b3601304e627c2794650dde161f8adfb1cb854633e0c616e31869deb080bcb6a83d684207f7568be4c349d126cee342ed9b51e76c057bbdaf71929b2fbb8a161
+
+outputs.1.filename=maven-resources-plugin-3.2.1-SNAPSHOT-source-release.zip
+outputs.1.length=951546
+outputs.1.checksums.sha512=9eddbde49391aa66a07a22911975635c5e8451713a57ff3e67c92cb82330fcc1b53bd9403d0d669c5fc3c46a1eea59a79e9f87d3d4f9e30b9f45a72f331259cb
+
+outputs.2.filename=maven-resources-plugin-3.2.1-SNAPSHOT-sources.jar
+outputs.2.length=24786
+outputs.2.checksums.sha512=a3a563a9da16ac7095d64790c7bab7ce7c7d30b4fb2660022e10991e4f3080065546b6a24a6c845da28d391fd63eeaf6ebdc72870c6464b67115fec77c48cc72
