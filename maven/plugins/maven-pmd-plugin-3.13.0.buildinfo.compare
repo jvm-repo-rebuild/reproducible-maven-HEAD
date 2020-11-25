@@ -1,5 +1,0 @@
-version=3.13.0
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-pmd-plugin-3.13.0.jar maven-pmd-plugin-3.13.0-sources.jar maven-pmd-plugin-3.13.0-source-release.zip"

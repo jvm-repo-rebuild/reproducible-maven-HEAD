@@ -1,0 +1,5 @@
+version=3.15.0-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-pmd-plugin-3.15.0-SNAPSHOT.jar maven-pmd-plugin-3.15.0-SNAPSHOT-source-release.zip maven-pmd-plugin-3.15.0-SNAPSHOT-sources.jar"
+koFiles=""
