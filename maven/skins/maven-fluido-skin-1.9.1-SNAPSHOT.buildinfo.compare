@@ -1,0 +1,5 @@
+version=1.9.1-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-fluido-skin-1.9.1-SNAPSHOT.jar maven-fluido-skin-1.9.1-SNAPSHOT-source-release.zip maven-fluido-skin-1.9.1-SNAPSHOT-sources.jar"
+koFiles=""
