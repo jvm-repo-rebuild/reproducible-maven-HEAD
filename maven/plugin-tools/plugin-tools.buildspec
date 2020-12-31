@@ -1,7 +1,7 @@
-groupId=org.apache.maven
-artifactId=plugin-tools
+groupId=org.apache.maven.plugin-tools
+artifactId=maven-plugin-tools
 
-gitRepo=https://github.com/apache/maven-${artifactId}.git
+gitRepo=https://github.com/apache/${artifactId}.git
 
 jdk=8
 newline=lf

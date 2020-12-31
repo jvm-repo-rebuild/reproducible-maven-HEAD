@@ -1,7 +1,7 @@
-groupId=org.apache.maven
-artifactId=release
+groupId=org.apache.maven.release
+artifactId=maven-release
 
-gitRepo=https://github.com/apache/maven-${artifactId}.git
+gitRepo=https://github.com/apache/${artifactId}.git
 
 jdk=8
 newline=lf

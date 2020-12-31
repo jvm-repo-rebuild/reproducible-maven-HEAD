@@ -1,4 +1,4 @@
-groupId=org.apache.maven
+groupId=org.apache.maven.wagon
 artifactId=wagon
 
 gitRepo=https://github.com/apache/maven-${artifactId}.git

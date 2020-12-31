@@ -1,7 +1,7 @@
-groupId=org.apache.maven
-artifactId=archetypes
+groupId=org.apache.maven.archetypes
+artifactId=maven-archetype-quickstart
 
-gitRepo=https://github.com/apache/maven-${artifactId}.git
+gitRepo=https://github.com/apache/maven-archetypes.git
 
 jdk=8
 newline=lf
