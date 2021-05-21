@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Scripting Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-scripting-plugin
+version=3.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-scripting-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-scripting-plugin-3.0.1-SNAPSHOT.jar
+outputs.0.length=23478
+outputs.0.checksums.sha512=c3cefd571a8e53543c8bb773353e132c19ab049c6f6899192338ae849d0e36ac93b41d1d7a93ddac8473262cdbed38c69b70dc2f83cb6490df1a4569c0af2efd
+
+outputs.1.filename=maven-scripting-plugin-3.0.1-SNAPSHOT-source-release.zip
+outputs.1.length=35018
+outputs.1.checksums.sha512=b1997531318b3630266f5463f68313ef438281617430b247b90d586dc9bb7e25f83796163017a86890b89660cfcff1f8e330a2a0d041211e677e5742bf5b6891
+
+outputs.2.filename=maven-scripting-plugin-3.0.1-SNAPSHOT-sources.jar
+outputs.2.length=19021
+outputs.2.checksums.sha512=fa342b5a3e47cf054e667140f71c72f8236656b2564dfe7b6700c113cc40aba99ebc40b9e4af1837d7ff47f21ee362c7d17b480a3b66f59d57b784f33b6eb26d

@@ -1,5 +1,0 @@
-version=3.0.0-SNAPSHOT
-ok=3
-ko=0
-okFiles="maven-scripting-plugin-3.0.0-SNAPSHOT-source-release.zip maven-scripting-plugin-3.0.0-SNAPSHOT-sources.jar maven-scripting-plugin-3.0.0-SNAPSHOT.jar"
-koFiles=""
