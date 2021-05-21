@@ -1,0 +1,7 @@
+version=3.2.0-SNAPSHOT
+ok=6
+ko=0
+okFiles="jxr-3.2.0-SNAPSHOT-site.xml jxr-3.2.0-SNAPSHOT-source-release.zip maven-jxr-3.2.0-SNAPSHOT.jar maven-jxr-3.2.0-SNAPSHOT-sources.jar maven-jxr-plugin-3.2.0-SNAPSHOT.jar maven-jxr-plugin-3.2.0-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

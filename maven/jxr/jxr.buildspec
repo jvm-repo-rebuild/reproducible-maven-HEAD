@@ -4,7 +4,7 @@ artifactId=jxr
 gitRepo=https://github.com/apache/maven-${artifactId}.git
 
 jdk=8
-newline=lf
+newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drat.skip"
 buildinfo=maven-jxr-plugin/target/maven-jxr-plugin-*.buildinfo

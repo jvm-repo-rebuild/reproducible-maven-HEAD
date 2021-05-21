@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven JXR Parent
+group-id=org.apache.maven.jxr
+artifact-id=jxr
+version=3.2.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jxr.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-jxr-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.jxr:jxr
+
+outputs.0.0.filename=jxr-3.2.0-SNAPSHOT-site.xml
+outputs.0.0.length=1634
+outputs.0.0.checksums.sha512=84acd38462ff97bf2e797068e11a8ed110d5842bf9641c024b5f348a3e66d3b19f65e166602f492f2737845d8da39d64de7ec8764abdf0bac34a3d91c4de5527
+
+outputs.0.1.filename=jxr-3.2.0-SNAPSHOT-source-release.zip
+outputs.0.1.length=370104
+outputs.0.1.checksums.sha512=57ee315cbef96ad9bf6cfa48bd01c0d28e409b3e8cbe8a013a95730981531befad10fe19fdb420b31439811c0a4e4de9a855191aa27502501aff72405998f758
+
+outputs.1.coordinates=org.apache.maven:maven-jxr
+
+outputs.1.0.filename=maven-jxr-3.2.0-SNAPSHOT.jar
+outputs.1.0.length=71195
+outputs.1.0.checksums.sha512=7a1a2feb0660b39472d08939289eac66856770733a3497686ade9064d6605283b168b14a98c4278b273c00f16f2c795543304cc62252261dc657c7224fc62d05
+
+outputs.1.1.filename=maven-jxr-3.2.0-SNAPSHOT-sources.jar
+outputs.1.1.length=69461
+outputs.1.1.checksums.sha512=87b1b98dd97d4558307323a0ff3a813f21ce59ba8f3ff59f8244ef2ec5cfc7d6599e5e13b9ed77a471cd4f60f89e8aa209777327fdae5d741d97016b41b5c0a1
+
+outputs.2.coordinates=org.apache.maven.plugins:maven-jxr-plugin
+
+outputs.2.0.filename=maven-jxr-plugin-3.2.0-SNAPSHOT.jar
+outputs.2.0.length=67300
+outputs.2.0.checksums.sha512=88d3e51e1069a7a8a2aa6fc0df3fb8e2146c9ca3252fd396f3b56fecd25aed51b918deea365c058bac9a1540bb84a384f4b7edb92bcf3630ae329bc6c4fb19ce
+
+outputs.2.1.filename=maven-jxr-plugin-3.2.0-SNAPSHOT-sources.jar
+outputs.2.1.length=57410
+outputs.2.1.checksums.sha512=63766352ed0b5e51cde4a1b32aca6e4d70c84d8e715879094296f6d00298c8cb6540f00220f9df56c61f2110a7d352ee390a5077559013911930c5e6a7b3b70d
