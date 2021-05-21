@@ -1,0 +1,83 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Release
+group-id=org.apache.maven.release
+artifact-id=maven-release
+version=3.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-release.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-release-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.release:maven-release
+
+outputs.0.0.filename=maven-release-3.0.0-SNAPSHOT-site.xml
+outputs.0.0.length=1472
+outputs.0.0.checksums.sha512=7ac0ecf84dcba3b0bebff9cc527b05d38cd21f0500b9011c7fc8b8b2d3527df2bf30b599c212e53308400699f58f19915daeafb76e4500f9fc3447926e71e336
+
+outputs.0.1.filename=maven-release-3.0.0-SNAPSHOT-source-release.zip
+outputs.0.1.length=1780731
+outputs.0.1.checksums.sha512=87c4774f8e2943e4e49860f9ea9af6dae735e259bffc55a12973903e4c04ba1c7fac7dc35ab66e280dd0423d94436cd0ea9b949ac6fd29303c3f873e430bf7d6
+
+outputs.1.coordinates=org.apache.maven.release:maven-release-api
+
+outputs.1.0.filename=maven-release-api-3.0.0-SNAPSHOT.jar
+outputs.1.0.length=26294
+outputs.1.0.checksums.sha512=1d81f20b183b29624846b1d2becf6867477049e4cced282816fea4f0f16d20c10ecbf7e9a0b6483ef668adeeacf9e37de7970eee964d9f73e225229e773a6829
+
+outputs.1.1.filename=maven-release-api-3.0.0-SNAPSHOT-sources.jar
+outputs.1.1.length=33995
+outputs.1.1.checksums.sha512=856020202b14a90997257cadb068bafe220df5edd635abc763c1052b2cec9a8eedc0e760f1faaeee26a229b00cb88124b187cc99bcd77959411f3ef15de2de5c
+
+outputs.2.coordinates=org.apache.maven.release:maven-release-manager
+
+outputs.2.0.filename=maven-release-manager-3.0.0-SNAPSHOT.jar
+outputs.2.0.length=232654
+outputs.2.0.checksums.sha512=11479c89497168690e601344c2ad0a6d4b9944ba36930f5017a30bc99480c4f72bdd60a1aa7da15bc236614bc77a56d4dba6a2e752f8b23e9e8548bd5341de48
+
+outputs.2.1.filename=maven-release-manager-3.0.0-SNAPSHOT-sources.jar
+outputs.2.1.length=196285
+outputs.2.1.checksums.sha512=c56f412cc7aad5ee619c1cb6ffd3715a0acf98a69bc5f9ef23e2dac44287c2c08851ea9a73c0ac3fa3a8d62f3c6658ab07a28e08bc6ace8630c276bf261ace5b
+
+outputs.3.coordinates=org.apache.maven.release:maven-release-oddeven-policy
+
+outputs.3.0.filename=maven-release-oddeven-policy-3.0.0-SNAPSHOT.jar
+outputs.3.0.length=11435
+outputs.3.0.checksums.sha512=56bf8837e9f350ccb9d09be5e26e18a4fd3ee651a5558e46a9c2170b6cb0cf34edf6dd95566621f1264f96a22aeba838a93535718875a9baeb58d6d5e5796771
+
+outputs.3.1.filename=maven-release-oddeven-policy-3.0.0-SNAPSHOT-sources.jar
+outputs.3.1.length=11337
+outputs.3.1.checksums.sha512=ca3cf1b20021b7b287bd5ca4bc58e80b1661a5a36a61d160576fa1552bc612f6de71ef56e9ba974cbc649b9956996359128eb667df6d91f47f0b792d0f0c6eaa
+
+outputs.4.coordinates=org.apache.maven.release:maven-release-semver-policy
+
+outputs.4.0.filename=maven-release-semver-policy-3.0.0-SNAPSHOT.jar
+outputs.4.0.length=10716
+outputs.4.0.checksums.sha512=7cb3a93ded5e1c4b109166b816d33d9bf2819ebf81cc0c75d2937af8129e6440eeb38deb5f7af2d40e0848aa4de88ac83d141864d796c6d3cd51238e9a543ed1
+
+outputs.4.1.filename=maven-release-semver-policy-3.0.0-SNAPSHOT-sources.jar
+outputs.4.1.length=10048
+outputs.4.1.checksums.sha512=ce087eac71466590713d6c0d22eed967853b8768b738e3dd956d82a1b978e99b98b27c92f4ccf26ce794ec43314d6081ba181007e38bc630049cdb8a0722adbf
+
+outputs.5.coordinates=org.apache.maven.plugins:maven-release-plugin
+
+outputs.5.0.filename=maven-release-plugin-3.0.0-SNAPSHOT.jar
+outputs.5.0.length=59974
+outputs.5.0.checksums.sha512=a056dca8d5b06ac2e9b9a612ca92c083bb1e20cdff959806f2a88e0833d79d483311da8a05ab0e2df4cef4e3d07262bdfb2cb38d1c1446194156d114135e8e0e
+
+outputs.5.1.filename=maven-release-plugin-3.0.0-SNAPSHOT-sources.jar
+outputs.5.1.length=38189
+outputs.5.1.checksums.sha512=37e691bc7de71426113af79c68844b0c921d8835b585b003b2593e199354c65c4efbf60b2f091b109dcaa28b6bac2ec49e5de020d771769350b72d6d9ea6eab1

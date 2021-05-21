@@ -1,5 +1,0 @@
-version=3.0.0-M1
-ok=1
-ko=11
-okFiles="maven-release-3.0.0-M1-site.xml"
-koFiles="maven-release-semver-policy-3.0.0-M1.jar maven-release-3.0.0-M1-source-release.zip maven-release-plugin-3.0.0-M1.jar maven-release-api-3.0.0-M1.jar maven-release-api-3.0.0-M1-sources.jar maven-release-oddeven-policy-3.0.0-M1-sources.jar maven-release-plugin-3.0.0-M1-sources.jar maven-release-manager-3.0.0-M1-sources.jar maven-release-semver-policy-3.0.0-M1-sources.jar maven-release-manager-3.0.0-M1.jar maven-release-oddeven-policy-3.0.0-M1.jar"

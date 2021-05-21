@@ -1,0 +1,19 @@
+version=3.0.0-SNAPSHOT
+ok=0
+ko=12
+okFiles=""
+koFiles="maven-release-3.0.0-SNAPSHOT-site.xml maven-release-3.0.0-SNAPSHOT-source-release.zip maven-release-api-3.0.0-SNAPSHOT.jar maven-release-api-3.0.0-SNAPSHOT-sources.jar maven-release-manager-3.0.0-SNAPSHOT.jar maven-release-manager-3.0.0-SNAPSHOT-sources.jar maven-release-oddeven-policy-3.0.0-SNAPSHOT.jar maven-release-oddeven-policy-3.0.0-SNAPSHOT-sources.jar maven-release-semver-policy-3.0.0-SNAPSHOT.jar maven-release-semver-policy-3.0.0-SNAPSHOT-sources.jar maven-release-plugin-3.0.0-SNAPSHOT.jar maven-release-plugin-3.0.0-SNAPSHOT-sources.jar"
+reference_java_version="1.8.0_242"
+reference_os_name="Linux"
+# diffoscope target/reference/maven-release-3.0.0-SNAPSHOT-site.xml target/maven-release-3.0.0-SNAPSHOT-site.xml
+# diffoscope target/reference/maven-release-3.0.0-SNAPSHOT-source-release.zip target/maven-release-3.0.0-SNAPSHOT-source-release.zip
+# diffoscope target/reference/maven-release-api-3.0.0-SNAPSHOT.jar maven-release-api/target/maven-release-api-3.0.0-SNAPSHOT.jar
+# diffoscope target/reference/maven-release-api-3.0.0-SNAPSHOT-sources.jar maven-release-api/target/maven-release-api-3.0.0-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-release-manager-3.0.0-SNAPSHOT.jar maven-release-manager/target/maven-release-manager-3.0.0-SNAPSHOT.jar
+# diffoscope target/reference/maven-release-manager-3.0.0-SNAPSHOT-sources.jar maven-release-manager/target/maven-release-manager-3.0.0-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-release-oddeven-policy-3.0.0-SNAPSHOT.jar maven-release-policies/maven-release-oddeven-policy/target/maven-release-oddeven-policy-3.0.0-SNAPSHOT.jar
+# diffoscope target/reference/maven-release-oddeven-policy-3.0.0-SNAPSHOT-sources.jar maven-release-policies/maven-release-oddeven-policy/target/maven-release-oddeven-policy-3.0.0-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-release-semver-policy-3.0.0-SNAPSHOT.jar maven-release-policies/maven-release-semver-policy/target/maven-release-semver-policy-3.0.0-SNAPSHOT.jar
+# diffoscope target/reference/maven-release-semver-policy-3.0.0-SNAPSHOT-sources.jar maven-release-policies/maven-release-semver-policy/target/maven-release-semver-policy-3.0.0-SNAPSHOT-sources.jar
+# diffoscope target/reference/maven-release-plugin-3.0.0-SNAPSHOT.jar maven-release-plugin/target/maven-release-plugin-3.0.0-SNAPSHOT.jar
+# diffoscope target/reference/maven-release-plugin-3.0.0-SNAPSHOT-sources.jar maven-release-plugin/target/maven-release-plugin-3.0.0-SNAPSHOT-sources.jar
