@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Artifact Transfer
+group-id=org.apache.maven.shared
+artifact-id=maven-artifact-transfer
+version=0.13.2-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-artifact-transfer.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-artifact-transfer-0.13.2-SNAPSHOT.jar
+outputs.0.length=159351
+outputs.0.checksums.sha512=e1556bfc1b37ca7b49c2d7d704f320f3ddb0ef0a17008cf403644f75046035c801ebe6f4cd0b2a3c59ae97b51be89462a9852247121c2de9c150272f7c344609
+
+outputs.1.filename=maven-artifact-transfer-0.13.2-SNAPSHOT-source-release.zip
+outputs.1.length=259091
+outputs.1.checksums.sha512=8d5c77b7ccdf3409229d069f0e82a405498a41a3e9f47a6a5e2903d3675269dfa3cdac583c7293bfc7854593d427ef6b8ca41c260efe508c7831c0a2074c3c85
+
+outputs.2.filename=maven-artifact-transfer-0.13.2-SNAPSHOT-sources.jar
+outputs.2.length=139324
+outputs.2.checksums.sha512=ac00b116bb39fad35e6df7a23b886ff18639571178e77c6b4c7c78230581ca3499dbda75e22025a628006f8bfd809104a257bf19e4613fa4826180c8be007b8c
