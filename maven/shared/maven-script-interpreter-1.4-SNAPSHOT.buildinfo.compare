@@ -1,0 +1,7 @@
+version=1.4-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-script-interpreter-1.4-SNAPSHOT.jar maven-script-interpreter-1.4-SNAPSHOT-source-release.zip maven-script-interpreter-1.4-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="15 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
