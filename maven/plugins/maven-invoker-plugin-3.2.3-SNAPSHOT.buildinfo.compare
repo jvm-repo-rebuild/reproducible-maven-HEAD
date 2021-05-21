@@ -1,0 +1,7 @@
+version=3.2.3-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-invoker-plugin-3.2.3-SNAPSHOT.jar maven-invoker-plugin-3.2.3-SNAPSHOT-source-release.zip maven-invoker-plugin-3.2.3-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
