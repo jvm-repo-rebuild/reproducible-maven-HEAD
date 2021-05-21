@@ -60,27 +60,48 @@ mvn_rebuild_1="${command} -V -e install:install artifact:buildinfo"
 mvn_rebuild_2="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
 
 mvnBuildDocker() {
-  local mvnCommand mvnImage
+  local mvnCommand mvnImage crlfDocker
   mvnCommand="$1"
-  # select Docker image to match required JDK version
+  crlfDocker="no"
+  # select Docker image to match required JDK version: https://hub.docker.com/_/maven
   case ${jdk} in
     6 | 7)
       mvnImage=maven:3.6.1-jdk-${jdk}-alpine
+      crlfDocker="yes"
+      ;;
+    8)
+      mvnImage=maven:3.6.3-jdk-${jdk}-slim
+      crlfDocker="yes"
       ;;
     9)
       mvnImage=maven:3-jdk-${jdk}-slim
+      ;;
+    14)
+      mvnImage=maven:3.6.3-jdk-${jdk}
+      ;;
+    15)
+      mvnImage=maven:3.6.3-openjdk-${jdk}
       ;;
     *)
       mvnImage=maven:3.6.3-jdk-${jdk}-slim
   esac
 
   echo "Rebuilding using Docker image ${mvnImage}"
-  local docker_command="docker run -it --rm --name rebuild-maven -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
+  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -v $base/.npm:/.npm -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
   local mvn_docker_params="-Duser.home=/var/maven"
   if [[ "${newline}" == crlf* ]]
   then
-    ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+    if [[ "${crlfDocker}" == "yes" ]]
+    then
+      echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params} -Dline.separator=\$'\\\\r\\\\n'\033[0m"
+      ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+    else
+      mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
+      echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params}\033[0m"
+      ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
+    fi
   else
+    echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params}\033[0m"
     ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
   fi
 }
