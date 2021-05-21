@@ -1,5 +1,0 @@
-version=3.1.0-SNAPSHOT
-ok=3
-ko=0
-okFiles="maven-scm-publish-plugin-3.1.0-SNAPSHOT-source-release.zip maven-scm-publish-plugin-3.1.0-SNAPSHOT.jar maven-scm-publish-plugin-3.1.0-SNAPSHOT-sources.jar"
-koFiles=""
