@@ -1,0 +1,7 @@
+version=4.0.0-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-shared-utils-4.0.0-SNAPSHOT.jar maven-shared-utils-4.0.0-SNAPSHOT-source-release.zip maven-shared-utils-4.0.0-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

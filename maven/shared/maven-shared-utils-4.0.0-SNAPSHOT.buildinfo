@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shared Utils
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-utils
+version=4.0.0-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-utils.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-shared-utils-4.0.0-SNAPSHOT.jar
+outputs.0.length=150306
+outputs.0.checksums.sha512=c047c5f085a8ccc6f38b87cf4c52d6fe242a8a3a4a6bb3cd8b26b07ea7a634eceb3884752aeef7c5712fb253ff32c8a95734b7c40cd6b43427c8eae6ed46db31
+
+outputs.1.filename=maven-shared-utils-4.0.0-SNAPSHOT-source-release.zip
+outputs.1.length=250069
+outputs.1.checksums.sha512=9b62217313832286b4dd254ad06e2cbbcde008986ae864d84e34f4527892396e8af3d1a51d899ff0e77287edcf975738d30f9b6e5ce325ede3a5143352f0bc57
+
+outputs.2.filename=maven-shared-utils-4.0.0-SNAPSHOT-sources.jar
+outputs.2.length=153198
+outputs.2.checksums.sha512=44a951839425ae68be30e0fe3e52f4a5ff4b366328e98e13b874f42811c8bc2a2e6c78b7cb851254e98859669fb374782dee9e51569f5be116ef9f0d3114782b

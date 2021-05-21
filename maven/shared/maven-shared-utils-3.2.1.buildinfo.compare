@@ -1,5 +1,0 @@
-version=3.2.1
-ok=0
-ko=3
-okFiles=""
-koFiles="maven-shared-utils-3.2.1.jar maven-shared-utils-3.2.1-source-release.zip maven-shared-utils-3.2.1-sources.jar"
