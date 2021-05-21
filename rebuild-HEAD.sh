@@ -54,10 +54,10 @@ git pull || fatal "failed to git pull"
 pwd
 
 # the effective rebuild command for latest, adding artifact:buildinfo goal to compare with central content
-mvn_rebuild_latest="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
+mvn_rebuild_latest="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
 # the effective rebuild commands for master HEAD, adding artifact:buildinfo goal and install on first run to compare on second
 mvn_rebuild_1="${command} -V -e install:install artifact:buildinfo"
-mvn_rebuild_2="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
+mvn_rebuild_2="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
 
 mvnBuildDocker() {
   local mvnCommand mvnImage
@@ -130,9 +130,28 @@ then
   git reset --hard
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
+  sed -i 's/\(reference_[^=]*\)=\([^"].*\)/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts latest ${version}"
 
-  cat ${buildinfo}*.compare
+  . ${buildinfo}*.compare
+  if [[ ${ko} > 0 ]]
+  then
+    echo -e "    ok=${ok}"
+    echo -e "    okFiles=\"${okFiles}\""
+    echo -e "    \033[31;1mko=${ko}\033[0m"
+    echo -e "    koFiles=\"${koFiles}\""
+    if [ -n "${reference_java_version}" ]
+    then
+      echo -e "    check .buildspec \033[1mjdk=${jdk}\033[0m vs reference \033[1mjava.version=${reference_java_version}\033[0m"
+    fi
+    if [ -n "${reference_os_name}" ]
+    then
+      echo -e "    check .buildspec \033[1mnewline=${newline}\033[0m vs reference \033[1mos.name=${reference_os_name}\033[0m"
+    fi
+  else
+    echo -e "    \033[32;1mok=${ok}\033[0m"
+    echo -e "    okFiles=\"${okFiles}\""
+  fi
 fi
 
 # work on master HEAD
@@ -144,6 +163,7 @@ then
   echo "*******************************************"
   echo "* no new commit on HEAD, skipping rebuild *"
   echo "*******************************************"
+  echo "$(pwd).HEAD"
 else
   echo "*******************************************************"
   echo "* rebuilding master HEAD SNAPSHOT twice and comparing *"
@@ -159,10 +179,29 @@ else
   git reset --hard
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
+  sed -i 's/\(reference_[^=]*\)=\([^"].*\)/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts HEAD"
   # TODO detect if buildinfo.commit has changed: if not, restore previous buildinfo since update is mostly noise
 
-  cat ${buildinfo}*.compare
+  . ${buildinfo}*.compare
+  if [[ ${ko} > 0 ]]
+  then
+    echo -e "    ok=${ok}"
+    echo -e "    okFiles=\"${okFiles}\""
+    echo -e "    \033[31;1mko=${ko}\033[0m"
+    echo -e "    koFiles=\"${koFiles}\""
+    if [ -n "${reference_java_version}" ]
+    then
+      echo -e "    check .buildspec \033[1mjdk=${jdk}\033[0m vs reference \033[1mjava.version=${reference_java_version}\033[0m"
+    fi
+    if [ -n "${reference_os_name}" ]
+    then
+      echo -e "    check .buildspec \033[1mnewline=${newline}\033[0m vs reference \033[1mos.name=${reference_os_name}\033[0m"
+    fi
+  else
+    echo -e "    \033[32;1mok=${ok}\033[0m"
+    echo -e "    okFiles=\"${okFiles}\""
+  fi
 
   echo -n "${currentCommit}" > ${prevCommitFile}
 fi
