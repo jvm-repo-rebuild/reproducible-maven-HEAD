@@ -1,5 +1,0 @@
-version=1.4.3-SNAPSHOT
-ok=22
-ko=0
-okFiles="maven-resolver-1.4.3-SNAPSHOT-site.xml maven-resolver-1.4.3-SNAPSHOT-source-release.zip maven-resolver-api-1.4.3-SNAPSHOT.jar maven-resolver-api-1.4.3-SNAPSHOT-sources.jar maven-resolver-spi-1.4.3-SNAPSHOT.jar maven-resolver-spi-1.4.3-SNAPSHOT-sources.jar maven-resolver-test-util-1.4.3-SNAPSHOT.jar maven-resolver-test-util-1.4.3-SNAPSHOT-sources.jar maven-resolver-util-1.4.3-SNAPSHOT.jar maven-resolver-util-1.4.3-SNAPSHOT-sources.jar maven-resolver-impl-1.4.3-SNAPSHOT.jar maven-resolver-impl-1.4.3-SNAPSHOT-sources.jar maven-resolver-connector-basic-1.4.3-SNAPSHOT.jar maven-resolver-connector-basic-1.4.3-SNAPSHOT-sources.jar maven-resolver-transport-classpath-1.4.3-SNAPSHOT.jar maven-resolver-transport-classpath-1.4.3-SNAPSHOT-sources.jar maven-resolver-transport-file-1.4.3-SNAPSHOT.jar maven-resolver-transport-file-1.4.3-SNAPSHOT-sources.jar maven-resolver-transport-http-1.4.3-SNAPSHOT.jar maven-resolver-transport-http-1.4.3-SNAPSHOT-sources.jar maven-resolver-transport-wagon-1.4.3-SNAPSHOT.jar maven-resolver-transport-wagon-1.4.3-SNAPSHOT-sources.jar"
-koFiles=""
