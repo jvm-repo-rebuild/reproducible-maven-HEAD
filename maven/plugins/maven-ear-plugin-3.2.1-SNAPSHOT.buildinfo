@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven EAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-ear-plugin
+version=3.2.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-ear-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.1.1
+
+# output
+
+outputs.0.filename=maven-ear-plugin-3.2.1-SNAPSHOT.jar
+outputs.0.length=93444
+outputs.0.checksums.sha512=6f2477d672ffb6655088ba4d0f33ff85ee47cb33c75473aa42122372445461224f0c9dff592d1bce4f573496b889febe745d23811f684003a8e5891b5b6812b2
+
+outputs.1.filename=maven-ear-plugin-3.2.1-SNAPSHOT-source-release.zip
+outputs.1.length=710308
+outputs.1.checksums.sha512=0d22542d67c8a8ce059efbf994c333e7baa2b777c979fd4714cf666a2df66e219bde5d6a4e368d6dd8f6bff83a325e1f35dcd066821448d2524b1506ea71f14e
+
+outputs.2.filename=maven-ear-plugin-3.2.1-SNAPSHOT-sources.jar
+outputs.2.length=81065
+outputs.2.checksums.sha512=8790da636eacf2613ead3bfaa663dac4aebaf4b3800718e9228b4ba2db4f7ed2635af8e97151e0b858719b28d6d7d7d0df468350d95439817ee37879b4d9e9d7
