@@ -1,0 +1,7 @@
+version=1.3.2-SNAPSHOT
+ok=4
+ko=0
+okFiles="maven-resolver-ant-tasks-1.3.2-SNAPSHOT.jar maven-resolver-ant-tasks-1.3.2-SNAPSHOT-source-release.zip maven-resolver-ant-tasks-1.3.2-SNAPSHOT-sources.jar maven-resolver-ant-tasks-1.3.2-SNAPSHOT-uber.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
