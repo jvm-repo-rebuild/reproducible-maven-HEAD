@@ -3,8 +3,8 @@ artifactId=maven-checkstyle-plugin
 
 gitRepo=https://github.com/apache/${artifactId}.git
 
-jdk=8
-newline=lf
+jdk=11
+newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drat.skip"
 buildinfo=target/${artifactId}-*.buildinfo

@@ -1,0 +1,7 @@
+version=3.2.0-SNAPSHOT
+ok=3
+ko=0
+okFiles="maven-checkstyle-plugin-3.2.0-SNAPSHOT.jar maven-checkstyle-plugin-3.2.0-SNAPSHOT-source-release.zip maven-checkstyle-plugin-3.2.0-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
