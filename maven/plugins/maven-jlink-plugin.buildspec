@@ -3,7 +3,7 @@ artifactId=maven-jlink-plugin
 
 gitRepo=https://github.com/apache/${artifactId}.git
 
-jdk=8
+jdk=11
 newline=lf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drat.skip"

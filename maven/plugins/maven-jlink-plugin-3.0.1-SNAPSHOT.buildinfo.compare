@@ -1,5 +1,0 @@
-version=3.0.1-SNAPSHOT
-ok=3
-ko=0
-okFiles="maven-jlink-plugin-3.0.1-SNAPSHOT.jar maven-jlink-plugin-3.0.1-SNAPSHOT-source-release.zip maven-jlink-plugin-3.0.1-SNAPSHOT-sources.jar"
-koFiles=""
