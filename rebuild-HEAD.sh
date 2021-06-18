@@ -141,7 +141,8 @@ then
     version="${latest}"
     echo "configured latest is ${latest} with Git tag ${gitTag}"
   fi
-  git checkout ${gitTag} || fatal "failed to git checkout latest ${version}"
+  echo -e "\033[1mgit checkout ${version}\033[0m"
+  git checkout ${version} || fatal "failed to git checkout latest ${version}"
   if [ "${newline}" == "crlf" ]
   then
     echo "converting newlines to crlf"

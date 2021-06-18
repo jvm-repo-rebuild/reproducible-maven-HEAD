@@ -2,9 +2,10 @@ groupId=org.apache.maven
 artifactId=maven
 
 gitRepo=https://github.com/apache/${artifactId}.git
+latest=maven-3.8.1
 
 jdk=8
-newline=lf
+newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drat.skip"
 buildinfo=apache-maven/target/apache-maven-*.buildinfo
