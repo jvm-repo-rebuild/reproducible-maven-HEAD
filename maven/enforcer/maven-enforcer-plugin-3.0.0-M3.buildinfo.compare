@@ -1,5 +1,0 @@
-version=3.0.0-M3
-ok=1
-ko=8
-okFiles="enforcer-3.0.0-M3-site.xml"
-koFiles="enforcer-rules-3.0.0-M3-sources.jar enforcer-api-3.0.0-M3.jar maven-enforcer-plugin-3.0.0-M3.jar enforcer-rules-3.0.0-M3-tests.jar enforcer-api-3.0.0-M3-sources.jar enforcer-rules-3.0.0-M3.jar enforcer-3.0.0-M3-source-release.zip maven-enforcer-plugin-3.0.0-M3-sources.jar"

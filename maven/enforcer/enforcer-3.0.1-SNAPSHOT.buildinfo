@@ -1,0 +1,77 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Enforcer
+group-id=org.apache.maven.enforcer
+artifact-id=enforcer
+version=3.0.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-enforcer.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-enforcer-extension
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.enforcer:enforcer
+
+outputs.0.0.filename=enforcer-3.0.1-SNAPSHOT-site.xml
+outputs.0.0.length=1588
+outputs.0.0.checksums.sha512=648090a99890ff9cef6fa60bbbd41948b376012a02a68873985ccbebfecf91f714d0a93d23fe568738f115da7fac648533b0c8162afbf5eb932fff44d1de25c9
+
+outputs.0.1.filename=enforcer-3.0.1-SNAPSHOT-source-release.zip
+outputs.0.1.length=673670
+outputs.0.1.checksums.sha512=9cf7c526c4f234f7bb69749318e928128533223075745a80979a7f3306b4a1b5dfa0e80a54351c0ce27fedb6c2c43582d9dd04bf19ef2df4358414604282a2fd
+
+outputs.1.coordinates=org.apache.maven.enforcer:enforcer-api
+
+outputs.1.0.filename=enforcer-api-3.0.1-SNAPSHOT.jar
+outputs.1.0.length=11646
+outputs.1.0.checksums.sha512=8c27085ae958ad5f7b1f09f361faf9e0dd744a809c0d6fcf718dbd2f6593cbad35734b6ba2ccdfc95a86082cc993f9a2cd4bf790cfe462768e7e31c03dbed35f
+
+outputs.1.1.filename=enforcer-api-3.0.1-SNAPSHOT-sources.jar
+outputs.1.1.length=14235
+outputs.1.1.checksums.sha512=484c2b992393543b96a7bd98513a8526c9c88859bc680871f89c7ac7b6910636814e40e8ebf6e4e070f0c99c20313578aa92f4330624b87e19daf3dc96275423
+
+outputs.2.coordinates=org.apache.maven.enforcer:enforcer-rules
+
+outputs.2.0.filename=enforcer-rules-3.0.1-SNAPSHOT.jar
+outputs.2.0.length=115664
+outputs.2.0.checksums.sha512=a1fff3a8cf095899ac03084ab05ad638484d97a14e5e3cadbce54b6e2670ff02f85a844a727bc0880ebf463546a898b7a4931e6d61387bf14c076d4ce96acc32
+
+outputs.2.1.filename=enforcer-rules-3.0.1-SNAPSHOT-sources.jar
+outputs.2.1.length=97399
+outputs.2.1.checksums.sha512=80f3d01cd1967cdf61fb389db89ab6c8d4aec0af445b115a229261b1de7dc3f7d0eb781147e66a0fc581c661664894fac480a3868afa369049dc8ec725916e1e
+
+outputs.2.2.filename=enforcer-rules-3.0.1-SNAPSHOT-tests.jar
+outputs.2.2.length=102549
+outputs.2.2.checksums.sha512=4af1175ba03696469423f998829e6fc0a83df784650fe6a4e907f98519a6ed607614dc0f908c80d1ded76c5e0ba7cb6568d4e28be4db8b60d851d490b947a5d0
+
+outputs.3.coordinates=org.apache.maven.plugins:maven-enforcer-plugin
+
+outputs.3.0.filename=maven-enforcer-plugin-3.0.1-SNAPSHOT.jar
+outputs.3.0.length=27183
+outputs.3.0.checksums.sha512=6952ab46cccb4b4397122c61efd9c6c43d82717af9525bf2f99d604975f9f86563c81cde061ea014a40aea0696f702e36ea8e9f6c2173587ff8566db5dd2d136
+
+outputs.3.1.filename=maven-enforcer-plugin-3.0.1-SNAPSHOT-sources.jar
+outputs.3.1.length=20709
+outputs.3.1.checksums.sha512=63e1b412456a85e80941e3e56a2f069ac8a2e4bd534f6ad65cb1b54b9093cf3405644b74b19e3522159265123326e095f11a9761a4ab5ca7a56d596868ad4d9f
+
+outputs.4.coordinates=org.apache.maven.extensions:maven-enforcer-extension
+
+outputs.4.0.filename=maven-enforcer-extension-3.0.1-SNAPSHOT.jar
+outputs.4.0.length=11536
+outputs.4.0.checksums.sha512=fb7446efad424cdfe91dc7ea1a6c25fe97f15cfce53eceefbe25d913e050c6252bf821a734a500bdf0f7f7325dd036a1ee10d1990a72315e98c627a213f0f3f1
+
+outputs.4.1.filename=maven-enforcer-extension-3.0.1-SNAPSHOT-sources.jar
+outputs.4.1.length=9909
+outputs.4.1.checksums.sha512=0d54ba4021f589e73a6b354417dad4c27ef1d70d6d84c58e1264ef5d3906cbd09c1c3053b777c256b7d82b64a2dd50ea5c13cf428cd8a4a8d74e0cd6d5243b7b

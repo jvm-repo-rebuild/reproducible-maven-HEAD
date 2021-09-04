@@ -1,0 +1,7 @@
+version=3.0.1-SNAPSHOT
+ok=11
+ko=0
+okFiles="enforcer-3.0.1-SNAPSHOT-site.xml enforcer-3.0.1-SNAPSHOT-source-release.zip enforcer-api-3.0.1-SNAPSHOT.jar enforcer-api-3.0.1-SNAPSHOT-sources.jar enforcer-rules-3.0.1-SNAPSHOT.jar enforcer-rules-3.0.1-SNAPSHOT-sources.jar enforcer-rules-3.0.1-SNAPSHOT-tests.jar maven-enforcer-plugin-3.0.1-SNAPSHOT.jar maven-enforcer-plugin-3.0.1-SNAPSHOT-sources.jar maven-enforcer-extension-3.0.1-SNAPSHOT.jar maven-enforcer-extension-3.0.1-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
