@@ -1,0 +1,7 @@
+version=1.11-SNAPSHOT
+ok=12
+ko=0
+okFiles="doxia-sitetools-1.11-SNAPSHOT-site.xml doxia-sitetools-1.11-SNAPSHOT-source-release.zip doxia-decoration-model-1.11-SNAPSHOT.jar doxia-decoration-model-1.11-SNAPSHOT-sources.jar doxia-skin-model-1.11-SNAPSHOT.jar doxia-skin-model-1.11-SNAPSHOT-sources.jar doxia-integration-tools-1.11-SNAPSHOT.jar doxia-integration-tools-1.11-SNAPSHOT-sources.jar doxia-site-renderer-1.11-SNAPSHOT.jar doxia-site-renderer-1.11-SNAPSHOT-sources.jar doxia-doc-renderer-1.11-SNAPSHOT.jar doxia-doc-renderer-1.11-SNAPSHOT-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
