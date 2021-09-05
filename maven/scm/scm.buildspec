@@ -3,8 +3,8 @@ artifactId=maven-scm
 
 gitRepo=https://github.com/apache/${artifactId}.git
 
-jdk=8
-newline=lf
+jdk=7
+newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drat.skip"
-buildinfo=maven-scm-plugin/target/maven-scm-plugin-*.buildinfo
+buildinfo=target/maven-scm-*.buildinfo
