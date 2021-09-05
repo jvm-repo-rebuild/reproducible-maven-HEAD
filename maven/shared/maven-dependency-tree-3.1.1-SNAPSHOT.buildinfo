@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Dependency Tree
+group-id=org.apache.maven.shared
+artifact-id=maven-dependency-tree
+version=3.1.1-SNAPSHOT
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-tree.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-dependency-tree-3.1.1-SNAPSHOT.jar
+outputs.0.length=103075
+outputs.0.checksums.sha512=9ea06a563f41c741c7726cb05474610d32ac976e57ef6cc049ea5a34c2fd4bdd79e44da286788bb3f6fa980a54bc8ded5b08c3dbce7ba5f632c0d9578043afae
+
+outputs.1.filename=maven-dependency-tree-3.1.1-SNAPSHOT-source-release.zip
+outputs.1.length=134538
+outputs.1.checksums.sha512=3d872e9937c9692783f7403e034a5b8aee52e8e8a7abd0ffba3a9d93f50f3d21bf0480c67c9b077b860c7a8212d8c2154ed47cf5f3b1c59077517ce9cc5feb41
+
+outputs.2.filename=maven-dependency-tree-3.1.1-SNAPSHOT-sources.jar
+outputs.2.length=76665
+outputs.2.checksums.sha512=075659274c86edfd1b31c3a448c189461696e92dcec153e0d337ab5962f0bd8aaecc2cf1b2d0d0e0bd470d40d5a245a7bec802db4a9f82f5e6d0d12902f54402
